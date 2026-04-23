@@ -1,0 +1,342 @@
+{
+  "sourceId": "figma-4b31u4vchwjla1yqkuuhwv",
+  "versionId": "2342155858198573951",
+  "versionCreatedAt": "2026-04-22T03:26:32.621Z",
+  "fileName": "Quick start guide",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65fdab1fbc05434ab40558a7bafb943621569c4da71c196f3393a097030659b4",
+  "nodes": {
+    "0:11522": {
+      "id": "0:11522",
+      "name": "Local Component",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8431,
+        "y": -4016,
+        "w": 2156,
+        "h": 4275
+      },
+      "children": [
+        "0:11534",
+        "0:11599",
+        "0:11706",
+        "0:11709",
+        "0:11712",
+        "0:11713",
+        "0:11721",
+        "0:11746",
+        "0:11751",
+        "133:6328",
+        "135:20328"
+      ],
+      "fingerprint": "{\"name\":\"Local Component\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":-8431,\"y\":-4016,\"w\":2156,\"h\":4275,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11534": {
+      "id": "0:11534",
+      "name": "resource-page/everfit-logo",
+      "type": "COMPONENT_SET",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8256,
+        "y": -3936,
+        "w": 214,
+        "h": 177
+      },
+      "children": [
+        "0:11535",
+        "0:11543",
+        "0:11551",
+        "0:11575"
+      ],
+      "fingerprint": "{\"name\":\"resource-page/everfit-logo\",\"type\":\"COMPONENT_SET\",\"visible\":true,\"text\":null,\"x\":-8256,\"y\":-3936,\"w\":214,\"h\":177,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11599": {
+      "id": "0:11599",
+      "name": "resource-page/video-item",
+      "type": "COMPONENT_SET",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8252,
+        "y": -3673,
+        "w": 1378,
+        "h": 1115
+      },
+      "children": [
+        "0:11600",
+        "0:11607",
+        "0:11618",
+        "0:11624",
+        "0:11634",
+        "529:7031",
+        "0:11644",
+        "529:8976",
+        "0:11653",
+        "529:9012",
+        "0:11663",
+        "529:9055",
+        "0:11672",
+        "0:11679",
+        "0:11690",
+        "0:11696"
+      ],
+      "fingerprint": "{\"name\":\"resource-page/video-item\",\"type\":\"COMPONENT_SET\",\"visible\":true,\"text\":null,\"x\":-8252,\"y\":-3673,\"w\":1378,\"h\":1115,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11706": {
+      "id": "0:11706",
+      "name": "resource-page/play-button",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8032,
+        "y": -3936,
+        "w": 56,
+        "h": 56
+      },
+      "children": [
+        "0:11707",
+        "0:11708"
+      ],
+      "fingerprint": "{\"name\":\"resource-page/play-button\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8032,\"y\":-3936,\"w\":56,\"h\":56,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "0:11709": {
+      "id": "0:11709",
+      "name": "resource-page/spacer",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -7949,
+        "y": -3936,
+        "w": 24,
+        "h": 0.00009999999747378752
+      },
+      "children": [
+        "0:11710",
+        "0:11711"
+      ],
+      "fingerprint": "{\"name\":\"resource-page/spacer\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-7949,\"y\":-3936,\"w\":24,\"h\":0.00009999999747378752,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11712": {
+      "id": "0:11712",
+      "name": "Fix Width",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Fix Width",
+      "box": {
+        "x": -7948,
+        "y": -3707,
+        "w": 70,
+        "h": 22
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Fix Width\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Fix Width\",\"x\":-7948,\"y\":-3707,\"w\":70,\"h\":22,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11713": {
+      "id": "0:11713",
+      "name": "Fill Container",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Fill Container",
+      "box": {
+        "x": -7284,
+        "y": -3707,
+        "w": 98,
+        "h": 22
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Fill Container\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Fill Container\",\"x\":-7284,\"y\":-3707,\"w\":98,\"h\":22,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11721": {
+      "id": "0:11721",
+      "name": "resource-page/label",
+      "type": "COMPONENT_SET",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -7898,
+        "y": -3936,
+        "w": 306,
+        "h": 92
+      },
+      "children": [
+        "0:11722",
+        "137:5590"
+      ],
+      "fingerprint": "{\"name\":\"resource-page/label\",\"type\":\"COMPONENT_SET\",\"visible\":true,\"text\":null,\"x\":-7898,\"y\":-3936,\"w\":306,\"h\":92,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11746": {
+      "id": "0:11746",
+      "name": "default-thumbnail",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8275,
+        "y": -519,
+        "w": 780,
+        "h": 438.75
+      },
+      "children": [
+        "0:11747"
+      ],
+      "fingerprint": "{\"name\":\"default-thumbnail\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8275,\"y\":-519,\"w\":780,\"h\":438.75,\"fills\":2,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11751": {
+      "id": "0:11751",
+      "name": "heading-cover",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8275,
+        "y": -1025,
+        "w": 1920,
+        "h": 400
+      },
+      "children": [
+        "0:11752",
+        "0:11753",
+        "0:11754",
+        "0:11762",
+        "0:11770",
+        "0:11778",
+        "0:11779",
+        "0:11780",
+        "0:11781",
+        "0:11782"
+      ],
+      "fingerprint": "{\"name\":\"heading-cover\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-8275,\"y\":-1025,\"w\":1920,\"h\":400,\"fills\":5,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "133:6328": {
+      "id": "133:6328",
+      "name": "resource-page",
+      "type": "COMPONENT_SET",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8242,
+        "y": -2457,
+        "w": 1432,
+        "h": 1092.3125
+      },
+      "children": [
+        "0:11523",
+        "133:6329",
+        "1005:3922"
+      ],
+      "fingerprint": "{\"name\":\"resource-page\",\"type\":\"COMPONENT_SET\",\"visible\":true,\"text\":null,\"x\":-8242,\"y\":-2457,\"w\":1432,\"h\":1092.3125,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "135:20328": {
+      "id": "135:20328",
+      "name": "Icon",
+      "type": "COMPONENT_SET",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -7790,
+        "y": -3824,
+        "w": 42,
+        "h": 68
+      },
+      "children": [
+        "135:20191",
+        "135:20329"
+      ],
+      "fingerprint": "{\"name\":\"Icon\",\"type\":\"COMPONENT_SET\",\"visible\":true,\"text\":null,\"x\":-7790,\"y\":-3824,\"w\":42,\"h\":68,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11535": {
+      "id": "0:11535",
+      "name": "Symbol=True",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8236,
+        "y": -3915,
+        "w": 40,
+        "h": 40
+      },
+      "children": [
+        "0:11536"
+      ],
+      "fingerprint": "{\"name\":\"Symbol=True\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8236,\"y\":-3915,\"w\":40,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11543": {
+      "id": "0:11543",
+      "name": "Symbol=Symbol4",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8236,
+        "y": -3831,
+        "w": 40,
+        "h": 40
+      },
+      "children": [
+        "0:11544"
+      ],
+      "fingerprint": "{\"name\":\"Symbol=Symbol4\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8236,\"y\":-3831,\"w\":40,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11551": {
+      "id": "0:11551",
+      "name": "Symbol=False",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8176,
+        "y": -3915,
+        "w": 114,
+        "h": 24
+      },
+      "children": [
+        "0:11552"
+      ],
+      "fingerprint": "{\"name\":\"Symbol=False\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8176,\"y\":-3915,\"w\":114,\"h\":24,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11575": {
+      "id": "0:11575",
+      "name": "Symbol=Symbol3",
+      "type": "COMPONENT",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8176,
+        "y": -3831,
+        "w": 114,
+        "h": 24
+      },
+      "children": [
+        "0:11576"
+      ],
+      "fingerprint": "{\"name\":\"Symbol=Symbol3\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8176,\"y\":-3831,\"w\":114,\"h\":24,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "0:11536": {
+      "id": "0:11536",
+      "name": "main-logo",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -8236,
+        "y": -3915,
+        "w": 40,
+        "h": 40
+      },
+      "children": [
+        "0:11537"
+      ],
+      "fingerprint": "{\"name\":\"main-logo\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-8236,\"y\":-3915,\"w\":40,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    }
+  },
+  "rootIds": [
+    "0:11522",
+    "0:11534",
+    "0:11535"
+  ]
+}

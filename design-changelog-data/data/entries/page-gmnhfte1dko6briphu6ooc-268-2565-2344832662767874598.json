@@ -1,0 +1,33 @@
+{
+  "id": "page-gmnhfte1dko6briphu6ooc-268-2565-2344832662767874598",
+  "sourceId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+  "versionId": "2344832662767874598",
+  "sectionId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+  "sectionName": "Client App",
+  "date": "2026-04-22",
+  "lastDetectedAt": "2026-04-22T03:26:34.775Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-gmnhfte1dko6briphu6ooc-268-2565-2344832662767874598.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/926105f5-3ec0-4b84-a187-50b5f72fd877?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cabf41bb1f103199039c545bfdb24f54d6d4503a7730721ab30549ff73f4bf0f",
+  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fe503fd8-4e4e-4f4c-b2fd-29f4aef436a3",
+  "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+  "frames": [
+    {
+      "id": "1889:16018",
+      "name": "Rectangle",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+      "boundingBox": {
+        "x": 13405,
+        "y": 654,
+        "w": 271.7391357421875,
+        "h": 4
+      },
+      "layers": []
+    }
+  ]
+}

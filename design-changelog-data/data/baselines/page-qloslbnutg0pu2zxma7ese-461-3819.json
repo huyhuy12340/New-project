@@ -1,0 +1,177 @@
+{
+  "sourceId": "figma-qloslbnutg0pu2zxma7ese",
+  "versionId": "2345114021236852114",
+  "versionCreatedAt": "2026-04-22T03:26:25.826Z",
+  "fileName": "Navigate to MP",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/be82fef3-5c63-47be-9560-2f45c5716446?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b56360821ea1207af4794a89fd827a6396590a1f60e82a38b59c94fdda53079c",
+  "nodes": {
+    "461:6903": {
+      "id": "461:6903",
+      "name": "Teammates into user setting",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1704,
+        "y": -677,
+        "w": 1385,
+        "h": 1060
+      },
+      "children": [
+        "461:3821",
+        "461:5555",
+        "461:6177"
+      ],
+      "fingerprint": "{\"name\":\"Teammates into user setting\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":-1704,\"y\":-677,\"w\":1385,\"h\":1060,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "461:3821": {
+      "id": "461:3821",
+      "name": "Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1624,
+        "y": -597,
+        "w": 300,
+        "h": 900
+      },
+      "children": [
+        "461:3822",
+        "461:3849"
+      ],
+      "fingerprint": "{\"name\":\"Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-597,\"w\":300,\"h\":900,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "461:5555": {
+      "id": "461:5555",
+      "name": "Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1260,
+        "y": -597,
+        "w": 300,
+        "h": 636
+      },
+      "children": [
+        "461:5556",
+        "461:5587"
+      ],
+      "fingerprint": "{\"name\":\"Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1260,\"y\":-597,\"w\":300,\"h\":636,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "461:6177": {
+      "id": "461:6177",
+      "name": "User Profile",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -859,
+        "y": -279,
+        "w": 240,
+        "h": 60
+      },
+      "children": [
+        "461:6178"
+      ],
+      "fingerprint": "{\"name\":\"User Profile\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-859,\"y\":-279,\"w\":240,\"h\":60,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "461:3822": {
+      "id": "461:3822",
+      "name": "Main Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1624,
+        "y": -597,
+        "w": 60,
+        "h": 900
+      },
+      "children": [
+        "461:3823",
+        "461:3825",
+        "461:3847"
+      ],
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-597,\"w\":60,\"h\":900,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "461:3849": {
+      "id": "461:3849",
+      "name": "Expand Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1564,
+        "y": -597,
+        "w": 240,
+        "h": 900
+      },
+      "children": [
+        "461:3850",
+        "461:3855",
+        "461:3873",
+        "461:3874"
+      ],
+      "fingerprint": "{\"name\":\"Expand Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1564,\"y\":-597,\"w\":240,\"h\":900,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "461:3823": {
+      "id": "461:3823",
+      "name": "Logo Zone Compact",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1624,
+        "y": -597,
+        "w": 60,
+        "h": 88
+      },
+      "children": [
+        "461:3824"
+      ],
+      "fingerprint": "{\"name\":\"Logo Zone Compact\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-597,\"w\":60,\"h\":88,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "461:3825": {
+      "id": "461:3825",
+      "name": "Main Menu",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1624,
+        "y": -509,
+        "w": 60,
+        "h": 736
+      },
+      "children": [
+        "461:3826",
+        "461:3834"
+      ],
+      "fingerprint": "{\"name\":\"Main Menu\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-509,\"w\":60,\"h\":736,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "461:3847": {
+      "id": "461:3847",
+      "name": "User Profile",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -1624,
+        "y": 227,
+        "w": 60,
+        "h": 60
+      },
+      "children": [
+        "461:3848"
+      ],
+      "fingerprint": "{\"name\":\"User Profile\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":227,\"w\":60,\"h\":60,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    }
+  },
+  "rootIds": [
+    "461:6903",
+    "461:3821",
+    "461:3822"
+  ]
+}

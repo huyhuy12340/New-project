@@ -1,0 +1,190 @@
+{
+  "sourceId": "figma-m5dxcdcfk0hayy8ubdcnaq",
+  "versionId": "fallback-M5DXcdCfk0haYY8UbDCnaq",
+  "versionCreatedAt": "2026-04-22T03:26:44.890Z",
+  "fileName": "Video Workout",
+  "thumbnailUrl": "",
+  "nodes": {
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-1": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1",
+      "name": "Scrolling down",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1",
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2",
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3"
+      ],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1\",\"name\":\"Scrolling down\",\"type\":\"FRAME\",\"children\":[\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1\",\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2\",\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3\"]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1",
+      "name": "Video library",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1\",\"name\":\"Video library\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2",
+      "name": "Status for graphic",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2\",\"name\":\"Status for graphic\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3",
+      "name": "Load more",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3\",\"name\":\"Load more\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-2": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2",
+      "name": "Responsive",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1",
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2",
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3"
+      ],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2\",\"name\":\"Responsive\",\"type\":\"FRAME\",\"children\":[\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1\",\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2\",\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3\"]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1",
+      "name": "Example",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1\",\"name\":\"Example\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2",
+      "name": "Swipe category",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2\",\"name\":\"Swipe category\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3",
+      "name": "Note",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3\",\"name\":\"Note\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-3": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3",
+      "name": "Video library",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1",
+        "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2"
+      ],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-3\",\"name\":\"Video library\",\"type\":\"FRAME\",\"children\":[\"figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1\",\"figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2\"]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1",
+      "name": "Teamplate library",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1\",\"name\":\"Teamplate library\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    },
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2": {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2",
+      "name": "Primary CTA",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "children": [],
+      "fingerprint": "{\"id\":\"figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2\",\"name\":\"Primary CTA\",\"type\":\"RECTANGLE\",\"children\":[]}"
+    }
+  },
+  "rootIds": [
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-1",
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-2",
+    "figma-m5dxcdcfk0hayy8ubdcnaq-root-3"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/poll-figma",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/reset-baseline",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/cron/ai-summary",
+      "schedule": "30 23 * * *"
+    }
+  ]
+}

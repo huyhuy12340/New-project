@@ -1,0 +1,188 @@
+{
+  "id": "page-qloslbnutg0pu2zxma7ese-461-3819-fallback-qLosLBnUTg0Pu2zXMA7ese",
+  "sourceId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+  "versionId": "fallback-qLosLBnUTg0Pu2zXMA7ese",
+  "sectionId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+  "sectionName": "Feb 12, 2026",
+  "date": "2026-04-21",
+  "lastDetectedAt": "2026-04-21T09:47:25.107Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-qloslbnutg0pu2zxma7ese-461-3819-fallback-qLosLBnUTg0Pu2zXMA7ese.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+  "frames": [
+    {
+      "id": "figma-qloslbnutg0pu2zxma7ese-root-1",
+      "name": "Navigate to MP",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-1-layer-1",
+          "name": "Navigation map",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Navigate to MP / Navigation map",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-1-layer-2",
+          "name": "Primary path",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Navigate to MP / Primary path",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-1-layer-3",
+          "name": "Secondary path",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Navigate to MP / Secondary path",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-qloslbnutg0pu2zxma7ese-root-2",
+      "name": "Breadcrumbs",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-2-layer-1",
+          "name": "Home",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Breadcrumbs / Home",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-2-layer-2",
+          "name": "Section",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Breadcrumbs / Section",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-2-layer-3",
+          "name": "Detail",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Breadcrumbs / Detail",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-qloslbnutg0pu2zxma7ese-root-3",
+      "name": "Steps",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-3-layer-1",
+          "name": "Step 1",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Steps / Step 1",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-3-layer-2",
+          "name": "Step 2",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Steps / Step 2",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-qloslbnutg0pu2zxma7ese-root-3-layer-3",
+          "name": "Step 3",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Steps / Step 3",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

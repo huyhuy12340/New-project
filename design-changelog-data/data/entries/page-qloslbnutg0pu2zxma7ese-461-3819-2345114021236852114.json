@@ -1,0 +1,174 @@
+{
+  "id": "page-qloslbnutg0pu2zxma7ese-461-3819-2345114021236852114",
+  "sourceId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+  "versionId": "2345114021236852114",
+  "sectionId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+  "sectionName": "Feb 12, 2026",
+  "date": "2026-04-22",
+  "lastDetectedAt": "2026-04-22T03:26:25.826Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-qloslbnutg0pu2zxma7ese-461-3819-2345114021236852114.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/be82fef3-5c63-47be-9560-2f45c5716446?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b56360821ea1207af4794a89fd827a6396590a1f60e82a38b59c94fdda53079c",
+  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/294ddc0e-37c2-461c-bf16-3aa7ae318d9c",
+  "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+  "frames": [
+    {
+      "id": "461:6903",
+      "name": "Teammates into user setting",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -1704,
+        "y": -677,
+        "w": 1385,
+        "h": 1060
+      },
+      "layers": [
+        {
+          "id": "461:3821",
+          "name": "Sidebar",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Teammates into user setting / Sidebar",
+          "boundingBox": {
+            "x": -1624,
+            "y": -597,
+            "w": 300,
+            "h": 900
+          },
+          "changes": []
+        },
+        {
+          "id": "461:5555",
+          "name": "Sidebar",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Teammates into user setting / Sidebar",
+          "boundingBox": {
+            "x": -1260,
+            "y": -597,
+            "w": 300,
+            "h": 636
+          },
+          "changes": []
+        },
+        {
+          "id": "461:6177",
+          "name": "User Profile",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Teammates into user setting / User Profile",
+          "boundingBox": {
+            "x": -859,
+            "y": -279,
+            "w": 240,
+            "h": 60
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "461:3821",
+      "name": "Sidebar",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -1624,
+        "y": -597,
+        "w": 300,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "461:3822",
+          "name": "Main Sidebar",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sidebar / Main Sidebar",
+          "boundingBox": {
+            "x": -1624,
+            "y": -597,
+            "w": 60,
+            "h": 900
+          },
+          "changes": []
+        },
+        {
+          "id": "461:3849",
+          "name": "Expand Sidebar",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sidebar / Expand Sidebar",
+          "boundingBox": {
+            "x": -1564,
+            "y": -597,
+            "w": 240,
+            "h": 900
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "461:3822",
+      "name": "Main Sidebar",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -1624,
+        "y": -597,
+        "w": 60,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "461:3823",
+          "name": "Logo Zone Compact",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Logo Zone Compact",
+          "boundingBox": {
+            "x": -1624,
+            "y": -597,
+            "w": 60,
+            "h": 88
+          },
+          "changes": []
+        },
+        {
+          "id": "461:3825",
+          "name": "Main Menu",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Main Menu",
+          "boundingBox": {
+            "x": -1624,
+            "y": -509,
+            "w": 60,
+            "h": 736
+          },
+          "changes": []
+        },
+        {
+          "id": "461:3847",
+          "name": "User Profile",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / User Profile",
+          "boundingBox": {
+            "x": -1624,
+            "y": 227,
+            "w": 60,
+            "h": 60
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

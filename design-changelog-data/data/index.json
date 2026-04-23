@@ -1,0 +1,794 @@
+{
+  "lastUpdated": "2026-04-22T03:26:51.174Z",
+  "figmaFileKey": "M5DXcdCfk0haYY8UbDCnaq",
+  "figmaFileName": "Video Workout",
+  "sources": [
+    {
+      "id": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "url": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video%20Workout?node-id=3820-114256",
+      "fileKey": "M5DXcdCfk0haYY8UbDCnaq",
+      "fileName": "Video Workout",
+      "nodeId": "3820:114256",
+      "nodeName": "Table of content",
+      "sectionId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "sectionName": "Table of content",
+      "lastVersionId": "fallback-M5DXcdCfk0haYY8UbDCnaq",
+      "lastVersionAt": "2026-04-22T03:26:44.890Z"
+    },
+    {
+      "id": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "url": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test%20color%20App%20%7C%20Blue?node-id=268-2565",
+      "fileKey": "GmnHfTE1dkO6briPhU6oOc",
+      "fileName": "Test color App | Blue",
+      "nodeId": "268:2565",
+      "nodeName": "Client App",
+      "sectionId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "sectionName": "Client App",
+      "lastVersionId": "2344832662767874598",
+      "lastVersionAt": "2026-04-22T03:26:34.775Z"
+    },
+    {
+      "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+      "url": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "fileKey": "oVKYzdbBgm1G4tJ9ab7ZVA",
+      "fileName": "Sign in/up page",
+      "nodeId": "6859:6370",
+      "nodeName": "Biometric login | Apr 13, 2026",
+      "sectionId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+      "sectionName": "Biometric login | Apr 13, 2026",
+      "lastVersionId": "2344888483889088530",
+      "lastVersionAt": "2026-04-22T03:26:36.818Z"
+    },
+    {
+      "id": "page-qloslbnutg0pu2zxma7ese-461-3819",
+      "url": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "fileKey": "qLosLBnUTg0Pu2zXMA7ese",
+      "fileName": "Navigate to MP",
+      "nodeId": "461:3819",
+      "nodeName": "Feb 12, 2026",
+      "sectionId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+      "sectionName": "Feb 12, 2026",
+      "lastVersionId": "2345114021236852114",
+      "lastVersionAt": "2026-04-22T03:26:25.826Z"
+    },
+    {
+      "id": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+      "url": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "fileKey": "4B31U4vCHWJLa1YQKuUhWv",
+      "fileName": "Quick start guide",
+      "nodeId": "0:1",
+      "nodeName": "Page 1",
+      "sectionId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+      "sectionName": "Page 1",
+      "lastVersionId": "2342155858198573951",
+      "lastVersionAt": "2026-04-22T03:26:32.621Z"
+    }
+  ],
+  "entries": [
+    {
+      "id": "mock-entry-2026-04-21-toc",
+      "sourceId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "versionId": "mock-v1",
+      "sectionId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "sectionName": "Table of content",
+      "date": "2026-04-21",
+      "lastDetectedAt": "2026-04-21T10:00:00.000Z",
+      "summary": {
+        "edited": 2,
+        "added": 5,
+        "removed": 1
+      },
+      "diffFile": "data/entries/mock-entry.json",
+      "beforeImage": "",
+      "afterImage": "",
+      "figmaDeepLink": "#",
+      "frames": []
+    },
+    {
+      "id": "mock-entry-2026-04-21-client",
+      "sourceId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "versionId": "mock-v2",
+      "sectionId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "sectionName": "Client App",
+      "date": "2026-04-21",
+      "lastDetectedAt": "2026-04-21T11:00:00.000Z",
+      "summary": {
+        "edited": 10,
+        "added": 0,
+        "removed": 0
+      },
+      "diffFile": "data/entries/mock-entry.json",
+      "beforeImage": "",
+      "afterImage": "",
+      "figmaDeepLink": "#",
+      "frames": []
+    },
+    {
+      "id": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256-fallback-M5DXcdCfk0haYY8UbDCnaq",
+      "sourceId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "versionId": "fallback-M5DXcdCfk0haYY8UbDCnaq",
+      "sectionId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "sectionName": "Table of content",
+      "date": "2026-04-22",
+      "lastDetectedAt": "2026-04-22T03:26:44.890Z",
+      "summary": {
+        "edited": 0,
+        "added": 0,
+        "removed": 0
+      },
+      "diffFile": "data/entries/page-m5dxcdcfk0hayy8ubdcnaq-3820-114256-fallback-M5DXcdCfk0haYY8UbDCnaq.json",
+      "beforeImage": "",
+      "afterImage": "",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "frames": [
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1",
+          "name": "Scrolling down",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "layers": [
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1",
+              "name": "Video library",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Scrolling down / Video library",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            },
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2",
+              "name": "Status for graphic",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Scrolling down / Status for graphic",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            },
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3",
+              "name": "Load more",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Scrolling down / Load more",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2",
+          "name": "Responsive",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "layers": [
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1",
+              "name": "Example",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Responsive / Example",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            },
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2",
+              "name": "Swipe category",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Responsive / Swipe category",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            },
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3",
+              "name": "Note",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Responsive / Note",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3",
+          "name": "Video library",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "layers": [
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1",
+              "name": "Teamplate library",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Video library / Teamplate library",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            },
+            {
+              "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2",
+              "name": "Primary CTA",
+              "type": "RECTANGLE",
+              "status": "pending",
+              "path": "Video library / Primary CTA",
+              "boundingBox": {
+                "x": 0,
+                "y": 0,
+                "w": 320,
+                "h": 180
+              },
+              "changes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-gmnhfte1dko6briphu6ooc-268-2565-2344832662767874598",
+      "sourceId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "versionId": "2344832662767874598",
+      "sectionId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "sectionName": "Client App",
+      "date": "2026-04-22",
+      "lastDetectedAt": "2026-04-22T03:26:34.775Z",
+      "summary": {
+        "edited": 0,
+        "added": 0,
+        "removed": 0
+      },
+      "diffFile": "data/entries/page-gmnhfte1dko6briphu6ooc-268-2565-2344832662767874598.json",
+      "beforeImage": "https://s3-alpha.figma.com/thumbnails/926105f5-3ec0-4b84-a187-50b5f72fd877?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cabf41bb1f103199039c545bfdb24f54d6d4503a7730721ab30549ff73f4bf0f",
+      "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fe503fd8-4e4e-4f4c-b2fd-29f4aef436a3",
+      "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+      "frames": [
+        {
+          "id": "1889:16018",
+          "name": "Rectangle",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+          "boundingBox": {
+            "x": 13405,
+            "y": 654,
+            "w": 271.7391357421875,
+            "h": 4
+          },
+          "layers": []
+        }
+      ]
+    },
+    {
+      "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-2344888483889088530",
+      "sourceId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+      "versionId": "2344888483889088530",
+      "sectionId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+      "sectionName": "Biometric login | Apr 13, 2026",
+      "date": "2026-04-22",
+      "lastDetectedAt": "2026-04-22T03:26:36.818Z",
+      "summary": {
+        "edited": 0,
+        "added": 0,
+        "removed": 0
+      },
+      "diffFile": "data/entries/page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-2344888483889088530.json",
+      "beforeImage": "https://s3-alpha.figma.com/thumbnails/bfea7a64-02b2-4d7a-aaee-c98477a10a5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=75f68c6f540c050bd12c5362fb4ec7a159b77fb6bc7fa1bf618220c0c0118f6a",
+      "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f620f4de-789f-42aa-9364-d72bec54d8f5",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+      "frames": [
+        {
+          "id": "6859:6370",
+          "name": "Biometric login | Apr 13, 2026",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "layers": [
+            {
+              "id": "6859:6472",
+              "name": "Login page_Having email",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Biometric login | Apr 13, 2026 / Login page_Having email",
+              "boundingBox": {
+                "x": 0,
+                "y": 1032,
+                "w": 1600,
+                "h": 900
+              },
+              "changes": []
+            },
+            {
+              "id": "6878:13305",
+              "name": "Login page_Having email",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Biometric login | Apr 13, 2026 / Login page_Having email",
+              "boundingBox": {
+                "x": 0,
+                "y": 2710,
+                "w": 1600,
+                "h": 900
+              },
+              "changes": []
+            },
+            {
+              "id": "6861:15085",
+              "name": "Empty",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Biometric login | Apr 13, 2026 / Empty",
+              "boundingBox": {
+                "x": 12221,
+                "y": 1037,
+                "w": 1440,
+                "h": 1094
+              },
+              "changes": []
+            },
+            {
+              "id": "6861:15993",
+              "name": "Account Details",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Biometric login | Apr 13, 2026 / Account Details",
+              "boundingBox": {
+                "x": 9239,
+                "y": 1037,
+                "w": 1440,
+                "h": 1094
+              },
+              "changes": []
+            },
+            {
+              "id": "6878:12698",
+              "name": "Account Details",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Biometric login | Apr 13, 2026 / Account Details",
+              "boundingBox": {
+                "x": 13723,
+                "y": 2284,
+                "w": 1440,
+                "h": 1094
+              },
+              "changes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-qloslbnutg0pu2zxma7ese-461-3819-2345114021236852114",
+      "sourceId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+      "versionId": "2345114021236852114",
+      "sectionId": "page-qloslbnutg0pu2zxma7ese-461-3819",
+      "sectionName": "Feb 12, 2026",
+      "date": "2026-04-22",
+      "lastDetectedAt": "2026-04-22T03:26:25.826Z",
+      "summary": {
+        "edited": 0,
+        "added": 0,
+        "removed": 0
+      },
+      "diffFile": "data/entries/page-qloslbnutg0pu2zxma7ese-461-3819-2345114021236852114.json",
+      "beforeImage": "https://s3-alpha.figma.com/thumbnails/be82fef3-5c63-47be-9560-2f45c5716446?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b56360821ea1207af4794a89fd827a6396590a1f60e82a38b59c94fdda53079c",
+      "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/294ddc0e-37c2-461c-bf16-3aa7ae318d9c",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "frames": [
+        {
+          "id": "461:6903",
+          "name": "Teammates into user setting",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": -1704,
+            "y": -677,
+            "w": 1385,
+            "h": 1060
+          },
+          "layers": [
+            {
+              "id": "461:3821",
+              "name": "Sidebar",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Teammates into user setting / Sidebar",
+              "boundingBox": {
+                "x": -1624,
+                "y": -597,
+                "w": 300,
+                "h": 900
+              },
+              "changes": []
+            },
+            {
+              "id": "461:5555",
+              "name": "Sidebar",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Teammates into user setting / Sidebar",
+              "boundingBox": {
+                "x": -1260,
+                "y": -597,
+                "w": 300,
+                "h": 636
+              },
+              "changes": []
+            },
+            {
+              "id": "461:6177",
+              "name": "User Profile",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Teammates into user setting / User Profile",
+              "boundingBox": {
+                "x": -859,
+                "y": -279,
+                "w": 240,
+                "h": 60
+              },
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "461:3821",
+          "name": "Sidebar",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": -1624,
+            "y": -597,
+            "w": 300,
+            "h": 900
+          },
+          "layers": [
+            {
+              "id": "461:3822",
+              "name": "Main Sidebar",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Sidebar / Main Sidebar",
+              "boundingBox": {
+                "x": -1624,
+                "y": -597,
+                "w": 60,
+                "h": 900
+              },
+              "changes": []
+            },
+            {
+              "id": "461:3849",
+              "name": "Expand Sidebar",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Sidebar / Expand Sidebar",
+              "boundingBox": {
+                "x": -1564,
+                "y": -597,
+                "w": 240,
+                "h": 900
+              },
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "461:3822",
+          "name": "Main Sidebar",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": -1624,
+            "y": -597,
+            "w": 60,
+            "h": 900
+          },
+          "layers": [
+            {
+              "id": "461:3823",
+              "name": "Logo Zone Compact",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Main Sidebar / Logo Zone Compact",
+              "boundingBox": {
+                "x": -1624,
+                "y": -597,
+                "w": 60,
+                "h": 88
+              },
+              "changes": []
+            },
+            {
+              "id": "461:3825",
+              "name": "Main Menu",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Main Sidebar / Main Menu",
+              "boundingBox": {
+                "x": -1624,
+                "y": -509,
+                "w": 60,
+                "h": 736
+              },
+              "changes": []
+            },
+            {
+              "id": "461:3847",
+              "name": "User Profile",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Main Sidebar / User Profile",
+              "boundingBox": {
+                "x": -1624,
+                "y": 227,
+                "w": 60,
+                "h": 60
+              },
+              "changes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-4b31u4vchwjla1yqkuuhwv-0-1-2342155858198573951",
+      "sourceId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+      "versionId": "2342155858198573951",
+      "sectionId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+      "sectionName": "Page 1",
+      "date": "2026-04-22",
+      "lastDetectedAt": "2026-04-22T03:26:32.621Z",
+      "summary": {
+        "edited": 0,
+        "added": 0,
+        "removed": 0
+      },
+      "diffFile": "data/entries/page-4b31u4vchwjla1yqkuuhwv-0-1-2342155858198573951.json",
+      "beforeImage": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65fdab1fbc05434ab40558a7bafb943621569c4da71c196f3393a097030659b4",
+      "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4516238d-06ba-47d3-8910-f0d98f62e0cd",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+      "frames": [
+        {
+          "id": "0:11522",
+          "name": "Local Component",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": -8431,
+            "y": -4016,
+            "w": 2156,
+            "h": 4275
+          },
+          "layers": [
+            {
+              "id": "0:11534",
+              "name": "resource-page/everfit-logo",
+              "type": "COMPONENT_SET",
+              "status": "pending",
+              "path": "Local Component / resource-page/everfit-logo",
+              "boundingBox": {
+                "x": -8256,
+                "y": -3936,
+                "w": 214,
+                "h": 177
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11599",
+              "name": "resource-page/video-item",
+              "type": "COMPONENT_SET",
+              "status": "pending",
+              "path": "Local Component / resource-page/video-item",
+              "boundingBox": {
+                "x": -8252,
+                "y": -3673,
+                "w": 1378,
+                "h": 1115
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11706",
+              "name": "resource-page/play-button",
+              "type": "COMPONENT",
+              "status": "pending",
+              "path": "Local Component / resource-page/play-button",
+              "boundingBox": {
+                "x": -8032,
+                "y": -3936,
+                "w": 56,
+                "h": 56
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11709",
+              "name": "resource-page/spacer",
+              "type": "COMPONENT",
+              "status": "pending",
+              "path": "Local Component / resource-page/spacer",
+              "boundingBox": {
+                "x": -7949,
+                "y": -3936,
+                "w": 24,
+                "h": 0.00009999999747378752
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11712",
+              "name": "Fix Width",
+              "type": "TEXT",
+              "status": "pending",
+              "path": "Local Component / Fix Width",
+              "boundingBox": {
+                "x": -7948,
+                "y": -3707,
+                "w": 70,
+                "h": 22
+              },
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "0:11534",
+          "name": "resource-page/everfit-logo",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": -8256,
+            "y": -3936,
+            "w": 214,
+            "h": 177
+          },
+          "layers": [
+            {
+              "id": "0:11535",
+              "name": "Symbol=True",
+              "type": "COMPONENT",
+              "status": "pending",
+              "path": "resource-page/everfit-logo / Symbol=True",
+              "boundingBox": {
+                "x": -8236,
+                "y": -3915,
+                "w": 40,
+                "h": 40
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11543",
+              "name": "Symbol=Symbol4",
+              "type": "COMPONENT",
+              "status": "pending",
+              "path": "resource-page/everfit-logo / Symbol=Symbol4",
+              "boundingBox": {
+                "x": -8236,
+                "y": -3831,
+                "w": 40,
+                "h": 40
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11551",
+              "name": "Symbol=False",
+              "type": "COMPONENT",
+              "status": "pending",
+              "path": "resource-page/everfit-logo / Symbol=False",
+              "boundingBox": {
+                "x": -8176,
+                "y": -3915,
+                "w": 114,
+                "h": 24
+              },
+              "changes": []
+            },
+            {
+              "id": "0:11575",
+              "name": "Symbol=Symbol3",
+              "type": "COMPONENT",
+              "status": "pending",
+              "path": "resource-page/everfit-logo / Symbol=Symbol3",
+              "boundingBox": {
+                "x": -8176,
+                "y": -3831,
+                "w": 114,
+                "h": 24
+              },
+              "changes": []
+            }
+          ]
+        },
+        {
+          "id": "0:11535",
+          "name": "Symbol=True",
+          "status": "pending",
+          "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+          "boundingBox": {
+            "x": -8236,
+            "y": -3915,
+            "w": 40,
+            "h": 40
+          },
+          "layers": [
+            {
+              "id": "0:11536",
+              "name": "main-logo",
+              "type": "FRAME",
+              "status": "pending",
+              "path": "Symbol=True / main-logo",
+              "boundingBox": {
+                "x": -8236,
+                "y": -3915,
+                "w": 40,
+                "h": 40
+              },
+              "changes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

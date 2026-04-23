@@ -1,0 +1,594 @@
+{
+  "sourceId": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "versionId": "2344888483889088530",
+  "versionCreatedAt": "2026-04-22T03:26:36.818Z",
+  "fileName": "Sign-in/up page",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/bfea7a64-02b2-4d7a-aaee-c98477a10a5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=75f68c6f540c050bd12c5362fb4ec7a159b77fb6bc7fa1bf618220c0c0118f6a",
+  "nodes": {
+    "6859:6370": {
+      "id": "6859:6370",
+      "name": "Biometric login | Apr 13, 2026",
+      "type": "CANVAS",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "children": [
+        "6859:6472",
+        "6878:13305",
+        "6861:15085",
+        "6861:15993",
+        "6878:12698",
+        "6878:11578",
+        "6878:11968",
+        "6878:12342",
+        "6861:15649",
+        "6861:16389",
+        "6878:1011",
+        "6878:13296",
+        "6878:13411",
+        "6878:1055",
+        "7133:7699",
+        "7139:7919",
+        "7142:1381",
+        "7133:7824",
+        "7133:7866",
+        "6878:1058",
+        "6878:1061",
+        "6878:13054",
+        "6878:13292",
+        "6878:13401",
+        "6878:13417",
+        "7133:7901"
+      ],
+      "fingerprint": "{\"name\":\"Biometric login | Apr 13, 2026\",\"type\":\"CANVAS\",\"visible\":true,\"text\":null,\"x\":0,\"y\":0,\"w\":0,\"h\":0,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6859:6472": {
+      "id": "6859:6472",
+      "name": "Login page_Having email",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 1032,
+        "w": 1600,
+        "h": 900
+      },
+      "children": [
+        "6859:6473",
+        "6859:6474"
+      ],
+      "fingerprint": "{\"name\":\"Login page_Having email\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":0,\"y\":1032,\"w\":1600,\"h\":900,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13305": {
+      "id": "6878:13305",
+      "name": "Login page_Having email",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": 2710,
+        "w": 1600,
+        "h": 900
+      },
+      "children": [
+        "6878:13306",
+        "6878:13307",
+        "6878:13298"
+      ],
+      "fingerprint": "{\"name\":\"Login page_Having email\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":0,\"y\":2710,\"w\":1600,\"h\":900,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:15085": {
+      "id": "6861:15085",
+      "name": "Empty",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 12221,
+        "y": 1037,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6861:15086",
+        "6861:15087",
+        "6861:15088",
+        "6861:15095",
+        "6861:15096",
+        "6861:15101",
+        "6861:15116",
+        "6861:15135",
+        "6861:15141",
+        "6861:15150",
+        "6861:15153",
+        "6861:15190",
+        "6878:13077"
+      ],
+      "fingerprint": "{\"name\":\"Empty\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":12221,\"y\":1037,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:15993": {
+      "id": "6861:15993",
+      "name": "Account Details",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 9239,
+        "y": 1037,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6861:15994",
+        "6861:15995",
+        "6861:15996",
+        "6861:16003",
+        "6861:16004",
+        "6861:16009",
+        "6861:16024",
+        "6861:16043",
+        "6861:16049",
+        "6861:16057",
+        "6861:16060",
+        "6861:16097"
+      ],
+      "fingerprint": "{\"name\":\"Account Details\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":9239,\"y\":1037,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:12698": {
+      "id": "6878:12698",
+      "name": "Account Details",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 13723,
+        "y": 2284,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6878:12699",
+        "6878:12700",
+        "6878:12701",
+        "6878:12708",
+        "6878:12709",
+        "6878:12714",
+        "6878:12729",
+        "6878:12748",
+        "6878:12754",
+        "6878:12762",
+        "6878:12765",
+        "6878:12802",
+        "6878:13095"
+      ],
+      "fingerprint": "{\"name\":\"Account Details\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":13723,\"y\":2284,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:11578": {
+      "id": "6878:11578",
+      "name": "Account Details",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10719,
+        "y": 1037,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6878:11579",
+        "6878:11580",
+        "6878:11581",
+        "6878:11588",
+        "6878:11589",
+        "6878:11594",
+        "6878:11609",
+        "6878:11628",
+        "6878:11634",
+        "6878:11642",
+        "6878:11645",
+        "6878:11682",
+        "6878:11891",
+        "6878:11943"
+      ],
+      "fingerprint": "{\"name\":\"Account Details\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10719,\"y\":1037,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:11968": {
+      "id": "6878:11968",
+      "name": "Account Details",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10719,
+        "y": 2284,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6878:11969",
+        "6878:11970",
+        "6878:11971",
+        "6878:11978",
+        "6878:11979",
+        "6878:11984",
+        "6878:11999",
+        "6878:12018",
+        "6878:12024",
+        "6878:12032",
+        "6878:12035",
+        "6878:12072",
+        "6878:12124",
+        "6878:12309"
+      ],
+      "fingerprint": "{\"name\":\"Account Details\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10719,\"y\":2284,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:12342": {
+      "id": "6878:12342",
+      "name": "Account Details",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 12221,
+        "y": 2284,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6878:12343",
+        "6878:12344",
+        "6878:12345",
+        "6878:12352",
+        "6878:12353",
+        "6878:12358",
+        "6878:12373",
+        "6878:12392",
+        "6878:12398",
+        "6878:12406",
+        "6878:12409",
+        "6878:12446",
+        "6878:12498",
+        "6878:12499"
+      ],
+      "fingerprint": "{\"name\":\"Account Details\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":12221,\"y\":2284,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:15649": {
+      "id": "6861:15649",
+      "name": "Multiple passkeys",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 13723,
+        "y": 1037,
+        "w": 1440,
+        "h": 1094
+      },
+      "children": [
+        "6861:15650",
+        "6861:15651",
+        "6861:15652",
+        "6861:15659",
+        "6861:15660",
+        "6861:15665",
+        "6861:15680",
+        "6861:15699",
+        "6861:15705",
+        "6861:15714",
+        "6861:15717",
+        "6861:15754"
+      ],
+      "fingerprint": "{\"name\":\"Multiple passkeys\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":13723,\"y\":1037,\"w\":1440,\"h\":1094,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:16389": {
+      "id": "6861:16389",
+      "name": "image 15",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 5631,
+        "y": 2165,
+        "w": 409,
+        "h": 496
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 15\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":5631,\"y\":2165,\"w\":409,\"h\":496,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:1011": {
+      "id": "6878:1011",
+      "name": "Frame 1597884745",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 5117,
+        "y": 1032,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [
+        "6878:1012",
+        "6878:1013",
+        "6878:1051"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884745\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":5117,\"y\":1032,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13296": {
+      "id": "6878:13296",
+      "name": "Frame 1597884747",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 5117,
+        "y": 3470,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [
+        "6878:13297",
+        "6878:13405"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884747\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":5117,\"y\":3470,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13411": {
+      "id": "6878:13411",
+      "name": "image 23",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 5117,
+        "y": 4226,
+        "w": 582,
+        "h": 471
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 23\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":5117,\"y\":4226,\"w\":582,\"h\":471,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:1055": {
+      "id": "6878:1055",
+      "name": "UI options",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2751,
+        "y": 1032,
+        "w": 2072,
+        "h": 3518
+      },
+      "children": [
+        "6859:6569",
+        "6869:6877",
+        "6878:13293",
+        "6878:13302",
+        "6878:13295",
+        "6870:814"
+      ],
+      "fingerprint": "{\"name\":\"UI options\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":2751,\"y\":1032,\"w\":2072,\"h\":3518,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "7133:7699": {
+      "id": "7133:7699",
+      "name": "Popup 3",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -5916,
+        "y": 2506,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [
+        "7133:7700",
+        "7133:7701",
+        "7133:7785"
+      ],
+      "fingerprint": "{\"name\":\"Popup 3\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-5916,\"y\":2506,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "7139:7919": {
+      "id": "7139:7919",
+      "name": "Popup 4",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -3964,
+        "y": 2506,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [
+        "7139:7920",
+        "7139:7921",
+        "7139:7940"
+      ],
+      "fingerprint": "{\"name\":\"Popup 4\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-3964,\"y\":2506,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "7142:1381": {
+      "id": "7142:1381",
+      "name": "Popup 5",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -3964,
+        "y": 3673,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [
+        "7142:1382",
+        "7142:1383",
+        "7142:1419"
+      ],
+      "fingerprint": "{\"name\":\"Popup 5\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-3964,\"y\":3673,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "7133:7824": {
+      "id": "7133:7824",
+      "name": "Popup / Normal",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -5490,
+        "y": 3673,
+        "w": 407,
+        "h": 381
+      },
+      "children": [
+        "7133:7825",
+        "7133:7838"
+      ],
+      "fingerprint": "{\"name\":\"Popup / Normal\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-5490,\"y\":3673,\"w\":407,\"h\":381,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "7133:7866": {
+      "id": "7133:7866",
+      "name": "Popup / Normal",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -5043,
+        "y": 3673,
+        "w": 407,
+        "h": 390
+      },
+      "children": [
+        "7133:7867",
+        "7133:7896"
+      ],
+      "fingerprint": "{\"name\":\"Popup / Normal\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-5043,\"y\":3673,\"w\":407,\"h\":390,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:1058": {
+      "id": "6878:1058",
+      "name": "image 17",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 6095,
+        "y": 2165,
+        "w": 667,
+        "h": 367
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 17\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":6095,\"y\":2165,\"w\":667,\"h\":367,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:1061": {
+      "id": "6878:1061",
+      "name": "image 18",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 5117,
+        "y": 2165,
+        "w": 441,
+        "h": 461
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 18\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":5117,\"y\":2165,\"w\":441,\"h\":461,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13054": {
+      "id": "6878:13054",
+      "name": "Hover state",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10348,
+        "y": 2284,
+        "w": 331,
+        "h": 299
+      },
+      "children": [
+        "6878:13020",
+        "6878:13024",
+        "6878:13022",
+        "6878:13026",
+        "6878:13013",
+        "6878:13028",
+        "6878:13041",
+        "6878:13048"
+      ],
+      "fingerprint": "{\"name\":\"Hover state\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":10348,\"y\":2284,\"w\":331,\"h\":299,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13292": {
+      "id": "6878:13292",
+      "name": "LOGIN",
+      "type": "TEXT",
+      "visible": true,
+      "text": "LOGIN",
+      "box": {
+        "x": 0,
+        "y": 494,
+        "w": 581,
+        "h": 221
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"LOGIN\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"LOGIN\",\"x\":0,\"y\":494,\"w\":581,\"h\":221,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13401": {
+      "id": "6878:13401",
+      "name": "LOGIN WITH PASSKEY",
+      "type": "TEXT",
+      "visible": true,
+      "text": "LOGIN WITH PASSKEY",
+      "box": {
+        "x": 0,
+        "y": 2284,
+        "w": 1901,
+        "h": 221
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"LOGIN WITH PASSKEY\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"LOGIN WITH PASSKEY\",\"x\":0,\"y\":2284,\"w\":1901,\"h\":221,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13417": {
+      "id": "6878:13417",
+      "name": "Section",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 0,
+        "y": -113,
+        "w": 16204,
+        "h": 396
+      },
+      "children": [
+        "I6878:13417;73:168",
+        "I6878:13417;73:152"
+      ],
+      "fingerprint": "{\"name\":\"Section\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":0,\"y\":-113,\"w\":16204,\"h\":396,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "7133:7901": {
+      "id": "7133:7901",
+      "name": "image 25",
+      "type": "RECTANGLE",
+      "visible": false,
+      "text": null,
+      "box": {
+        "x": -4251,
+        "y": 3993,
+        "w": 512,
+        "h": 512
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 25\",\"type\":\"RECTANGLE\",\"visible\":false,\"text\":null,\"x\":-4251,\"y\":3993,\"w\":512,\"h\":512,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    }
+  },
+  "rootIds": [
+    "6859:6370"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "pages": [
+    {
+      "id": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+      "folderSlug": "video-workout",
+      "folderName": "Video Workout",
+      "pageName": "Table of content",
+      "figmaFileKey": "M5DXcdCfk0haYY8UbDCnaq",
+      "figmaFileName": "Video Workout",
+      "figmaPageId": "3820:114256",
+      "figmaPageName": "Table of content",
+      "figmaUrl": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video%20Workout?node-id=3820-114256",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-22T03:26:44.890Z",
+      "addedBy": "system",
+      "pinned": true
+    },
+    {
+      "id": "page-gmnhfte1dko6briphu6ooc-268-2565",
+      "folderSlug": "test-color-app-blue",
+      "folderName": "Test color App | Blue",
+      "pageName": "Client App",
+      "figmaFileKey": "GmnHfTE1dkO6briPhU6oOc",
+      "figmaFileName": "Test color App | Blue",
+      "figmaPageId": "268:2565",
+      "figmaPageName": "Client App",
+      "figmaUrl": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test%20color%20App%20%7C%20Blue?node-id=268-2565",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-22T03:26:34.775Z",
+      "addedBy": "system",
+      "pinned": true
+    },
+    {
+      "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+      "folderSlug": "sign-in-up-page",
+      "folderName": "Sign in/up page",
+      "pageName": "Biometric login | Apr 13, 2026",
+      "figmaFileKey": "oVKYzdbBgm1G4tJ9ab7ZVA",
+      "figmaFileName": "Sign in/up page",
+      "figmaPageId": "6859:6370",
+      "figmaPageName": "Biometric login | Apr 13, 2026",
+      "figmaUrl": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-22T03:26:36.818Z",
+      "addedBy": "system",
+      "pinned": false
+    },
+    {
+      "id": "page-qloslbnutg0pu2zxma7ese-461-3819",
+      "folderSlug": "navigate-to-mp",
+      "folderName": "Navigate to MP",
+      "pageName": "Feb 12, 2026",
+      "figmaFileKey": "qLosLBnUTg0Pu2zXMA7ese",
+      "figmaFileName": "Navigate to MP",
+      "figmaPageId": "461:3819",
+      "figmaPageName": "Feb 12, 2026",
+      "figmaUrl": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-22T03:26:25.826Z",
+      "addedBy": "system",
+      "pinned": false
+    },
+    {
+      "id": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+      "folderSlug": "quick-start-guide",
+      "folderName": "Quick start guide",
+      "pageName": "Page 1",
+      "figmaFileKey": "4B31U4vCHWJLa1YQKuUhWv",
+      "figmaFileName": "Quick start guide",
+      "figmaPageId": "0:1",
+      "figmaPageName": "Page 1",
+      "figmaUrl": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-22T03:26:32.621Z",
+      "addedBy": "system",
+      "pinned": false
+    },
+    {
+      "id": "page-7cqgqp7lstl1yp6nicbg7b-18937-86041",
+      "folderSlug": "coach-onboarding-checklist",
+      "folderName": "Coach Onboarding Checklist",
+      "pageName": "Sign up/Onboarding on Coach App & Mobile browser",
+      "figmaFileKey": "7CQGqP7LstL1YP6nICbg7B",
+      "figmaFileName": "Coach Onboarding Checklist",
+      "figmaPageId": "18937:86041",
+      "figmaPageName": "Sign up/Onboarding on Coach App & Mobile browser",
+      "figmaUrl": "https://www.figma.com/design/7CQGqP7LstL1YP6nICbg7B/Coach-Onboarding-Checklist?node-id=18937-86041",
+      "categories": [
+        "coach-app"
+      ],
+      "addedAt": "2026-04-22T04:48:12.196Z",
+      "addedBy": "system",
+      "pinned": false
+    }
+  ]
+}

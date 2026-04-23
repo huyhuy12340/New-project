@@ -1,0 +1,174 @@
+{
+  "id": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256-fallback-M5DXcdCfk0haYY8UbDCnaq",
+  "sourceId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+  "versionId": "fallback-M5DXcdCfk0haYY8UbDCnaq",
+  "sectionId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+  "sectionName": "Table of content",
+  "date": "2026-04-22",
+  "lastDetectedAt": "2026-04-22T03:26:44.890Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-m5dxcdcfk0hayy8ubdcnaq-3820-114256-fallback-M5DXcdCfk0haYY8UbDCnaq.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+  "frames": [
+    {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1",
+      "name": "Scrolling down",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-1",
+          "name": "Video library",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Scrolling down / Video library",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-2",
+          "name": "Status for graphic",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Scrolling down / Status for graphic",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-1-layer-3",
+          "name": "Load more",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Scrolling down / Load more",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2",
+      "name": "Responsive",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-1",
+          "name": "Example",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Responsive / Example",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-2",
+          "name": "Swipe category",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Responsive / Swipe category",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-2-layer-3",
+          "name": "Note",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Responsive / Note",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3",
+      "name": "Video library",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-1",
+          "name": "Teamplate library",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Video library / Teamplate library",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-m5dxcdcfk0hayy8ubdcnaq-root-3-layer-2",
+          "name": "Primary CTA",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Video library / Primary CTA",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-fallback-oVKYzdbBgm1G4tJ9ab7ZVA",
+  "sourceId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "versionId": "fallback-oVKYzdbBgm1G4tJ9ab7ZVA",
+  "sectionId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "sectionName": "Biometric login | Apr 13, 2026",
+  "date": "2026-04-21",
+  "lastDetectedAt": "2026-04-21T09:47:25.108Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-fallback-oVKYzdbBgm1G4tJ9ab7ZVA.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+  "frames": [
+    {
+      "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-1",
+      "name": "Login page_Having email",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-1-layer-1",
+          "name": "Log in block",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Login page_Having email / Log in block",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-1-layer-2",
+          "name": "Sign up button",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Login page_Having email / Sign up button",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-1-layer-3",
+          "name": "Form fields",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Login page_Having email / Form fields",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-2",
+      "name": "Log in block",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-2-layer-1",
+          "name": "Email field",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Log in block / Email field",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-2-layer-2",
+          "name": "Password field",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Log in block / Password field",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-2-layer-3",
+          "name": "Remember me",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Log in block / Remember me",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-3",
+      "name": "Biometric login",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-3-layer-1",
+          "name": "Passkey note",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Biometric login / Passkey note",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-ovkyzdbbgm1g4tj9ab7zva-6859-6370-root-3-layer-2",
+          "name": "CTA button",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Biometric login / CTA button",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

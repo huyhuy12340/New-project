@@ -1,0 +1,27 @@
+{
+  "sourceId": "figma-gmnhfte1dko6briphu6ooc-1889-16018",
+  "versionId": "2344832662767874598",
+  "versionCreatedAt": "2026-04-22T03:26:34.775Z",
+  "fileName": "Test color App | Blue",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/926105f5-3ec0-4b84-a187-50b5f72fd877?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cabf41bb1f103199039c545bfdb24f54d6d4503a7730721ab30549ff73f4bf0f",
+  "nodes": {
+    "1889:16018": {
+      "id": "1889:16018",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 13405,
+        "y": 654,
+        "w": 271.7391357421875,
+        "h": 4
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":13405,\"y\":654,\"w\":271.7391357421875,\"h\":4,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    }
+  },
+  "rootIds": [
+    "1889:16018"
+  ]
+}

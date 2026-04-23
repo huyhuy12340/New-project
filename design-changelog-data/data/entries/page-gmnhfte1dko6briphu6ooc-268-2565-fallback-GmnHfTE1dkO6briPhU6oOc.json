@@ -1,0 +1,174 @@
+{
+  "id": "page-gmnhfte1dko6briphu6ooc-268-2565-fallback-GmnHfTE1dkO6briPhU6oOc",
+  "sourceId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+  "versionId": "fallback-GmnHfTE1dkO6briPhU6oOc",
+  "sectionId": "page-gmnhfte1dko6briphu6ooc-268-2565",
+  "sectionName": "Client App",
+  "date": "2026-04-21",
+  "lastDetectedAt": "2026-04-21T09:47:25.088Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-gmnhfte1dko6briphu6ooc-268-2565-fallback-GmnHfTE1dkO6briPhU6oOc.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+  "frames": [
+    {
+      "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-1",
+      "name": "Rectangle",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-1-layer-1",
+          "name": "Gradient strip",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Rectangle / Gradient strip",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-1-layer-2",
+          "name": "Blue palette",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Rectangle / Blue palette",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-1-layer-3",
+          "name": "Accent bar",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Rectangle / Accent bar",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-2",
+      "name": "Color tokens",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-2-layer-1",
+          "name": "Primary",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Color tokens / Primary",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-2-layer-2",
+          "name": "Secondary",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Color tokens / Secondary",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-2-layer-3",
+          "name": "Muted",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Color tokens / Muted",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-3",
+      "name": "Blue variant",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/GmnHfTE1dkO6briPhU6oOc/Test-color-App-%7C-Blue?node-id=1889-16018&t=zyvP2nzmiGVBcIWt-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 180
+      },
+      "layers": [
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-3-layer-1",
+          "name": "State base",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Blue variant / State base",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        },
+        {
+          "id": "figma-gmnhfte1dko6briphu6ooc-1889-16018-root-3-layer-2",
+          "name": "State hover",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "Blue variant / State hover",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 180
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

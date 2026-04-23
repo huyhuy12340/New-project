@@ -1,0 +1,188 @@
+{
+  "id": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256-2344723179753387949",
+  "sourceId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+  "versionId": "2344723179753387949",
+  "sectionId": "page-m5dxcdcfk0hayy8ubdcnaq-3820-114256",
+  "sectionName": "Table of content",
+  "date": "2026-04-21",
+  "lastDetectedAt": "2026-04-21T09:53:20.396Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-m5dxcdcfk0hayy8ubdcnaq-3820-114256-2344723179753387949.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/b6cf41bd-400b-441e-b216-7d48069cbd90?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c011068d2b450fe38b3f760aed035ec7c89e4ceff65e4d3a708ec1aebc99c7aa",
+  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/21b88f19-f79a-4991-a3db-86efaacaa411",
+  "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+  "frames": [
+    {
+      "id": "3820:155718",
+      "name": " ",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -2486,
+        "y": -4343,
+        "w": 4300,
+        "h": 4948
+      },
+      "layers": [
+        {
+          "id": "3820:155715",
+          "name": "Group 143726248",
+          "type": "GROUP",
+          "status": "pending",
+          "path": "  / Group 143726248",
+          "boundingBox": {
+            "x": -2486,
+            "y": -4343,
+            "w": 4300,
+            "h": 1317
+          },
+          "changes": []
+        },
+        {
+          "id": "3820:155716",
+          "name": " ",
+          "type": "GROUP",
+          "status": "pending",
+          "path": "  /  ",
+          "boundingBox": {
+            "x": -2486,
+            "y": -2892,
+            "w": 4300,
+            "h": 2045
+          },
+          "changes": []
+        },
+        {
+          "id": "3820:150807",
+          "name": "Group 143726247",
+          "type": "GROUP",
+          "status": "pending",
+          "path": "  / Group 143726247",
+          "boundingBox": {
+            "x": -2486,
+            "y": -713,
+            "w": 2864,
+            "h": 1318
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "3820:155715",
+      "name": "Group 143726248",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -2486,
+        "y": -4343,
+        "w": 4300,
+        "h": 1317
+      },
+      "layers": [
+        {
+          "id": "3820:146017",
+          "name": "Frame 1597884829",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Group 143726248 / Frame 1597884829",
+          "boundingBox": {
+            "x": -856,
+            "y": -4343,
+            "w": 1234,
+            "h": 295
+          },
+          "changes": []
+        },
+        {
+          "id": "3820:146018",
+          "name": "Frame 1597884830",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Group 143726248 / Frame 1597884830",
+          "boundingBox": {
+            "x": -856,
+            "y": -4002,
+            "w": 1234,
+            "h": 295
+          },
+          "changes": []
+        },
+        {
+          "id": "3820:146020",
+          "name": "Frame 1597884831",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Group 143726248 / Frame 1597884831",
+          "boundingBox": {
+            "x": -856,
+            "y": -3661,
+            "w": 1234,
+            "h": 635
+          },
+          "changes": []
+        },
+        {
+          "id": "3820:146029",
+          "name": "Frame 1597884835",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Group 143726248 / Frame 1597884835",
+          "boundingBox": {
+            "x": 580,
+            "y": -3662,
+            "w": 1234,
+            "h": 636
+          },
+          "changes": []
+        },
+        {
+          "id": "3820:150850",
+          "name": "Connector line",
+          "type": "CONNECTOR",
+          "status": "pending",
+          "path": "Group 143726248 / Connector line",
+          "boundingBox": {
+            "x": 382,
+            "y": -3343.5,
+            "w": 194,
+            "h": 170
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "3820:146017",
+      "name": "Frame 1597884829",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/M5DXcdCfk0haYY8UbDCnaq/Video-Workout?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -856,
+        "y": -4343,
+        "w": 1234,
+        "h": 295
+      },
+      "layers": [
+        {
+          "id": "3820:145787",
+          "name": "🔗 Create video workout",
+          "type": "TEXT",
+          "status": "pending",
+          "path": "Frame 1597884829 / 🔗 Create video workout",
+          "boundingBox": {
+            "x": -556,
+            "y": -4232,
+            "w": 634,
+            "h": 73
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

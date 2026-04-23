@@ -1,0 +1,202 @@
+{
+  "id": "page-4b31u4vchwjla1yqkuuhwv-0-1-2342155858198573951",
+  "sourceId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+  "versionId": "2342155858198573951",
+  "sectionId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
+  "sectionName": "Page 1",
+  "date": "2026-04-22",
+  "lastDetectedAt": "2026-04-22T03:26:32.621Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-4b31u4vchwjla1yqkuuhwv-0-1-2342155858198573951.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65fdab1fbc05434ab40558a7bafb943621569c4da71c196f3393a097030659b4",
+  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4516238d-06ba-47d3-8910-f0d98f62e0cd",
+  "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+  "frames": [
+    {
+      "id": "0:11522",
+      "name": "Local Component",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -8431,
+        "y": -4016,
+        "w": 2156,
+        "h": 4275
+      },
+      "layers": [
+        {
+          "id": "0:11534",
+          "name": "resource-page/everfit-logo",
+          "type": "COMPONENT_SET",
+          "status": "pending",
+          "path": "Local Component / resource-page/everfit-logo",
+          "boundingBox": {
+            "x": -8256,
+            "y": -3936,
+            "w": 214,
+            "h": 177
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11599",
+          "name": "resource-page/video-item",
+          "type": "COMPONENT_SET",
+          "status": "pending",
+          "path": "Local Component / resource-page/video-item",
+          "boundingBox": {
+            "x": -8252,
+            "y": -3673,
+            "w": 1378,
+            "h": 1115
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11706",
+          "name": "resource-page/play-button",
+          "type": "COMPONENT",
+          "status": "pending",
+          "path": "Local Component / resource-page/play-button",
+          "boundingBox": {
+            "x": -8032,
+            "y": -3936,
+            "w": 56,
+            "h": 56
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11709",
+          "name": "resource-page/spacer",
+          "type": "COMPONENT",
+          "status": "pending",
+          "path": "Local Component / resource-page/spacer",
+          "boundingBox": {
+            "x": -7949,
+            "y": -3936,
+            "w": 24,
+            "h": 0.00009999999747378752
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11712",
+          "name": "Fix Width",
+          "type": "TEXT",
+          "status": "pending",
+          "path": "Local Component / Fix Width",
+          "boundingBox": {
+            "x": -7948,
+            "y": -3707,
+            "w": 70,
+            "h": 22
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11534",
+      "name": "resource-page/everfit-logo",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -8256,
+        "y": -3936,
+        "w": 214,
+        "h": 177
+      },
+      "layers": [
+        {
+          "id": "0:11535",
+          "name": "Symbol=True",
+          "type": "COMPONENT",
+          "status": "pending",
+          "path": "resource-page/everfit-logo / Symbol=True",
+          "boundingBox": {
+            "x": -8236,
+            "y": -3915,
+            "w": 40,
+            "h": 40
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11543",
+          "name": "Symbol=Symbol4",
+          "type": "COMPONENT",
+          "status": "pending",
+          "path": "resource-page/everfit-logo / Symbol=Symbol4",
+          "boundingBox": {
+            "x": -8236,
+            "y": -3831,
+            "w": 40,
+            "h": 40
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11551",
+          "name": "Symbol=False",
+          "type": "COMPONENT",
+          "status": "pending",
+          "path": "resource-page/everfit-logo / Symbol=False",
+          "boundingBox": {
+            "x": -8176,
+            "y": -3915,
+            "w": 114,
+            "h": 24
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11575",
+          "name": "Symbol=Symbol3",
+          "type": "COMPONENT",
+          "status": "pending",
+          "path": "resource-page/everfit-logo / Symbol=Symbol3",
+          "boundingBox": {
+            "x": -8176,
+            "y": -3831,
+            "w": 114,
+            "h": 24
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11535",
+      "name": "Symbol=True",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+      "boundingBox": {
+        "x": -8236,
+        "y": -3915,
+        "w": 40,
+        "h": 40
+      },
+      "layers": [
+        {
+          "id": "0:11536",
+          "name": "main-logo",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Symbol=True / main-logo",
+          "boundingBox": {
+            "x": -8236,
+            "y": -3915,
+            "w": 40,
+            "h": 40
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

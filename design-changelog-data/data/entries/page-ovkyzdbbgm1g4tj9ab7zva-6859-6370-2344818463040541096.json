@@ -1,0 +1,104 @@
+{
+  "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-2344818463040541096",
+  "sourceId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "versionId": "2344818463040541096",
+  "sectionId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "sectionName": "Biometric login | Apr 13, 2026",
+  "date": "2026-04-21",
+  "lastDetectedAt": "2026-04-21T09:54:37.942Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-2344818463040541096.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/117fde9f-e75b-4d17-8873-f0b4f00d95b8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f8dd63c10e5b6eb3b42320cf14f15193f9a4f825da6638aa392e39d6dd2e8b97",
+  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/80e2d089-0162-4b0e-9c4f-72530f105631",
+  "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+  "frames": [
+    {
+      "id": "6859:6370",
+      "name": "Biometric login | Apr 13, 2026",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in-up-page?node-id=6859-6370&p=f&t=dJWaeJxMZ1xJZMkI-0",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "layers": [
+        {
+          "id": "6859:6472",
+          "name": "Login page_Having email",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Biometric login | Apr 13, 2026 / Login page_Having email",
+          "boundingBox": {
+            "x": 0,
+            "y": 1032,
+            "w": 1600,
+            "h": 900
+          },
+          "changes": []
+        },
+        {
+          "id": "6878:13305",
+          "name": "Login page_Having email",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Biometric login | Apr 13, 2026 / Login page_Having email",
+          "boundingBox": {
+            "x": 0,
+            "y": 2710,
+            "w": 1600,
+            "h": 900
+          },
+          "changes": []
+        },
+        {
+          "id": "6861:15085",
+          "name": "Empty",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Biometric login | Apr 13, 2026 / Empty",
+          "boundingBox": {
+            "x": 12221,
+            "y": 1037,
+            "w": 1440,
+            "h": 1094
+          },
+          "changes": []
+        },
+        {
+          "id": "6861:15993",
+          "name": "Account Details",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Biometric login | Apr 13, 2026 / Account Details",
+          "boundingBox": {
+            "x": 9239,
+            "y": 1037,
+            "w": 1440,
+            "h": 1094
+          },
+          "changes": []
+        },
+        {
+          "id": "6878:12698",
+          "name": "Account Details",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Biometric login | Apr 13, 2026 / Account Details",
+          "boundingBox": {
+            "x": 13723,
+            "y": 2284,
+            "w": 1440,
+            "h": 1094
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}
