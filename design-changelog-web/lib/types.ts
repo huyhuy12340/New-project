@@ -24,6 +24,9 @@ export interface LayerChange {
 export interface FrameChange {
   id: string;
   name: string;
+  sectionId?: string;
+  sectionName?: string;
+  thumbnail?: string | null;
   status: ChangeStatus;
   figmaDeepLink: string;
   boundingBox: BoundingBox;
@@ -48,6 +51,7 @@ export interface ChangelogEntry {
   diffFile: string;
   beforeImage: string;
   afterImage: string;
+  sectionThumbnail?: string | null;
   figmaDeepLink: string;
   frames: FrameChange[];
 }

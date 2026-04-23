@@ -15,7 +15,7 @@
       ],
       "addedAt": "2026-04-22T03:26:44.890Z",
       "addedBy": "system",
-      "pinned": true
+      "archived": true
     },
     {
       "id": "page-gmnhfte1dko6briphu6ooc-268-2565",
@@ -32,7 +32,7 @@
       ],
       "addedAt": "2026-04-22T03:26:34.775Z",
       "addedBy": "system",
-      "pinned": true
+      "archived": true
     },
     {
       "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
@@ -49,7 +49,7 @@
       ],
       "addedAt": "2026-04-22T03:26:36.818Z",
       "addedBy": "system",
-      "pinned": false
+      "archived": true
     },
     {
       "id": "page-qloslbnutg0pu2zxma7ese-461-3819",
@@ -66,7 +66,7 @@
       ],
       "addedAt": "2026-04-22T03:26:25.826Z",
       "addedBy": "system",
-      "pinned": false
+      "archived": true
     },
     {
       "id": "page-4b31u4vchwjla1yqkuuhwv-0-1",
@@ -83,7 +83,7 @@
       ],
       "addedAt": "2026-04-22T03:26:32.621Z",
       "addedBy": "system",
-      "pinned": false
+      "archived": true
     },
     {
       "id": "page-7cqgqp7lstl1yp6nicbg7b-18937-86041",
@@ -100,7 +100,24 @@
       ],
       "addedAt": "2026-04-22T04:48:12.196Z",
       "addedBy": "system",
-      "pinned": false
+      "archived": true
+    },
+    {
+      "id": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+      "folderSlug": "untitled",
+      "folderName": "Untitled",
+      "pageName": "Page 1",
+      "figmaFileKey": "mUpsdOpMOqRXhVm6d5JMgZ",
+      "figmaFileName": "Untitled",
+      "figmaPageId": "0:1",
+      "figmaPageName": "Page 1",
+      "figmaUrl": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-23T02:24:25.957Z",
+      "addedBy": "system",
+      "archived": true
     }
   ]
 }

@@ -37,7 +37,7 @@ export default async function HomePage() {
   const recentPages = await loadRecentPages(12)
 
   return (
-    <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 py-6 sm:px-6 lg:px-8">
+    <main className="flex w-full flex-col gap-12 px-16 pt-5 pb-12">
       <section className="space-y-3">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-2">

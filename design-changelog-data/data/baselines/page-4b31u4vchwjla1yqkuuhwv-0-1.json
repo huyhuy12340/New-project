@@ -1,9 +1,9 @@
 {
-  "sourceId": "figma-4b31u4vchwjla1yqkuuhwv",
+  "sourceId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
   "versionId": "2342155858198573951",
-  "versionCreatedAt": "2026-04-22T03:26:32.621Z",
+  "versionCreatedAt": "2026-04-23T07:26:27.477Z",
   "fileName": "Quick start guide",
-  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65fdab1fbc05434ab40558a7bafb943621569c4da71c196f3393a097030659b4",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0530b2c021ac8bd0b734af3b784b2c603ce5bc7446eaf74c0e80bd49e941da26",
   "nodes": {
     "0:11522": {
       "id": "0:11522",
@@ -248,95 +248,736 @@
       ],
       "fingerprint": "{\"name\":\"Icon\",\"type\":\"COMPONENT_SET\",\"visible\":true,\"text\":null,\"x\":-7790,\"y\":-3824,\"w\":42,\"h\":68,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
     },
-    "0:11535": {
-      "id": "0:11535",
-      "name": "Symbol=True",
-      "type": "COMPONENT",
+    "1165:4373": {
+      "id": "1165:4373",
+      "name": "Carousel behavior",
+      "type": "SECTION",
       "visible": true,
       "text": null,
       "box": {
-        "x": -8236,
-        "y": -3915,
-        "w": 40,
-        "h": 40
+        "x": -785,
+        "y": -232,
+        "w": 1536,
+        "h": 1183
       },
       "children": [
-        "0:11536"
+        "1165:4690",
+        "1165:4689",
+        "1165:4691"
       ],
-      "fingerprint": "{\"name\":\"Symbol=True\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8236,\"y\":-3915,\"w\":40,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Carousel behavior\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":-785,\"y\":-232,\"w\":1536,\"h\":1183,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
     },
-    "0:11543": {
-      "id": "0:11543",
-      "name": "Symbol=Symbol4",
-      "type": "COMPONENT",
-      "visible": true,
-      "text": null,
-      "box": {
-        "x": -8236,
-        "y": -3831,
-        "w": 40,
-        "h": 40
-      },
-      "children": [
-        "0:11544"
-      ],
-      "fingerprint": "{\"name\":\"Symbol=Symbol4\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8236,\"y\":-3831,\"w\":40,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
-    },
-    "0:11551": {
-      "id": "0:11551",
-      "name": "Symbol=False",
-      "type": "COMPONENT",
-      "visible": true,
-      "text": null,
-      "box": {
-        "x": -8176,
-        "y": -3915,
-        "w": 114,
-        "h": 24
-      },
-      "children": [
-        "0:11552"
-      ],
-      "fingerprint": "{\"name\":\"Symbol=False\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8176,\"y\":-3915,\"w\":114,\"h\":24,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
-    },
-    "0:11575": {
-      "id": "0:11575",
-      "name": "Symbol=Symbol3",
-      "type": "COMPONENT",
-      "visible": true,
-      "text": null,
-      "box": {
-        "x": -8176,
-        "y": -3831,
-        "w": 114,
-        "h": 24
-      },
-      "children": [
-        "0:11576"
-      ],
-      "fingerprint": "{\"name\":\"Symbol=Symbol3\",\"type\":\"COMPONENT\",\"visible\":true,\"text\":null,\"x\":-8176,\"y\":-3831,\"w\":114,\"h\":24,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
-    },
-    "0:11536": {
-      "id": "0:11536",
-      "name": "main-logo",
+    "1165:4690": {
+      "id": "1165:4690",
+      "name": "Center",
       "type": "FRAME",
       "visible": true,
       "text": null,
       "box": {
-        "x": -8236,
-        "y": -3915,
-        "w": 40,
+        "x": -705,
+        "y": 200,
+        "w": 1376,
+        "h": 317.4375
+      },
+      "children": [
+        "1165:4236"
+      ],
+      "fingerprint": "{\"name\":\"Center\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-705,\"y\":200,\"w\":1376,\"h\":317.4375,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1165:4689": {
+      "id": "1165:4689",
+      "name": "Start",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -705,
+        "y": -152,
+        "w": 1376,
+        "h": 317.4375
+      },
+      "children": [
+        "1165:4584",
+        "1188:4692"
+      ],
+      "fingerprint": "{\"name\":\"Start\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-705,\"y\":-152,\"w\":1376,\"h\":317.4375,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1165:4691": {
+      "id": "1165:4691",
+      "name": "End",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -705,
+        "y": 553,
+        "w": 1376,
+        "h": 317.4375
+      },
+      "children": [
+        "1165:4374"
+      ],
+      "fingerprint": "{\"name\":\"End\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-705,\"y\":553,\"w\":1376,\"h\":317.4375,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1518:4736": {
+      "id": "1518:4736",
+      "name": "Scroll",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -5369,
+        "y": -2242,
+        "w": 892,
+        "h": 354
+      },
+      "children": [
+        "1518:4739"
+      ],
+      "fingerprint": "{\"name\":\"Scroll\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":-5369,\"y\":-2242,\"w\":892,\"h\":354,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "1518:4739": {
+      "id": "1518:4739",
+      "name": " ",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -5273,
+        "y": -2162,
+        "w": 700,
+        "h": 193.25
+      },
+      "children": [
+        "1518:4740",
+        "1518:4745",
+        "1518:4750",
+        "1518:4788",
+        "1518:4751",
+        "1518:4789"
+      ],
+      "fingerprint": "{\"name\":\" \",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-5273,\"y\":-2162,\"w\":700,\"h\":193.25,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1675:6147": {
+      "id": "1675:6147",
+      "name": "Button state",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 1915,
+        "y": -2190,
+        "w": 514,
+        "h": 212
+      },
+      "children": [
+        "1675:6143",
+        "1675:6148",
+        "1675:6159"
+      ],
+      "fingerprint": "{\"name\":\"Button state\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":1915,\"y\":-2190,\"w\":514,\"h\":212,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "1675:6143": {
+      "id": "1675:6143",
+      "name": "Button",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 1995,
+        "y": -2110,
+        "w": 154,
         "h": 40
       },
       "children": [
-        "0:11537"
+        "I1675:6143;4616:40603",
+        "I1675:6143;4616:40604",
+        "I1675:6143;4616:40605"
       ],
-      "fingerprint": "{\"name\":\"main-logo\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-8236,\"y\":-3915,\"w\":40,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Button\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":1995,\"y\":-2110,\"w\":154,\"h\":40,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "1675:6148": {
+      "id": "1675:6148",
+      "name": "Button",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2195,
+        "y": -2110,
+        "w": 154,
+        "h": 40
+      },
+      "children": [
+        "I1675:6148;4616:40615",
+        "I1675:6148;4616:40616",
+        "I1675:6148;4616:40617"
+      ],
+      "fingerprint": "{\"name\":\"Button\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":2195,\"y\":-2110,\"w\":154,\"h\":40,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "1675:6159": {
+      "id": "1675:6159",
+      "name": "pointinghand",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2234,
+        "y": -2082,
+        "w": 24,
+        "h": 24
+      },
+      "children": [
+        "I1675:6159;606:1982"
+      ],
+      "fingerprint": "{\"name\":\"pointinghand\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":2234,\"y\":-2082,\"w\":24,\"h\":24,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1886:6551": {
+      "id": "1886:6551",
+      "name": "Icon options",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4991,
+        "y": -3391,
+        "w": 304,
+        "h": 140
+      },
+      "children": [
+        "1886:6552"
+      ],
+      "fingerprint": "{\"name\":\"Icon options\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":4991,\"y\":-3391,\"w\":304,\"h\":140,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1886:6552": {
+      "id": "1886:6552",
+      "name": " ",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 5029,
+        "y": -3330,
+        "w": 228,
+        "h": 18
+      },
+      "children": [
+        "1886:6554",
+        "1886:6555",
+        "1886:6556",
+        "1886:6576",
+        "1886:6583",
+        "1886:6586"
+      ],
+      "fingerprint": "{\"name\":\" \",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":5029,\"y\":-3330,\"w\":228,\"h\":18,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:8336": {
+      "id": "2530:8336",
+      "name": "Options",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 8698,
+        "y": -3391,
+        "w": 1212,
+        "h": 1106
+      },
+      "children": [
+        "2397:8512",
+        "2397:8818",
+        "2397:8935",
+        "2397:8884"
+      ],
+      "fingerprint": "{\"name\":\"Options\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":8698,\"y\":-3391,\"w\":1212,\"h\":1106,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "2397:8512": {
+      "id": "2397:8512",
+      "name": "Frame 1597884091",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 8778,
+        "y": -3311,
+        "w": 324,
+        "h": 900
+      },
+      "children": [
+        "2397:8513"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884091\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":8778,\"y\":-3311,\"w\":324,\"h\":900,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2397:8818": {
+      "id": "2397:8818",
+      "name": "Frame 1948756562",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 9142,
+        "y": -3311,
+        "w": 324,
+        "h": 900
+      },
+      "children": [
+        "2397:8819"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1948756562\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":9142,\"y\":-3311,\"w\":324,\"h\":900,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2397:8935": {
+      "id": "2397:8935",
+      "name": "Frame 1948756563",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 9506,
+        "y": -3311,
+        "w": 324,
+        "h": 900
+      },
+      "children": [
+        "2397:8936"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1948756563\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":9506,\"y\":-3311,\"w\":324,\"h\":900,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2397:8884": {
+      "id": "2397:8884",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 9337,
+        "y": -2381,
+        "w": 16,
+        "h": 16
+      },
+      "children": [
+        "2397:8885"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":9337,\"y\":-2381,\"w\":16,\"h\":16,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11280": {
+      "id": "2530:11280",
+      "name": "New image",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4620,
+        "y": -15114,
+        "w": 21910,
+        "h": 4383
+      },
+      "children": [
+        "2530:11281",
+        "2530:11350",
+        "2530:11391",
+        "2530:11429",
+        "2530:11507",
+        "2530:11556",
+        "2530:11841",
+        "2530:11984",
+        "2530:12035",
+        "2530:12078",
+        "2530:12177",
+        "2530:12293",
+        "2530:12347",
+        "2530:12406",
+        "2530:12647",
+        "2530:12656"
+      ],
+      "fingerprint": "{\"name\":\"New image\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":4620,\"y\":-15114,\"w\":21910,\"h\":4383,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11281": {
+      "id": "2530:11281",
+      "name": "Goal Setting Essentials",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4954,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11282",
+        "2530:11283",
+        "2530:11284",
+        "2530:11285",
+        "2530:11300",
+        "2530:11315",
+        "2530:11316",
+        "2530:11338"
+      ],
+      "fingerprint": "{\"name\":\"Goal Setting Essentials\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":4954,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11350": {
+      "id": "2530:11350",
+      "name": "5 Automations Every Coach Need",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4983,
+        "y": -12163,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11351",
+        "2530:11352",
+        "2530:11354",
+        "2530:11357",
+        "2530:11358",
+        "2530:11379",
+        "2530:11383",
+        "2530:11387",
+        "2530:11389"
+      ],
+      "fingerprint": "{\"name\":\"5 Automations Every Coach Need\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":4983,\"y\":-12163,\"w\":1920,\"h\":1080,\"fills\":3,\"strokes\":0,\"effects\":0,\"opacity\":0.10000000149011612}"
+    },
+    "2530:11391": {
+      "id": "2530:11391",
+      "name": "5 Automations Every Coach Need",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4954,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11392",
+        "2530:11393",
+        "2530:11396",
+        "2530:11397",
+        "2530:11418"
+      ],
+      "fingerprint": "{\"name\":\"5 Automations Every Coach Need\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":4954,\"y\":-13436,\"w\":1920,\"h\":1080,\"fills\":3,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11429": {
+      "id": "2530:11429",
+      "name": "Unlock Smarter Nutrition Coaching",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 8994,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11430",
+        "2530:11433",
+        "2530:11436",
+        "2530:11439",
+        "2530:11440",
+        "2530:11441",
+        "2530:11444",
+        "2530:11445",
+        "2530:11505",
+        "2530:11506"
+      ],
+      "fingerprint": "{\"name\":\"Unlock Smarter Nutrition Coaching\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":8994,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11507": {
+      "id": "2530:11507",
+      "name": "The Power of Community",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 8994,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11508",
+        "2530:11510",
+        "2530:11515",
+        "2530:11516",
+        "2530:11549"
+      ],
+      "fingerprint": "{\"name\":\"The Power of Community\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":8994,\"y\":-13436,\"w\":1920,\"h\":1080,\"fills\":2,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11556": {
+      "id": "2530:11556",
+      "name": "Assigning Workouts",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 11073,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11557",
+        "2530:11560",
+        "2530:11561",
+        "2530:11562",
+        "2530:11568",
+        "2530:11768",
+        "2530:11811",
+        "2530:11817",
+        "2530:11837",
+        "2530:11838"
+      ],
+      "fingerprint": "{\"name\":\"Assigning Workouts\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":11073,\"y\":-13436,\"w\":1920,\"h\":1080,\"fills\":2,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11841": {
+      "id": "2530:11841",
+      "name": "Nutrition Coaching Essential",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 6974,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11842",
+        "2530:11845",
+        "2530:11848",
+        "2530:11849",
+        "2530:11850",
+        "2530:11851",
+        "2530:11852",
+        "2530:11853",
+        "2530:11854",
+        "2530:11894",
+        "2530:11975",
+        "2530:11976",
+        "2530:11980"
+      ],
+      "fingerprint": "{\"name\":\"Nutrition Coaching Essential\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":6974,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:11984": {
+      "id": "2530:11984",
+      "name": "Automate Your 8-Week Challenge",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 6974,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:11985",
+        "2530:11986",
+        "2530:11987",
+        "2530:11988",
+        "2530:11989",
+        "2530:11990",
+        "2530:12034"
+      ],
+      "fingerprint": "{\"name\":\"Automate Your 8-Week Challenge\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":6974,\"y\":-13436,\"w\":1920,\"h\":1080,\"fills\":2,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12035": {
+      "id": "2530:12035",
+      "name": "Habits Introduction",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 13792,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:12036",
+        "2530:12037",
+        "2530:12060",
+        "2530:12061",
+        "2530:12062",
+        "2530:12076",
+        "2530:12077"
+      ],
+      "fingerprint": "{\"name\":\"Habits Introduction\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":13792,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12078": {
+      "id": "2530:12078",
+      "name": "Building Workouts (Interval, AMRAP, Timed & Free Style)",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 15812,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:12079",
+        "2530:12119",
+        "2530:12120",
+        "2530:12129",
+        "2530:12143",
+        "2530:12144",
+        "2530:12176"
+      ],
+      "fingerprint": "{\"name\":\"Building Workouts (Interval, AMRAP, Timed & Free Style)\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":15812,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12177": {
+      "id": "2530:12177",
+      "name": "Onboarding Flow",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 17832,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:12178",
+        "2530:12179",
+        "2530:12180",
+        "2530:12181",
+        "2530:12182",
+        "2530:12217",
+        "2530:12252",
+        "2530:12265",
+        "2530:12292"
+      ],
+      "fingerprint": "{\"name\":\"Onboarding Flow\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":17832,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12293": {
+      "id": "2530:12293",
+      "name": "Sell Packages & Automate Onboarding with Payments",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 19852,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:12294",
+        "2530:12295",
+        "2530:12296",
+        "2530:12297"
+      ],
+      "fingerprint": "{\"name\":\"Sell Packages & Automate Onboarding with Payments\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":19852,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":2,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12347": {
+      "id": "2530:12347",
+      "name": "Sell Packages & Automate Onboarding with Payments",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 21872,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:12348",
+        "2530:12349",
+        "2530:12350",
+        "2530:12351",
+        "2530:12352",
+        "2530:12353",
+        "2530:12354",
+        "2530:12359",
+        "2530:12369",
+        "2530:12370",
+        "2530:12371",
+        "2530:12372",
+        "2530:12373",
+        "2530:12374",
+        "2530:12375",
+        "2530:12376",
+        "2530:12391",
+        "2530:12392",
+        "2530:12393",
+        "2530:12394",
+        "2530:12403",
+        "2530:12404",
+        "2530:12405"
+      ],
+      "fingerprint": "{\"name\":\"Sell Packages & Automate Onboarding with Payments\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":21872,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12406": {
+      "id": "2530:12406",
+      "name": "Sell Packages & Automate Onboarding with Payments",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 23892,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        "2530:12407",
+        "2530:12408",
+        "2530:12409",
+        "2530:12488",
+        "2530:12568"
+      ],
+      "fingerprint": "{\"name\":\"Sell Packages & Automate Onboarding with Payments\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":23892,\"y\":-14709,\"w\":1920,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12647": {
+      "id": "2530:12647",
+      "name": "Group 1597883541",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 16197,
+        "y": -14117,
+        "w": 106.13278198242188,
+        "h": 40.8203010559082
+      },
+      "children": [
+        "2530:12648",
+        "2530:12652"
+      ],
+      "fingerprint": "{\"name\":\"Group 1597883541\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":16197,\"y\":-14117,\"w\":106.13278198242188,\"h\":40.8203010559082,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "2530:12656": {
+      "id": "2530:12656",
+      "name": "Vector 7525",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 16247,
+        "y": -14168,
+        "w": 232,
+        "h": 71
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 7525\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":16247,\"y\":-14168,\"w\":232,\"h\":71,\"fills\":0,\"strokes\":1,\"effects\":1,\"opacity\":1}"
     }
   },
   "rootIds": [
     "0:11522",
-    "0:11534",
-    "0:11535"
+    "1165:4373",
+    "1518:4736",
+    "1675:6147",
+    "1886:6551",
+    "2530:8336",
+    "2530:11280"
   ]
 }

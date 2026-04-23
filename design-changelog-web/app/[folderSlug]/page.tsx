@@ -36,7 +36,7 @@ export default async function FolderPage({ params }: PageProps) {
   const folderName = pages[0]?.folderName ?? folderSlug
 
   return (
-    <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 py-6 sm:px-6 lg:px-8">
+    <main className="flex w-full flex-col gap-10 px-16 pt-5 pb-12">
       <PageHeader
         crumbs={[
           { label: "Home", href: "/" },
@@ -76,7 +76,7 @@ export default async function FolderPage({ params }: PageProps) {
                   {page.figmaPageName ?? page.figmaFileName}
                 </div>
               </div>
-              
+
               <div className="flex items-center gap-6">
                 {latest ? (
                   <div className="text-right text-xs text-muted-foreground">
@@ -92,7 +92,7 @@ export default async function FolderPage({ params }: PageProps) {
                 ) : (
                   <div className="text-xs text-muted-foreground italic">No activity yet</div>
                 )}
-                
+
                 <Button size="sm" asChild>
                   <Link href={`/${folderSlug}/${page.id}`}>History</Link>
                 </Button>

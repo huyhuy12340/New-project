@@ -1,0 +1,260 @@
+{
+  "id": "page-mupsdopmoqrxhvm6d5jmgz-0-1-2345550983166989497",
+  "sourceId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "versionId": "2345550983166989497",
+  "sectionId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "sectionName": "Page 1",
+  "date": "2026-04-23",
+  "lastDetectedAt": "2026-04-23T07:26:15.325Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-mupsdopmoqrxhvm6d5jmgz-0-1-2345550983166989497.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/7128e075-6b3c-49e2-95d1-1f5e278959b4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=23c852648cdb06edfc50d09f3b5e2823b0f27171091fcc969c722867e27453f0",
+  "afterImage": "https://s3-alpha.figma.com/thumbnails/7128e075-6b3c-49e2-95d1-1f5e278959b4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=23c852648cdb06edfc50d09f3b5e2823b0f27171091fcc969c722867e27453f0",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+  "frames": [
+    {
+      "id": "1:10828",
+      "name": "7",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3e51f7d6-3835-41af-8740-953fd2bde6f4",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": -573,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "1:21268",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "7 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1:10836",
+      "name": "8",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/12665b48-58bf-45ed-bbbd-f1d01436d57b",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": -158,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "8:3262",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "8 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1:10844",
+      "name": "9",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/973daf20-7815-4513-aec3-5c830fe190fc",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 257,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "1:25528",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "9 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1:10852",
+      "name": "6",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1800e389-fdea-45f4-bd44-b970edc1ec4c",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 672,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "1:21239",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "6 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "3:2641",
+      "name": "14",
+      "sectionId": "3:2542",
+      "sectionName": "Section 2",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5c986b30-c3a8-4e1e-822a-5d470857eba6",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 1318,
+        "y": 4745,
+        "w": 1440,
+        "h": 874
+      },
+      "layers": [
+        {
+          "id": "3:2642",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "3:2657",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "3:2658",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "3:2667",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "3:2672",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "3:2675",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "3:2684",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "14 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
+"use client";
+
 import * as React from "react";
 import Link from "next/link";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, RotateCw } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { FigmaIcon } from "@/components/figma-icon";
 import { Button } from "@/components/ui/button";
@@ -33,12 +35,36 @@ export function PageHeader({ title, description, figmaUrl }: PageHeaderProps) {
             </div>
             
             {figmaUrl && (
-              <Button variant="outline" size="xs" asChild className="h-7 gap-1.5 px-2.5 text-xs font-normal">
-                <a href={figmaUrl} target="_blank" rel="noopener noreferrer">
-                  Open in Figma
-                  <ExternalLink className="size-3" />
-                </a>
-              </Button>
+              <div className="flex items-center gap-2">
+                <Button 
+                  variant="outline" 
+                  size="xs" 
+                  className="h-7 gap-1.5 px-2.5 text-xs font-normal"
+                  onClick={async (e) => {
+                    const btn = e.currentTarget;
+                    const originalContent = btn.innerHTML;
+                    btn.disabled = true;
+                    btn.innerHTML = "Syncing...";
+                    try {
+                      await fetch("/api/cron/poll-figma");
+                      window.location.reload();
+                    } catch (err) {
+                      console.error("Sync failed", err);
+                      btn.innerHTML = originalContent;
+                      btn.disabled = false;
+                    }
+                  }}
+                >
+                  <RotateCw className="size-3" />
+                  Sync now
+                </Button>
+                <Button variant="outline" size="xs" asChild className="h-7 gap-1.5 px-2.5 text-xs font-normal">
+                  <a href={figmaUrl} target="_blank" rel="noopener noreferrer">
+                    Open in Figma
+                    <ExternalLink className="size-3" />
+                  </a>
+                </Button>
+              </div>
             )}
           </div>
         ) : null}

@@ -4,79 +4,27 @@
   "versionId": "2345114021236852114",
   "sectionId": "page-qloslbnutg0pu2zxma7ese-461-3819",
   "sectionName": "Feb 12, 2026",
-  "date": "2026-04-22",
-  "lastDetectedAt": "2026-04-22T03:26:25.826Z",
+  "date": "2026-04-23",
+  "lastDetectedAt": "2026-04-23T07:26:16.108Z",
   "summary": {
     "edited": 0,
     "added": 0,
     "removed": 0
   },
   "diffFile": "data/entries/page-qloslbnutg0pu2zxma7ese-461-3819-2345114021236852114.json",
-  "beforeImage": "https://s3-alpha.figma.com/thumbnails/be82fef3-5c63-47be-9560-2f45c5716446?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b56360821ea1207af4794a89fd827a6396590a1f60e82a38b59c94fdda53079c",
-  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/294ddc0e-37c2-461c-bf16-3aa7ae318d9c",
-  "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/b998d8d2-2a63-489d-a124-fb62d82d74a3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d97c005a320e807cafe151271ce273c23366f9b14d3fcc283f68292e68c05cd6",
+  "afterImage": "https://s3-alpha.figma.com/thumbnails/b998d8d2-2a63-489d-a124-fb62d82d74a3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d97c005a320e807cafe151271ce273c23366f9b14d3fcc283f68292e68c05cd6",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
   "frames": [
-    {
-      "id": "461:6903",
-      "name": "Teammates into user setting",
-      "status": "pending",
-      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
-      "boundingBox": {
-        "x": -1704,
-        "y": -677,
-        "w": 1385,
-        "h": 1060
-      },
-      "layers": [
-        {
-          "id": "461:3821",
-          "name": "Sidebar",
-          "type": "FRAME",
-          "status": "pending",
-          "path": "Teammates into user setting / Sidebar",
-          "boundingBox": {
-            "x": -1624,
-            "y": -597,
-            "w": 300,
-            "h": 900
-          },
-          "changes": []
-        },
-        {
-          "id": "461:5555",
-          "name": "Sidebar",
-          "type": "FRAME",
-          "status": "pending",
-          "path": "Teammates into user setting / Sidebar",
-          "boundingBox": {
-            "x": -1260,
-            "y": -597,
-            "w": 300,
-            "h": 636
-          },
-          "changes": []
-        },
-        {
-          "id": "461:6177",
-          "name": "User Profile",
-          "type": "FRAME",
-          "status": "pending",
-          "path": "Teammates into user setting / User Profile",
-          "boundingBox": {
-            "x": -859,
-            "y": -279,
-            "w": 240,
-            "h": 60
-          },
-          "changes": []
-        }
-      ]
-    },
     {
       "id": "461:3821",
       "name": "Sidebar",
+      "sectionId": "461:6903",
+      "sectionName": "Teammates into user setting",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5079d4a5-cbec-450b-a762-088a0ef144c2",
       "status": "pending",
-      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
       "boundingBox": {
         "x": -1624,
         "y": -597,
@@ -86,85 +34,496 @@
       "layers": [
         {
           "id": "461:3822",
-          "name": "Main Sidebar",
+          "name": "Unknown layer",
           "type": "FRAME",
           "status": "pending",
-          "path": "Sidebar / Main Sidebar",
+          "path": "Sidebar / Unknown layer",
           "boundingBox": {
-            "x": -1624,
-            "y": -597,
-            "w": 60,
-            "h": 900
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         },
         {
           "id": "461:3849",
-          "name": "Expand Sidebar",
+          "name": "Unknown layer",
           "type": "FRAME",
           "status": "pending",
-          "path": "Sidebar / Expand Sidebar",
+          "path": "Sidebar / Unknown layer",
           "boundingBox": {
-            "x": -1564,
-            "y": -597,
-            "w": 240,
-            "h": 900
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         }
       ]
     },
     {
-      "id": "461:3822",
-      "name": "Main Sidebar",
+      "id": "461:5555",
+      "name": "Sidebar",
+      "sectionId": "461:6903",
+      "sectionName": "Teammates into user setting",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/41320c92-ae07-4169-b0c7-90858fe87dc6",
       "status": "pending",
-      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate-to-MP?m=auto&t=EABYoffHN8SMqfyK-6",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
       "boundingBox": {
-        "x": -1624,
+        "x": -1260,
         "y": -597,
-        "w": 60,
-        "h": 900
+        "w": 300,
+        "h": 636
       },
       "layers": [
         {
-          "id": "461:3823",
-          "name": "Logo Zone Compact",
+          "id": "461:5556",
+          "name": "Unknown layer",
           "type": "FRAME",
           "status": "pending",
-          "path": "Main Sidebar / Logo Zone Compact",
+          "path": "Sidebar / Unknown layer",
           "boundingBox": {
-            "x": -1624,
-            "y": -597,
-            "w": 60,
-            "h": 88
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         },
         {
-          "id": "461:3825",
-          "name": "Main Menu",
+          "id": "461:5587",
+          "name": "Unknown layer",
           "type": "FRAME",
           "status": "pending",
-          "path": "Main Sidebar / Main Menu",
+          "path": "Sidebar / Unknown layer",
           "boundingBox": {
-            "x": -1624,
-            "y": -509,
-            "w": 60,
-            "h": 736
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "461:6177",
+      "name": "User Profile",
+      "sectionId": "461:6903",
+      "sectionName": "Teammates into user setting",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/248a0d62-a8eb-48c9-8491-71ff4d6ee617",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": -859,
+        "y": -279,
+        "w": 240,
+        "h": 60
+      },
+      "layers": [
+        {
+          "id": "461:6178",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "User Profile / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "502:1743",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d49c7d36-32e7-44b1-8588-2f87821fdb42",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": -135,
+        "y": -517,
+        "w": 56,
+        "h": 487
+      },
+      "layers": [
+        {
+          "id": "502:1744",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         },
         {
-          "id": "461:3847",
-          "name": "User Profile",
+          "id": "502:1897",
+          "name": "Unknown layer",
           "type": "FRAME",
           "status": "pending",
-          "path": "Main Sidebar / User Profile",
+          "path": "Main Sidebar / Unknown layer",
           "boundingBox": {
-            "x": -1624,
-            "y": 227,
-            "w": 60,
-            "h": 60
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "502:1989",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5590c474-2083-40f0-822a-3ae72b2f2cca",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": -210,
+        "y": -517,
+        "w": 56,
+        "h": 451
+      },
+      "layers": [
+        {
+          "id": "502:1990",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "502:1992",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "502:2060",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7dee68c6-b5ed-45cc-b75d-3b813731b800",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": -56,
+        "y": -517,
+        "w": 56,
+        "h": 513
+      },
+      "layers": [
+        {
+          "id": "502:2061",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "502:2063",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "503:2611",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ed325dd6-65cd-4f18-8411-22c3f9720657",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": 275,
+        "y": -517,
+        "w": 240,
+        "h": 474
+      },
+      "layers": [
+        {
+          "id": "503:2612",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "503:2786",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "503:7507",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9566807b-4404-4f35-8660-c975b931b535",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": 1603,
+        "y": -517,
+        "w": 240,
+        "h": 474
+      },
+      "layers": [
+        {
+          "id": "503:7508",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "503:7511",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "503:6948",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d491f907-ccaf-44e3-b64f-53d9a4211049",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": 1041,
+        "y": -517,
+        "w": 240,
+        "h": 474
+      },
+      "layers": [
+        {
+          "id": "503:6949",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "503:6952",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "503:7313",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c300b436-f537-4f84-b3dd-fe27d89c40d5",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": 1305,
+        "y": -517,
+        "w": 240,
+        "h": 474
+      },
+      "layers": [
+        {
+          "id": "503:7314",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "503:7317",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "503:6749",
+      "name": "Main Sidebar",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/504fd210-3e47-4cf3-8c9d-bb8eeabc7e6a",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": 555,
+        "y": -517,
+        "w": 240,
+        "h": 474
+      },
+      "layers": [
+        {
+          "id": "503:6750",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "503:6753",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Main Sidebar / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "503:7306",
+      "name": "pointinghand",
+      "sectionId": "503:1812",
+      "sectionName": "Small screen height",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fcbf447a-f7b4-4574-a942-19cee77a325a",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/qLosLBnUTg0Pu2zXMA7ese/Navigate%20to%20MP?node-id=461-3819",
+      "boundingBox": {
+        "x": 1223,
+        "y": -183,
+        "w": 24,
+        "h": 24
+      },
+      "layers": [
+        {
+          "id": "I503:7306;606:1982",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         }

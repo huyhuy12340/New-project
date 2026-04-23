@@ -1,0 +1,600 @@
+{
+  "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-2345505477431757123",
+  "sourceId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "versionId": "2345505477431757123",
+  "sectionId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "sectionName": "Biometric login | Apr 13, 2026",
+  "date": "2026-04-23",
+  "lastDetectedAt": "2026-04-23T07:26:28.373Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-2345505477431757123.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/2002141b-c142-4d0e-bde9-02eaf579dc16?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0f9c37b6bf6cc6e8e8f35c2f477669f5a89e44434ba5f4ebb67a145d73141ac2",
+  "afterImage": "https://s3-alpha.figma.com/thumbnails/2002141b-c142-4d0e-bde9-02eaf579dc16?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0f9c37b6bf6cc6e8e8f35c2f477669f5a89e44434ba5f4ebb67a145d73141ac2",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+  "frames": [
+    {
+      "id": "6859:6569",
+      "name": "Full screen",
+      "sectionId": "6878:1055",
+      "sectionName": "UI options",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f43e671c-2662-4250-83b7-d939b846c727",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 2831,
+        "y": 3570,
+        "w": 1440,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "6859:6595",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Full screen / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6861:6742",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Full screen / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6869:6877",
+      "name": "Popup 2",
+      "sectionId": "6878:1055",
+      "sectionName": "UI options",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d2a60585-1491-4bca-a496-efb13bd88d83",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 2831,
+        "y": 2341,
+        "w": 1912,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "6869:6875",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 2 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6869:6878",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 2 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6869:10903",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 2 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6870:814",
+      "name": "Popup 1",
+      "sectionId": "6878:1055",
+      "sectionName": "UI options",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/850a6da5-60f9-4534-acd2-7000db104509",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 2831,
+        "y": 1112,
+        "w": 1912,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "6870:815",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 1 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6870:816",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 1 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6870:854",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 1 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6872:1001",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 1 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "6872:1005",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Popup 1 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13020",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a9127ea4-c96e-4aa4-a5a7-8cd3a2c92fb0",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10458,
+        "y": 2364,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13021",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13024",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/cfcc8354-85e1-4b51-bdb5-ba15ec39990b",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10458,
+        "y": 2475,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13025",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13022",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/21d97d8d-f39d-4c79-9122-24e3cba2c411",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10550,
+        "y": 2364,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13023",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13026",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d67cdfb8-bc86-468d-b1ae-cb51a450e9e9",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10550,
+        "y": 2475,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13027",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13013",
+      "name": "pointinghand",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/44220d2c-eb7b-4c57-bb3a-825bfb4b0608",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10468,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "layers": [
+        {
+          "id": "I6878:13013;56:359",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13013;56:360",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13013;56:361",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13013;56:362",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13013;56:363",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13028",
+      "name": "pointinghand",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a9300bf0-679f-44b8-bae6-85372026818d",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10556,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "layers": [
+        {
+          "id": "I6878:13028;56:359",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13028;56:360",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13028;56:361",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13028;56:362",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13028;56:363",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13041",
+      "name": "Black Tooltip / Bot",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/955ab2db-6de0-42a5-941b-7235280a974a",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10428,
+        "y": 2415,
+        "w": 80,
+        "h": 55
+      },
+      "layers": [
+        {
+          "id": "I6878:13041;157:2823",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Black Tooltip / Bot / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13041;157:2786",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Black Tooltip / Bot / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "6878:13048",
+      "name": "Black Tooltip / Bot",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0eab64c8-e3d6-4fcf-aa35-031fa94cf176",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10520,
+        "y": 2415,
+        "w": 79,
+        "h": 55
+      },
+      "layers": [
+        {
+          "id": "I6878:13048;157:2823",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Black Tooltip / Bot / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I6878:13048;157:2786",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Black Tooltip / Bot / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

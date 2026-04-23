@@ -2,6 +2,7 @@ import type {
   ChangelogEntry,
   ChangelogIndex,
   EntrySummary,
+  FrameChange,
 } from "./types";
 
 export function emptySummary(): EntrySummary {
@@ -65,3 +66,32 @@ export function findEntry(
     (entry) => entry.sectionId === sectionId && entry.date === date,
   );
 }
+
+export type SectionGroup = {
+  sectionId: string
+  sectionName: string
+  frames: FrameChange[]
+  hasChanges: boolean
+}
+
+/** Groups frames by their sectionId, ordered by sections that have changes first. */
+export function getFramesBySection(frames: FrameChange[]): SectionGroup[] {
+  const map = new Map<string, SectionGroup>()
+  for (const frame of frames) {
+    const key = frame.sectionId ?? "unknown"
+    const existing = map.get(key) ?? {
+      sectionId: key,
+      sectionName: frame.sectionName ?? "Unknown Section",
+      frames: [],
+      hasChanges: false,
+    }
+    existing.frames.push(frame)
+    if (frame.status === "added" || frame.status === "edited" || frame.status === "removed") {
+      existing.hasChanges = true
+    }
+    map.set(key, existing)
+  }
+  return [...map.values()].sort((a, b) => Number(b.hasChanges) - Number(a.hasChanges))
+}
+
+

@@ -1,9 +1,9 @@
 {
-  "sourceId": "figma-qloslbnutg0pu2zxma7ese",
+  "sourceId": "page-qloslbnutg0pu2zxma7ese-461-3819",
   "versionId": "2345114021236852114",
-  "versionCreatedAt": "2026-04-22T03:26:25.826Z",
+  "versionCreatedAt": "2026-04-23T07:26:16.108Z",
   "fileName": "Navigate to MP",
-  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/be82fef3-5c63-47be-9560-2f45c5716446?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b56360821ea1207af4794a89fd827a6396590a1f60e82a38b59c94fdda53079c",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/b998d8d2-2a63-489d-a124-fb62d82d74a3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d97c005a320e807cafe151271ce273c23366f9b14d3fcc283f68292e68c05cd6",
   "nodes": {
     "461:6903": {
       "id": "461:6903",
@@ -77,101 +77,275 @@
       ],
       "fingerprint": "{\"name\":\"User Profile\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-859,\"y\":-279,\"w\":240,\"h\":60,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
     },
-    "461:3822": {
-      "id": "461:3822",
+    "503:1812": {
+      "id": "503:1812",
+      "name": "Small screen height",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -290,
+        "y": -677,
+        "w": 2213,
+        "h": 753
+      },
+      "children": [
+        "502:1743",
+        "502:1989",
+        "502:2060",
+        "502:2142",
+        "503:6947",
+        "502:2143",
+        "503:2611",
+        "503:7507",
+        "503:6948",
+        "503:7313",
+        "503:6749",
+        "502:2421",
+        "503:7604",
+        "503:7306"
+      ],
+      "fingerprint": "{\"name\":\"Small screen height\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":-290,\"y\":-677,\"w\":2213,\"h\":753,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "502:1743": {
+      "id": "502:1743",
       "name": "Main Sidebar",
       "type": "FRAME",
       "visible": true,
       "text": null,
       "box": {
-        "x": -1624,
-        "y": -597,
-        "w": 60,
-        "h": 900
+        "x": -135,
+        "y": -517,
+        "w": 56,
+        "h": 487
       },
       "children": [
-        "461:3823",
-        "461:3825",
-        "461:3847"
+        "502:1744",
+        "502:1897"
       ],
-      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-597,\"w\":60,\"h\":900,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-135,\"y\":-517,\"w\":56,\"h\":487,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
     },
-    "461:3849": {
-      "id": "461:3849",
-      "name": "Expand Sidebar",
+    "502:1989": {
+      "id": "502:1989",
+      "name": "Main Sidebar",
       "type": "FRAME",
       "visible": true,
       "text": null,
       "box": {
-        "x": -1564,
+        "x": -210,
+        "y": -517,
+        "w": 56,
+        "h": 451
+      },
+      "children": [
+        "502:1990",
+        "502:1992"
+      ],
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-210,\"y\":-517,\"w\":56,\"h\":451,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "502:2060": {
+      "id": "502:2060",
+      "name": "Main Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -56,
+        "y": -517,
+        "w": 56,
+        "h": 513
+      },
+      "children": [
+        "502:2061",
+        "502:2063"
+      ],
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-56,\"y\":-517,\"w\":56,\"h\":513,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "502:2142": {
+      "id": "502:2142",
+      "name": "Group 1 auto scale base on sidebar height",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Group 1 auto scale base on sidebar height ",
+      "box": {
+        "x": -210,
         "y": -597,
+        "w": 284,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Group 1 auto scale base on sidebar height\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Group 1 auto scale base on sidebar height \",\"x\":-210,\"y\":-597,\"w\":284,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "503:6947": {
+      "id": "503:6947",
+      "name": "Scroll group 1 behavior",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Scroll group 1 behavior",
+      "box": {
+        "x": 275,
+        "y": -570,
+        "w": 156,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Scroll group 1 behavior\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Scroll group 1 behavior\",\"x\":275,\"y\":-570,\"w\":156,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "502:2143": {
+      "id": "502:2143",
+      "name": "Group 2, 3 fixed position",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Group 2, 3 fixed position",
+      "box": {
+        "x": -210,
+        "y": -570,
+        "w": 166,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Group 2, 3 fixed position\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Group 2, 3 fixed position\",\"x\":-210,\"y\":-570,\"w\":166,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "503:2611": {
+      "id": "503:2611",
+      "name": "Main Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 275,
+        "y": -517,
         "w": 240,
-        "h": 900
+        "h": 474
       },
       "children": [
-        "461:3850",
-        "461:3855",
-        "461:3873",
-        "461:3874"
+        "503:2612",
+        "503:2786"
       ],
-      "fingerprint": "{\"name\":\"Expand Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1564,\"y\":-597,\"w\":240,\"h\":900,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":275,\"y\":-517,\"w\":240,\"h\":474,\"fills\":1,\"strokes\":1,\"effects\":2,\"opacity\":1}"
     },
-    "461:3823": {
-      "id": "461:3823",
-      "name": "Logo Zone Compact",
+    "503:7507": {
+      "id": "503:7507",
+      "name": "Main Sidebar",
       "type": "FRAME",
       "visible": true,
       "text": null,
       "box": {
-        "x": -1624,
-        "y": -597,
-        "w": 60,
-        "h": 88
+        "x": 1603,
+        "y": -517,
+        "w": 240,
+        "h": 474
       },
       "children": [
-        "461:3824"
+        "503:7508",
+        "503:7511"
       ],
-      "fingerprint": "{\"name\":\"Logo Zone Compact\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-597,\"w\":60,\"h\":88,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":1603,\"y\":-517,\"w\":240,\"h\":474,\"fills\":1,\"strokes\":1,\"effects\":2,\"opacity\":1}"
     },
-    "461:3825": {
-      "id": "461:3825",
-      "name": "Main Menu",
+    "503:6948": {
+      "id": "503:6948",
+      "name": "Main Sidebar",
       "type": "FRAME",
       "visible": true,
       "text": null,
       "box": {
-        "x": -1624,
-        "y": -509,
-        "w": 60,
-        "h": 736
+        "x": 1041,
+        "y": -517,
+        "w": 240,
+        "h": 474
       },
       "children": [
-        "461:3826",
-        "461:3834"
+        "503:6949",
+        "503:6952"
       ],
-      "fingerprint": "{\"name\":\"Main Menu\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":-509,\"w\":60,\"h\":736,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":1041,\"y\":-517,\"w\":240,\"h\":474,\"fills\":1,\"strokes\":1,\"effects\":2,\"opacity\":1}"
     },
-    "461:3847": {
-      "id": "461:3847",
-      "name": "User Profile",
+    "503:7313": {
+      "id": "503:7313",
+      "name": "Main Sidebar",
       "type": "FRAME",
       "visible": true,
       "text": null,
       "box": {
-        "x": -1624,
-        "y": 227,
-        "w": 60,
-        "h": 60
+        "x": 1305,
+        "y": -517,
+        "w": 240,
+        "h": 474
       },
       "children": [
-        "461:3848"
+        "503:7314",
+        "503:7317"
       ],
-      "fingerprint": "{\"name\":\"User Profile\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-1624,\"y\":227,\"w\":60,\"h\":60,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":1305,\"y\":-517,\"w\":240,\"h\":474,\"fills\":1,\"strokes\":1,\"effects\":2,\"opacity\":1}"
+    },
+    "503:6749": {
+      "id": "503:6749",
+      "name": "Main Sidebar",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 555,
+        "y": -517,
+        "w": 240,
+        "h": 474
+      },
+      "children": [
+        "503:6750",
+        "503:6753"
+      ],
+      "fingerprint": "{\"name\":\"Main Sidebar\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":555,\"y\":-517,\"w\":240,\"h\":474,\"fills\":1,\"strokes\":1,\"effects\":2,\"opacity\":1}"
+    },
+    "502:2421": {
+      "id": "502:2421",
+      "name": "Hover on group 3 => expand more options (overlap => other groups can be gray out)",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Hover on group 3 => expand more options (overlap => other groups can be gray out)",
+      "box": {
+        "x": 1041,
+        "y": -578,
+        "w": 368,
+        "h": 40
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Hover on group 3 => expand more options (overlap => other groups can be gray out)\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Hover on group 3 => expand more options (overlap => other groups can be gray out)\",\"x\":1041,\"y\":-578,\"w\":368,\"h\":40,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "503:7604": {
+      "id": "503:7604",
+      "name": "Out hover => Back to the default UI",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Out hover => Back to the default UI",
+      "box": {
+        "x": 1603,
+        "y": -558,
+        "w": 238,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Out hover => Back to the default UI\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Out hover => Back to the default UI\",\"x\":1603,\"y\":-558,\"w\":238,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "503:7306": {
+      "id": "503:7306",
+      "name": "pointinghand",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 1223,
+        "y": -183,
+        "w": 24,
+        "h": 24
+      },
+      "children": [
+        "I503:7306;606:1982"
+      ],
+      "fingerprint": "{\"name\":\"pointinghand\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":1223,\"y\":-183,\"w\":24,\"h\":24,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
     }
   },
   "rootIds": [
     "461:6903",
-    "461:3821",
-    "461:3822"
+    "503:1812"
   ]
 }

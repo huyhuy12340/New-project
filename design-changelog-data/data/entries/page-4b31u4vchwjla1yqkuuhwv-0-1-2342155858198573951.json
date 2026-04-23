@@ -4,107 +4,27 @@
   "versionId": "2342155858198573951",
   "sectionId": "page-4b31u4vchwjla1yqkuuhwv-0-1",
   "sectionName": "Page 1",
-  "date": "2026-04-22",
-  "lastDetectedAt": "2026-04-22T03:26:32.621Z",
+  "date": "2026-04-23",
+  "lastDetectedAt": "2026-04-23T07:26:27.477Z",
   "summary": {
     "edited": 0,
     "added": 0,
     "removed": 0
   },
   "diffFile": "data/entries/page-4b31u4vchwjla1yqkuuhwv-0-1-2342155858198573951.json",
-  "beforeImage": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260419T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=65fdab1fbc05434ab40558a7bafb943621569c4da71c196f3393a097030659b4",
-  "afterImage": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4516238d-06ba-47d3-8910-f0d98f62e0cd",
-  "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0530b2c021ac8bd0b734af3b784b2c603ce5bc7446eaf74c0e80bd49e941da26",
+  "afterImage": "https://s3-alpha.figma.com/thumbnails/4e8599ab-5b1f-445b-a501-2415a1e9e4a9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0530b2c021ac8bd0b734af3b784b2c603ce5bc7446eaf74c0e80bd49e941da26",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
   "frames": [
-    {
-      "id": "0:11522",
-      "name": "Local Component",
-      "status": "pending",
-      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
-      "boundingBox": {
-        "x": -8431,
-        "y": -4016,
-        "w": 2156,
-        "h": 4275
-      },
-      "layers": [
-        {
-          "id": "0:11534",
-          "name": "resource-page/everfit-logo",
-          "type": "COMPONENT_SET",
-          "status": "pending",
-          "path": "Local Component / resource-page/everfit-logo",
-          "boundingBox": {
-            "x": -8256,
-            "y": -3936,
-            "w": 214,
-            "h": 177
-          },
-          "changes": []
-        },
-        {
-          "id": "0:11599",
-          "name": "resource-page/video-item",
-          "type": "COMPONENT_SET",
-          "status": "pending",
-          "path": "Local Component / resource-page/video-item",
-          "boundingBox": {
-            "x": -8252,
-            "y": -3673,
-            "w": 1378,
-            "h": 1115
-          },
-          "changes": []
-        },
-        {
-          "id": "0:11706",
-          "name": "resource-page/play-button",
-          "type": "COMPONENT",
-          "status": "pending",
-          "path": "Local Component / resource-page/play-button",
-          "boundingBox": {
-            "x": -8032,
-            "y": -3936,
-            "w": 56,
-            "h": 56
-          },
-          "changes": []
-        },
-        {
-          "id": "0:11709",
-          "name": "resource-page/spacer",
-          "type": "COMPONENT",
-          "status": "pending",
-          "path": "Local Component / resource-page/spacer",
-          "boundingBox": {
-            "x": -7949,
-            "y": -3936,
-            "w": 24,
-            "h": 0.00009999999747378752
-          },
-          "changes": []
-        },
-        {
-          "id": "0:11712",
-          "name": "Fix Width",
-          "type": "TEXT",
-          "status": "pending",
-          "path": "Local Component / Fix Width",
-          "boundingBox": {
-            "x": -7948,
-            "y": -3707,
-            "w": 70,
-            "h": 22
-          },
-          "changes": []
-        }
-      ]
-    },
     {
       "id": "0:11534",
       "name": "resource-page/everfit-logo",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
       "status": "pending",
-      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
       "boundingBox": {
         "x": -8256,
         "y": -3936,
@@ -114,85 +34,3298 @@
       "layers": [
         {
           "id": "0:11535",
-          "name": "Symbol=True",
-          "type": "COMPONENT",
+          "name": "Unknown layer",
+          "type": "FRAME",
           "status": "pending",
-          "path": "resource-page/everfit-logo / Symbol=True",
+          "path": "resource-page/everfit-logo / Unknown layer",
           "boundingBox": {
-            "x": -8236,
-            "y": -3915,
-            "w": 40,
-            "h": 40
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         },
         {
           "id": "0:11543",
-          "name": "Symbol=Symbol4",
-          "type": "COMPONENT",
+          "name": "Unknown layer",
+          "type": "FRAME",
           "status": "pending",
-          "path": "resource-page/everfit-logo / Symbol=Symbol4",
+          "path": "resource-page/everfit-logo / Unknown layer",
           "boundingBox": {
-            "x": -8236,
-            "y": -3831,
-            "w": 40,
-            "h": 40
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         },
         {
           "id": "0:11551",
-          "name": "Symbol=False",
-          "type": "COMPONENT",
+          "name": "Unknown layer",
+          "type": "FRAME",
           "status": "pending",
-          "path": "resource-page/everfit-logo / Symbol=False",
+          "path": "resource-page/everfit-logo / Unknown layer",
           "boundingBox": {
-            "x": -8176,
-            "y": -3915,
-            "w": 114,
-            "h": 24
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         },
         {
           "id": "0:11575",
-          "name": "Symbol=Symbol3",
-          "type": "COMPONENT",
+          "name": "Unknown layer",
+          "type": "FRAME",
           "status": "pending",
-          "path": "resource-page/everfit-logo / Symbol=Symbol3",
+          "path": "resource-page/everfit-logo / Unknown layer",
           "boundingBox": {
-            "x": -8176,
-            "y": -3831,
-            "w": 114,
-            "h": 24
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         }
       ]
     },
     {
-      "id": "0:11535",
-      "name": "Symbol=True",
+      "id": "0:11599",
+      "name": "resource-page/video-item",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
       "status": "pending",
-      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick-start-guide?m=auto&t=EABYoffHN8SMqfyK-6",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
       "boundingBox": {
-        "x": -8236,
-        "y": -3915,
-        "w": 40,
+        "x": -8252,
+        "y": -3673,
+        "w": 1378,
+        "h": 1115
+      },
+      "layers": [
+        {
+          "id": "0:11600",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11607",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11618",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11624",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11634",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "529:7031",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11644",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "529:8976",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11653",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "529:9012",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11663",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "529:9055",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11672",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11679",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11690",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11696",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/video-item / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11706",
+      "name": "resource-page/play-button",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -8032,
+        "y": -3936,
+        "w": 56,
+        "h": 56
+      },
+      "layers": [
+        {
+          "id": "0:11707",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/play-button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11708",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/play-button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11709",
+      "name": "resource-page/spacer",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -7949,
+        "y": -3936,
+        "w": 24,
+        "h": 0.00009999999747378752
+      },
+      "layers": [
+        {
+          "id": "0:11710",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/spacer / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11711",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/spacer / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11721",
+      "name": "resource-page/label",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -7898,
+        "y": -3936,
+        "w": 306,
+        "h": 92
+      },
+      "layers": [
+        {
+          "id": "0:11722",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/label / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "137:5590",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page/label / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11746",
+      "name": "default-thumbnail",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -8275,
+        "y": -519,
+        "w": 780,
+        "h": 438.75
+      },
+      "layers": [
+        {
+          "id": "0:11747",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "default-thumbnail / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "0:11751",
+      "name": "heading-cover",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -8275,
+        "y": -1025,
+        "w": 1920,
+        "h": 400
+      },
+      "layers": [
+        {
+          "id": "0:11752",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11753",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11754",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11762",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11770",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11778",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11779",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11780",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11781",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "0:11782",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "heading-cover / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "133:6328",
+      "name": "resource-page",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -8242,
+        "y": -2457,
+        "w": 1432,
+        "h": 1092.3125
+      },
+      "layers": [
+        {
+          "id": "0:11523",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "133:6329",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1005:3922",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "resource-page / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "135:20328",
+      "name": "Icon",
+      "sectionId": "0:11522",
+      "sectionName": "Local Component",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -7790,
+        "y": -3824,
+        "w": 42,
+        "h": 68
+      },
+      "layers": [
+        {
+          "id": "135:20191",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Icon / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "135:20329",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Icon / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1165:4690",
+      "name": "Center",
+      "sectionId": "1165:4373",
+      "sectionName": "Carousel behavior",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -705,
+        "y": 200,
+        "w": 1376,
+        "h": 317.4375
+      },
+      "layers": [
+        {
+          "id": "1165:4236",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Center / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1165:4689",
+      "name": "Start",
+      "sectionId": "1165:4373",
+      "sectionName": "Carousel behavior",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -705,
+        "y": -152,
+        "w": 1376,
+        "h": 317.4375
+      },
+      "layers": [
+        {
+          "id": "1165:4584",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Start / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1188:4692",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Start / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1165:4691",
+      "name": "End",
+      "sectionId": "1165:4373",
+      "sectionName": "Carousel behavior",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -705,
+        "y": 553,
+        "w": 1376,
+        "h": 317.4375
+      },
+      "layers": [
+        {
+          "id": "1165:4374",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "End / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1518:4739",
+      "name": " ",
+      "sectionId": "1518:4736",
+      "sectionName": "Scroll",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": -5273,
+        "y": -2162,
+        "w": 700,
+        "h": 193.25
+      },
+      "layers": [
+        {
+          "id": "1518:4740",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1518:4745",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1518:4750",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1518:4788",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1518:4751",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1518:4789",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1675:6143",
+      "name": "Button",
+      "sectionId": "1675:6147",
+      "sectionName": "Button state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 1995,
+        "y": -2110,
+        "w": 154,
         "h": 40
       },
       "layers": [
         {
-          "id": "0:11536",
-          "name": "main-logo",
+          "id": "I1675:6143;4616:40603",
+          "name": "Unknown layer",
           "type": "FRAME",
           "status": "pending",
-          "path": "Symbol=True / main-logo",
+          "path": "Button / Unknown layer",
           "boundingBox": {
-            "x": -8236,
-            "y": -3915,
-            "w": 40,
-            "h": 40
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I1675:6143;4616:40604",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I1675:6143;4616:40605",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1675:6148",
+      "name": "Button",
+      "sectionId": "1675:6147",
+      "sectionName": "Button state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 2195,
+        "y": -2110,
+        "w": 154,
+        "h": 40
+      },
+      "layers": [
+        {
+          "id": "I1675:6148;4616:40615",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I1675:6148;4616:40616",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "I1675:6148;4616:40617",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Button / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1675:6159",
+      "name": "pointinghand",
+      "sectionId": "1675:6147",
+      "sectionName": "Button state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 2234,
+        "y": -2082,
+        "w": 24,
+        "h": 24
+      },
+      "layers": [
+        {
+          "id": "I1675:6159;606:1982",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "pointinghand / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "1886:6552",
+      "name": " ",
+      "sectionId": "1886:6551",
+      "sectionName": "Icon options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 5029,
+        "y": -3330,
+        "w": 228,
+        "h": 18
+      },
+      "layers": [
+        {
+          "id": "1886:6554",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1886:6555",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1886:6556",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1886:6576",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1886:6583",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "1886:6586",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2397:8512",
+      "name": "Frame 1597884091",
+      "sectionId": "2530:8336",
+      "sectionName": "Options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 8778,
+        "y": -3311,
+        "w": 324,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "2397:8513",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame 1597884091 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2397:8818",
+      "name": "Frame 1948756562",
+      "sectionId": "2530:8336",
+      "sectionName": "Options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 9142,
+        "y": -3311,
+        "w": 324,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "2397:8819",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame 1948756562 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2397:8935",
+      "name": "Frame 1948756563",
+      "sectionId": "2530:8336",
+      "sectionName": "Options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 9506,
+        "y": -3311,
+        "w": 324,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "2397:8936",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame 1948756563 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2397:8884",
+      "name": "Frame",
+      "sectionId": "2530:8336",
+      "sectionName": "Options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 9337,
+        "y": -2381,
+        "w": 16,
+        "h": 16
+      },
+      "layers": [
+        {
+          "id": "2397:8885",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Frame / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11281",
+      "name": "Goal Setting Essentials",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 4954,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11282",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11283",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11284",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11285",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11300",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11315",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11316",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11338",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Goal Setting Essentials / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11350",
+      "name": "5 Automations Every Coach Need",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 4983,
+        "y": -12163,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11351",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11352",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11354",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11357",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11358",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11379",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11383",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11387",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11389",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11391",
+      "name": "5 Automations Every Coach Need",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 4954,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11392",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11393",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11396",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11397",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11418",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "5 Automations Every Coach Need / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11429",
+      "name": "Unlock Smarter Nutrition Coaching",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 8994,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11430",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11433",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11436",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11439",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11440",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11441",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11444",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11445",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11505",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11506",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Unlock Smarter Nutrition Coaching / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11507",
+      "name": "The Power of Community",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 8994,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11508",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "The Power of Community / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11510",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "The Power of Community / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11515",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "The Power of Community / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11516",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "The Power of Community / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11549",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "The Power of Community / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11556",
+      "name": "Assigning Workouts",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 11073,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11557",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11560",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11561",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11562",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11568",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11768",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11811",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11817",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11837",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11838",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Assigning Workouts / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11841",
+      "name": "Nutrition Coaching Essential",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 6974,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11842",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11845",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11848",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11849",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11850",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11851",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11852",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11853",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11854",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11894",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11975",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11976",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11980",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Nutrition Coaching Essential / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:11984",
+      "name": "Automate Your 8-Week Challenge",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 6974,
+        "y": -13436,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:11985",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11986",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11987",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11988",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11989",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:11990",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12034",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Automate Your 8-Week Challenge / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12035",
+      "name": "Habits Introduction",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 13792,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:12036",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12037",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12060",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12061",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12062",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12076",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12077",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Habits Introduction / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12078",
+      "name": "Building Workouts (Interval, AMRAP, Timed & Free Style)",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 15812,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:12079",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12119",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12120",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12129",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12143",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12144",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12176",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Building Workouts (Interval, AMRAP, Timed & Free Style) / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12177",
+      "name": "Onboarding Flow",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 17832,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:12178",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12179",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12180",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12181",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12182",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12217",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12252",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12265",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12292",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Onboarding Flow / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12293",
+      "name": "Sell Packages & Automate Onboarding with Payments",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 19852,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:12294",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12295",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12296",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12297",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12347",
+      "name": "Sell Packages & Automate Onboarding with Payments",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 21872,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:12348",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12349",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12350",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12351",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12352",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12353",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12354",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12359",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12369",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12370",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12371",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12372",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12373",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12374",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12375",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12376",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12391",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12392",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12393",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12394",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12403",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12404",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12405",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12406",
+      "name": "Sell Packages & Automate Onboarding with Payments",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 23892,
+        "y": -14709,
+        "w": 1920,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "2530:12407",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12408",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12409",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12488",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12568",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Sell Packages & Automate Onboarding with Payments / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "2530:12647",
+      "name": "Group 1597883541",
+      "sectionId": "2530:11280",
+      "sectionName": "New image",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/4B31U4vCHWJLa1YQKuUhWv/Quick%20start%20guide?node-id=0-1",
+      "boundingBox": {
+        "x": 16197,
+        "y": -14117,
+        "w": 106.13278198242188,
+        "h": 40.8203010559082
+      },
+      "layers": [
+        {
+          "id": "2530:12648",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Group 1597883541 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "changes": []
+        },
+        {
+          "id": "2530:12652",
+          "name": "Unknown layer",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Group 1597883541 / Unknown layer",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
           },
           "changes": []
         }

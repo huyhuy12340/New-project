@@ -1,0 +1,141 @@
+{
+  "sourceId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "versionId": "2345550983166989497",
+  "versionCreatedAt": "2026-04-23T07:26:15.325Z",
+  "fileName": "Untitled",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/7128e075-6b3c-49e2-95d1-1f5e278959b4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=23c852648cdb06edfc50d09f3b5e2823b0f27171091fcc969c722867e27453f0",
+  "nodes": {
+    "3:2541": {
+      "id": "3:2541",
+      "name": "Section 1",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -653,
+        "y": 4665,
+        "w": 1780,
+        "h": 972
+      },
+      "children": [
+        "1:10828",
+        "1:10836",
+        "1:10844",
+        "1:10852"
+      ],
+      "fingerprint": "{\"name\":\"Section 1\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":-653,\"y\":4665,\"w\":1780,\"h\":972,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "1:10828": {
+      "id": "1:10828",
+      "name": "7",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -573,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "children": [
+        "1:21268"
+      ],
+      "fingerprint": "{\"name\":\"7\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-573,\"y\":4745,\"w\":375,\"h\":812,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1:10836": {
+      "id": "1:10836",
+      "name": "8",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": -158,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "children": [
+        "8:3262"
+      ],
+      "fingerprint": "{\"name\":\"8\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":-158,\"y\":4745,\"w\":375,\"h\":812,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1:10844": {
+      "id": "1:10844",
+      "name": "9",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 257,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "children": [
+        "1:25528"
+      ],
+      "fingerprint": "{\"name\":\"9\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":257,\"y\":4745,\"w\":375,\"h\":812,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "1:10852": {
+      "id": "1:10852",
+      "name": "6",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 672,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "children": [
+        "1:21239"
+      ],
+      "fingerprint": "{\"name\":\"6\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":672,\"y\":4745,\"w\":375,\"h\":812,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "3:2542": {
+      "id": "3:2542",
+      "name": "Section 2",
+      "type": "SECTION",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 1238,
+        "y": 4665,
+        "w": 1600,
+        "h": 1034
+      },
+      "children": [
+        "3:2641"
+      ],
+      "fingerprint": "{\"name\":\"Section 2\",\"type\":\"SECTION\",\"visible\":true,\"text\":null,\"x\":1238,\"y\":4665,\"w\":1600,\"h\":1034,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "3:2641": {
+      "id": "3:2641",
+      "name": "14",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 1318,
+        "y": 4745,
+        "w": 1440,
+        "h": 874
+      },
+      "children": [
+        "3:2642",
+        "3:2657",
+        "3:2658",
+        "3:2667",
+        "3:2672",
+        "3:2675",
+        "3:2684"
+      ],
+      "fingerprint": "{\"name\":\"14\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":1318,\"y\":4745,\"w\":1440,\"h\":874,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    }
+  },
+  "rootIds": [
+    "3:2541",
+    "3:2542"
+  ]
+}

@@ -86,34 +86,87 @@ async function figmaFetch<T>(path: string, attempt = 0): Promise<T> {
   throw new Error(`Figma API request failed for ${path}: ${response.status} ${body}`)
 }
 
-export async function getFigmaFile(fileKey: string) {
-  return figmaFetch<FigmaFileResponse>(`/files/${fileKey}`);
+export async function getFigmaFile(fileKey: string, options: { depth?: number } = {}) {
+  const params = options.depth ? `?depth=${options.depth}` : "";
+  return figmaFetch<FigmaFileResponse>(`/files/${fileKey}${params}`);
 }
 
 export async function getFigmaVersions(fileKey: string) {
   return figmaFetch<FigmaVersionsResponse>(`/files/${fileKey}/versions`);
 }
 
-export async function getFigmaImageUrls(fileKey: string, ids: string[]) {
+/**
+ * Fetches image URLs for a list of node IDs, with automatic batching (100 ids per request)
+ */
+export async function getFigmaImageUrls(
+  fileKey: string,
+  ids: string[],
+  options: { scale?: number; format?: "jpg" | "png" | "svg" | "pdf" } = {},
+) {
   if (ids.length === 0) {
     return {};
   }
 
-  const response = await figmaFetch<FigmaImageResponse>(
-    `/images/${fileKey}?ids=${encodeURIComponent(ids.join(","))}`,
-  );
+  const batchSize = 100;
+  const batches: string[][] = [];
+  for (let i = 0; i < ids.length; i += batchSize) {
+    batches.push(ids.slice(i, i + batchSize));
+  }
 
-  return response.images ?? {};
+  const allImages: Record<string, string | null> = {};
+
+  for (const batchIds of batches) {
+    try {
+      const params = new URLSearchParams({
+        ids: batchIds.join(","),
+        scale: String(options.scale ?? 1),
+        format: options.format ?? "png",
+      });
+
+      const response = await figmaFetch<FigmaImageResponse>(
+        `/images/${fileKey}?${params.toString()}`,
+      );
+      
+      if (response.images) {
+        Object.assign(allImages, response.images);
+      }
+    } catch (error) {
+      console.error("Failed to fetch image batch:", error);
+      // Continue to next batch instead of failing everything
+    }
+  }
+
+  return allImages;
 }
 
+/**
+ * Fetches full node data for a list of IDs, with sequential batching
+ */
 export async function getFigmaNodes(fileKey: string, ids: string[]) {
   if (ids.length === 0) {
     return {};
   }
 
-  const response = await figmaFetch<FigmaNodesResponse>(
-    `/files/${fileKey}/nodes?ids=${encodeURIComponent(ids.join(","))}`,
-  );
+  const batchSize = 100;
+  const batches: string[][] = [];
+  for (let i = 0; i < ids.length; i += batchSize) {
+    batches.push(ids.slice(i, i + batchSize));
+  }
 
-  return response.nodes ?? {};
+  const allNodes: Record<string, { document?: FigmaNode }> = {};
+
+  for (const batchIds of batches) {
+    try {
+      const response = await figmaFetch<FigmaNodesResponse>(
+        `/files/${fileKey}/nodes?ids=${encodeURIComponent(batchIds.join(","))}`,
+      );
+      if (response.nodes) {
+        Object.assign(allNodes, response.nodes);
+      }
+    } catch (error) {
+      console.error("Failed to fetch node batch:", error);
+    }
+  }
+
+  return allNodes;
 }

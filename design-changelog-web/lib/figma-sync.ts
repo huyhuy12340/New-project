@@ -107,13 +107,13 @@ function flattenTree(node: FigmaNode, nodes: Record<string, NodeSnapshot>) {
 }
 
 function collectCandidateRoots(node: FigmaNode, candidates: FigmaNode[] = []) {
-  const isRenderable = node.type !== "DOCUMENT" && node.type !== "CANVAS"
-  if (isRenderable && (node.children?.length ?? 0) > 0) {
+  if (node.type === "SECTION") {
     candidates.push(node)
-  }
-
-  for (const child of node.children ?? []) {
-    collectCandidateRoots(child, candidates)
+  } else {
+    // If it's not a section, keep searching children
+    for (const child of node.children ?? []) {
+      collectCandidateRoots(child, candidates)
+    }
   }
 
   return candidates
@@ -234,7 +234,7 @@ function buildLayerChanges(
       status,
       path: `${currentRoot.name} / ${current?.name ?? baseline?.name ?? "Unknown layer"}`,
       boundingBox: current?.box ?? baseline?.box ?? { x: 0, y: 0, w: 0, h: 0 },
-      changes: parseChanges(current, baseline).slice(0, 3),
+      changes: parseChanges(current, baseline),
     } satisfies LayerChange
   })
 }
@@ -330,67 +330,123 @@ function buildFrameChanges(
 
 async function buildSourceOutput(source: TrackedPage) {
   try {
-    const file = await getFigmaFile(source.figmaFileKey)
-    const versionId = file.version ?? `${source.figmaFileKey}-version`
+    // 1. Get shallow structure first (just pages/sections)
+    const fileStructure = await getFigmaFile(source.figmaFileKey, { depth: 2 })
+    const versionId = fileStructure.version ?? `${source.figmaFileKey}-version`
     const versionCreatedAt = new Date().toISOString()
 
-    const nodes: Record<string, NodeSnapshot> = {}
-    flattenTree(file.document, nodes)
+    const pageNode = source.figmaPageId
+      ? fileStructure.document.children?.find(c => c.id === source.figmaPageId)
+      : null
+    const searchRoot = pageNode ?? fileStructure.document
 
-    const candidateRoots =
-      source.figmaPageId && nodes[source.figmaPageId]
-        ? [nodes[source.figmaPageId]]
-        : collectCandidateRoots(file.document).slice(0, 3)
-
-    const rootIds =
-      candidateRoots.length > 0
-        ? candidateRoots.map((node) => node.id)
-        : Object.keys(nodes).slice(0, 3)
-
-    if (source.figmaPageId && nodes[source.figmaPageId] && !rootIds.includes(source.figmaPageId)) {
-      rootIds.unshift(source.figmaPageId)
+    // Only care about SECTION nodes in the structure
+    const sectionNodes = collectCandidateRoots(searchRoot)
+    
+    // 2. Collect IDs of frames we want to fetch full data for
+    const frameIdsToFetch: string[] = []
+    const sectionIdsToFetch: string[] = []
+    
+    type FrameEntry = {
+      frameId: string
+      frameName: string
+      sectionId: string
+      sectionName: string
     }
+    const frameEntries: FrameEntry[] = []
+    const RENDERABLE = new Set(["FRAME", "GROUP", "COMPONENT", "COMPONENT_SET", "INSTANCE"])
 
-    const selectedNodes: Record<string, NodeSnapshot> = {}
-    for (const rootId of rootIds.slice(0, 3)) {
-      const root = nodes[rootId]
-      if (!root) continue
-      selectedNodes[rootId] = root
-      for (const childId of root.children) {
-        if (nodes[childId]) {
-          selectedNodes[childId] = nodes[childId]
-        }
+    for (const section of sectionNodes) {
+      sectionIdsToFetch.push(section.id)
+      for (const child of section.children ?? []) {
+        if (!RENDERABLE.has(child.type)) continue
+        frameIdsToFetch.push(child.id)
+        frameEntries.push({
+          frameId: child.id,
+          frameName: child.name,
+          sectionId: section.id,
+          sectionName: section.name,
+        })
       }
     }
+
+    // 3. Fetch ONLY the data for the identified sections and frames
+    const allTargetIds = [...new Set([...sectionIdsToFetch, ...frameIdsToFetch])]
+    const nodeDataMap = await getFigmaNodes(source.figmaFileKey, allTargetIds)
+
+    const nodes: Record<string, NodeSnapshot> = {}
+    for (const [id, nodeWrapper] of Object.entries(nodeDataMap)) {
+      if (nodeWrapper.document) {
+        flattenTree(nodeWrapper.document, nodes)
+      }
+    }
+
+    // Build snapshot
+    const selectedNodes: Record<string, NodeSnapshot> = nodes
+    const rootIds = sectionNodes.map(n => n.id)
 
     const currentSnapshot: TreeSnapshot = {
       sourceId: source.id,
       versionId,
       versionCreatedAt,
-      fileName: file.name,
-      thumbnailUrl: file.thumbnailUrl ?? "",
+      fileName: fileStructure.name,
+      thumbnailUrl: fileStructure.thumbnailUrl ?? "",
       nodes: selectedNodes,
-      rootIds: rootIds.slice(0, 3),
+      rootIds,
     }
 
     const baseline = (await readBaseline(source.id)) as TreeSnapshot | null
-    const comparisonBaseline = baseline ?? buildSyntheticBaseline(currentSnapshot)
-    const { frames, summary } = buildFrameChanges(
-      currentSnapshot,
-      comparisonBaseline,
-      source.figmaUrl,
-    )
+    const baselineNodes = baseline?.nodes ?? {}
 
-    const selectedRootImageId = currentSnapshot.rootIds[0]
-    const images = (await getFigmaImageUrls(
+    // Fetch per-frame thumbnails (PNG for maximum sharpness)
+    const frameIdsForThumbnail = frameEntries.map(f => f.frameId)
+    const thumbnailImages = (await getFigmaImageUrls(
       source.figmaFileKey,
-      selectedRootImageId ? [selectedRootImageId] : [],
+      frameIdsForThumbnail,
+      { scale: 2, format: "png" },
     ).catch(() => ({}))) as Record<string, string | null>
-    const afterImage =
-      selectedRootImageId && images[selectedRootImageId]
-        ? images[selectedRootImageId]!
-        : file.thumbnailUrl ?? ""
-    const beforeImage = file.thumbnailUrl ?? afterImage
+
+    // Build FrameChange per frame with section info
+    const frames: FrameChange[] = frameEntries.map(({ frameId, frameName, sectionId, sectionName }) => {
+      const current = selectedNodes[frameId]
+      const base = baselineNodes[frameId]
+
+      let status: ChangeStatus
+      if (!current && base) status = "removed"
+      else if (current && !base) status = "added"   // always 'added' whether or not baseline exists
+      else if (current && base && current.fingerprint !== base.fingerprint) status = "edited"
+      else status = "pending"
+
+      const root = current ?? base
+      const layers = root
+        ? buildLayerChanges(root, base, selectedNodes, baselineNodes, false)
+        : []
+
+      return {
+        id: frameId,
+        name: frameName,
+        sectionId,
+        sectionName,
+        thumbnail: thumbnailImages[frameId] ?? null,
+        status,
+        figmaDeepLink: source.figmaUrl,
+        boundingBox: (current ?? base)?.box ?? { x: 0, y: 0, w: 0, h: 0 },
+        layers,
+      }
+    })
+
+    // Summarise across all frames
+    const summary = emptySummary()
+    for (const f of frames) {
+      if (f.status === "added") summary.added += 1
+      else if (f.status === "edited") summary.edited += 1
+      else if (f.status === "removed") summary.removed += 1
+    }
+
+    // Keep a file-level image for the diff viewer (use first section node)
+    const firstSectionId = rootIds[0]
+    const afterImage = file.thumbnailUrl ?? ""
+    const beforeImage = afterImage
 
     const date = getCurrentDateString()
     const entry: ChangelogEntry = {
@@ -405,6 +461,7 @@ async function buildSourceOutput(source: TrackedPage) {
       diffFile: `data/entries/${source.id}-${versionId}.json`,
       beforeImage,
       afterImage,
+      sectionThumbnail: thumbnailImages[firstSectionId ?? ""] ?? null,
       figmaDeepLink: source.figmaUrl,
       frames,
     }
@@ -449,6 +506,17 @@ export async function syncFigmaSources() {
 
   const activeOutputs = outputs.filter((output): output is (typeof outputs)[number] & { entry: ChangelogEntry } => Boolean(output.entry))
 
+  const existingIndex = await loadIndex()
+  const newEntries = activeOutputs.map(({ entry }) => entry)
+  
+  // Combine new entries with existing ones, avoiding duplicates if any
+  const combinedEntries = [...newEntries]
+  for (const oldEntry of existingIndex.entries) {
+    if (!combinedEntries.find(e => e.id === oldEntry.id)) {
+      combinedEntries.push(oldEntry)
+    }
+  }
+
   const index: ChangelogIndex = {
     lastUpdated: new Date().toISOString(),
     figmaFileKey: catalog.pages[0]?.figmaFileKey ?? "",
@@ -466,7 +534,8 @@ export async function syncFigmaSources() {
       lastVersionId: versionId,
       lastVersionAt: versionCreatedAt,
     })),
-    entries: activeOutputs.map(({ entry }) => entry),
+    // Keep the most recent 100 entries total
+    entries: combinedEntries.slice(0, 100),
   }
 
   await writeLocalIndex(index)
