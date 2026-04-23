@@ -91,9 +91,8 @@ export default async function PageHistoryPage({ params }: PageProps) {
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {frames.map((frame) => {
                   const badge = frame.status !== "pending" ? STATUS_BADGE[frame.status] : null
-                  const thumbnailUrl = frame.thumbnail
-                    ? buildProxyUrl(frame.thumbnail, page.figmaFileKey, frame.id)
-                    : null
+                  // Always use on-demand proxy — bypasses Figma's 100-image render limit
+                  const thumbnailUrl = `/api/proxy-image?fileKey=${page.figmaFileKey}&nodeId=${encodeURIComponent(frame.id)}`
 
                   return (
                     <div
@@ -109,6 +108,7 @@ export default async function PageHistoryPage({ params }: PageProps) {
                         frameId={frame.id} 
                         currentFrameName={frame.name} 
                         allEntries={index.entries}
+                        figmaFileKey={page.figmaFileKey}
                       >
                         <div className="cursor-pointer block w-full">
                           {thumbnailUrl ? (

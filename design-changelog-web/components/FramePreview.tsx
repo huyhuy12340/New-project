@@ -12,6 +12,22 @@ type FramePreviewProps = {
 export function FramePreview({ src, alt = "Frame preview", className }: FramePreviewProps) {
   const [imgError, setImgError] = React.useState(false)
   const [loaded, setLoaded] = React.useState(false)
+  const [retryCount, setRetryCount] = React.useState(0)
+  const [currentSrc, setCurrentSrc] = React.useState(src)
+
+  const handleError = React.useCallback(() => {
+    if (retryCount < 3) {
+      const nextRetry = retryCount + 1
+      // Exponential back-off: 2s, 4s, 6s
+      setTimeout(() => {
+        setRetryCount(nextRetry)
+        setLoaded(false)
+        setCurrentSrc(`${src}${src.includes("?") ? "&" : "?"}retry=${nextRetry}`)
+      }, nextRetry * 2000)
+    } else {
+      setImgError(true)
+    }
+  }, [retryCount, src])
 
   return (
     <div
@@ -29,9 +45,8 @@ export function FramePreview({ src, alt = "Frame preview", className }: FramePre
             <div className="absolute inset-0 animate-pulse bg-muted/30" />
           )}
           <img
-            src={src}
+            src={currentSrc}
             alt={alt}
-            // Use max-h/max-w to let the image shrink to fit its content
             className="max-h-full max-w-full h-auto w-auto object-contain transition-opacity duration-300 rounded-lg"
             style={{
               opacity: loaded ? 1 : 0,
@@ -40,7 +55,7 @@ export function FramePreview({ src, alt = "Frame preview", className }: FramePre
             loading="lazy"
             decoding="async"
             onLoad={() => setLoaded(true)}
-            onError={() => setImgError(true)}
+            onError={handleError}
           />
         </>
       )}

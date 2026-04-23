@@ -1,102 +1,92 @@
 import { NextResponse } from "next/server"
-import { loadIndex } from "@/lib/github"
+import { readFile, writeFile, mkdir } from "fs/promises"
+import path from "path"
 import { getFigmaImageUrls } from "@/lib/figma-api"
-import { writeLocalIndex } from "@/lib/data-store"
 
 export const runtime = "nodejs"
 
+function getImageCacheDir() {
+  const root = process.env.DATA_REPO_PATH
+  if (!root) throw new Error("DATA_REPO_PATH is not set")
+  return path.join(path.resolve(root), "data", "images")
+}
+
+function getImageCachePath(nodeId: string) {
+  // Sanitize nodeId for use as filename (e.g. "123:456" → "123-456")
+  const safe = nodeId.replace(/[^a-zA-Z0-9_-]/g, "-")
+  return path.join(getImageCacheDir(), `${safe}.png`)
+}
+
 /**
- * GET /api/proxy-image?url=<encoded-url>&entryId=<id>&fileKey=<key>&nodeId=<id>
+ * GET /api/proxy-image?fileKey=<key>&nodeId=<id>
  *
- * Proxies a Figma image URL. If the URL has expired (returns non-200),
- * it automatically re-fetches a fresh URL from Figma API and updates the index.
+ * 1. Check disk cache → serve instantly if found (permanent, survives restarts)
+ * 2. Fetch fresh URL from Figma (retry up to 3× for rate-limits)
+ * 3. Download image binary, save to disk, return to browser
  */
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
-  const imageUrl = searchParams.get("url")
   const fileKey = searchParams.get("fileKey")
   const nodeId = searchParams.get("nodeId")
 
-  if (!imageUrl) {
-    return new NextResponse("Missing url parameter", { status: 400 })
-  }
-
-  // Try fetching the stored URL first
-  try {
-    const response = await fetch(imageUrl, { cache: "no-store" })
-    if (response.ok) {
-      const contentType = response.headers.get("content-type") ?? "image/jpeg"
-      const buffer = await response.arrayBuffer()
-      return new NextResponse(buffer, {
-        headers: {
-          "Content-Type": contentType,
-          "Cache-Control": "public, max-age=604800", // 7 days
-        },
-      })
-    }
-  } catch {
-    // URL likely expired, fall through to refresh
-  }
-
-  // URL expired — re-fetch from Figma API if we have the necessary params
   if (!fileKey || !nodeId) {
-    return new NextResponse("Image URL expired and cannot be refreshed without fileKey and nodeId", { status: 410 })
+    return new NextResponse("Missing fileKey or nodeId", { status: 400 })
   }
 
+  // 1. Serve from disk cache if available
   try {
-    const freshImages = await getFigmaImageUrls(fileKey, [nodeId], {
-      scale: 2,
-      format: "png",
-    })
-    const freshUrl = freshImages[nodeId]
-    if (!freshUrl) {
-      return new NextResponse("Failed to refresh image from Figma", { status: 502 })
-    }
-
-    // Update the stored URL in the index for future requests
-    try {
-      const index = await loadIndex()
-      let updated = false
-      for (const entry of index.entries) {
-        // Update section-level thumbnail
-        if (entry.sectionThumbnail === imageUrl) {
-          entry.sectionThumbnail = freshUrl
-          updated = true
-        }
-        // Update frame-level thumbnails
-        if (entry.frames) {
-          for (const frame of entry.frames) {
-            if (frame.thumbnail === imageUrl) {
-              frame.thumbnail = freshUrl
-              updated = true
-            }
-          }
-        }
-      }
-      if (updated) {
-        await writeLocalIndex(index)
-      }
-    } catch (err) {
-      console.error("Failed to update index with fresh URL:", err)
-      // Non-critical: continue serving the image anyway
-    }
-
-    // Fetch and proxy the fresh URL
-    const freshResponse = await fetch(freshUrl)
-    if (!freshResponse.ok) {
-      return new NextResponse("Failed to fetch refreshed image", { status: 502 })
-    }
-
-    const contentType = freshResponse.headers.get("content-type") ?? "image/jpeg"
-    const buffer = await freshResponse.arrayBuffer()
-    return new NextResponse(buffer, {
+    const cachePath = getImageCachePath(nodeId)
+    const cached = await readFile(cachePath)
+    return new NextResponse(cached, {
       headers: {
-        "Content-Type": contentType,
-        "Cache-Control": "public, max-age=604800",
+        "Content-Type": "image/png",
+        "Cache-Control": "public, max-age=31536000, immutable", // 1 year
+        "X-Cache": "HIT",
       },
     })
-  } catch (error) {
-    const message = error instanceof Error ? error.message : "Unknown error"
-    return new NextResponse(`Proxy error: ${message}`, { status: 500 })
+  } catch {
+    // Cache miss — fetch from Figma
   }
+
+  // 2. Fetch from Figma with retry (handles rate-limit null returns)
+  let imageUrl: string | null = null
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const images = await getFigmaImageUrls(fileKey, [nodeId], {
+        scale: 2,
+        format: "png",
+      })
+      imageUrl = images[nodeId] ?? null
+      if (imageUrl) break
+    } catch {
+      // continue
+    }
+    if (attempt < 2) await new Promise(r => setTimeout(r, 1500 * (attempt + 1)))
+  }
+
+  if (!imageUrl) {
+    return new NextResponse("Figma returned no image for this node", { status: 404 })
+  }
+
+  // 3. Download image binary
+  const imageResponse = await fetch(imageUrl, { cache: "no-store" })
+  if (!imageResponse.ok) {
+    return new NextResponse("Failed to fetch image from Figma CDN", { status: 502 })
+  }
+
+  const buffer = Buffer.from(await imageResponse.arrayBuffer())
+
+  // 4. Persist to disk cache (fire and forget — don't block the response)
+  const cachePath = getImageCachePath(nodeId)
+  mkdir(getImageCacheDir(), { recursive: true })
+    .then(() => writeFile(cachePath, buffer))
+    .catch(err => console.error("[ImageCache] Failed to write cache:", err))
+
+  return new NextResponse(buffer, {
+    headers: {
+      "Content-Type": "image/png",
+      "Cache-Control": "public, max-age=31536000, immutable",
+      "X-Cache": "MISS",
+    },
+  })
 }

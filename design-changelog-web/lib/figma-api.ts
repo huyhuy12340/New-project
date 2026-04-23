@@ -107,7 +107,7 @@ export async function getFigmaImageUrls(
     return {};
   }
 
-  const batchSize = 100;
+  const batchSize = 20;
   const batches: string[][] = [];
   for (let i = 0; i < ids.length; i += batchSize) {
     batches.push(ids.slice(i, i + batchSize));
@@ -123,6 +123,8 @@ export async function getFigmaImageUrls(
         format: options.format ?? "png",
       });
 
+      console.log(`[batch] requesting ${batchIds.length} ids, first: ${batchIds[0]}`);
+      
       const response = await figmaFetch<FigmaImageResponse>(
         `/images/${fileKey}?${params.toString()}`,
       );
@@ -131,10 +133,11 @@ export async function getFigmaImageUrls(
         Object.assign(allImages, response.images);
       }
     } catch (error) {
-      console.error("Failed to fetch image batch:", error);
-      // Continue to next batch instead of failing everything
+      console.error(`[batch] failed:`, error);
     }
   }
+
+  console.log(`[getFigmaImageUrls] Total batches: ${batches.length}, Total results: ${Object.keys(allImages).length}, Null count: ${Object.values(allImages).filter(v => v === null).length}`)
 
   return allImages;
 }
@@ -147,7 +150,7 @@ export async function getFigmaNodes(fileKey: string, ids: string[]) {
     return {};
   }
 
-  const batchSize = 100;
+  const batchSize = 20;
   const batches: string[][] = [];
   for (let i = 0; i < ids.length; i += batchSize) {
     batches.push(ids.slice(i, i + batchSize));
@@ -164,7 +167,7 @@ export async function getFigmaNodes(fileKey: string, ids: string[]) {
         Object.assign(allNodes, response.nodes);
       }
     } catch (error) {
-      console.error("Failed to fetch node batch:", error);
+      console.error(`Batch ${batches.indexOf(batchIds)} (Nodes) failed:`, error);
     }
   }
 

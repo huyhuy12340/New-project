@@ -3,8 +3,11 @@ import { loadPageCatalog } from "@/lib/catalog"
 import {
   getFigmaFile,
   getFigmaImageUrls,
+  getFigmaNodes,
   type FigmaNode,
 } from "@/lib/figma-api"
+import { access, mkdir, writeFile } from "fs/promises"
+import path from "path"
 import {
   clearBaselines,
   readBaseline,
@@ -25,6 +28,71 @@ import type {
   LayerChange,
   TrackedPage,
 } from "@/lib/types"
+
+// ---------------------------------------------------------------------------
+// Image cache helpers
+// ---------------------------------------------------------------------------
+
+function getImageCacheDir() {
+  const root = process.env.DATA_REPO_PATH
+  if (!root) throw new Error("DATA_REPO_PATH is not set")
+  return path.join(path.resolve(root), "data", "images")
+}
+
+function getImageCachePath(nodeId: string) {
+  const safe = nodeId.replace(/[^a-zA-Z0-9_-]/g, "-")
+  return path.join(getImageCacheDir(), `${safe}.png`)
+}
+
+async function isCached(nodeId: string): Promise<boolean> {
+  try { await access(getImageCachePath(nodeId)); return true } catch { return false }
+}
+
+async function prewarmImageCache(fileKey: string, frameIds: string[]): Promise<void> {
+  const cacheDir = getImageCacheDir()
+  await mkdir(cacheDir, { recursive: true })
+
+  // Only fetch frames that are not yet on disk
+  const uncached: string[] = []
+  for (const id of frameIds) {
+    if (!(await isCached(id))) uncached.push(id)
+  }
+  if (uncached.length === 0) {
+    console.log("[ImageCache] All frames already cached — skipping fetch.")
+    return
+  }
+  console.log(`[ImageCache] Pre-warming ${uncached.length} / ${frameIds.length} frames...`)
+
+  // Batch-fetch URLs from Figma (scale:1 = 4× smaller & faster than scale:2)
+  const BATCH = 50
+  const allUrls: Record<string, string | null> = {}
+  for (let i = 0; i < uncached.length; i += BATCH) {
+    const batch = uncached.slice(i, i + BATCH)
+    const urls = await getFigmaImageUrls(fileKey, batch, { scale: 1, format: "png" })
+    Object.assign(allUrls, urls)
+  }
+
+  // Download all non-null URLs in parallel (50 at a time)
+  const CHUNK = 50
+  const ids = Object.keys(allUrls)
+  for (let i = 0; i < ids.length; i += CHUNK) {
+    await Promise.all(
+      ids.slice(i, i + CHUNK).map(async (id) => {
+        const url = allUrls[id]
+        if (!url) return
+        try {
+          const res = await fetch(url, { cache: "no-store" })
+          if (!res.ok) return
+          const buf = Buffer.from(await res.arrayBuffer())
+          await writeFile(getImageCachePath(id), buf)
+        } catch { /* non-critical */ }
+      })
+    )
+  }
+  console.log(`[ImageCache] Done pre-warming.`)
+}
+
+// ---------------------------------------------------------------------------
 
 type NodeSnapshot = {
   id: string
@@ -117,6 +185,34 @@ function collectCandidateRoots(node: FigmaNode, candidates: FigmaNode[] = []) {
   }
 
   return candidates
+}
+
+/**
+ * Recursively collect all renderable frames from a section tree.
+ * Handles nested sections: when a SECTION is encountered inside another section,
+ * its frames are attributed to that nested section (correct parent).
+ */
+function collectFramesFromSection(
+  sectionId: string,
+  sectionName: string,
+  node: FigmaNode,
+  frameEntries: Array<{ frameId: string; frameName: string; sectionId: string; sectionName: string }>,
+  renderable: Set<string>,
+) {
+  for (const child of node.children ?? []) {
+    if (child.type === "SECTION") {
+      // Recurse into nested section — attribute its frames to the nested section itself
+      collectFramesFromSection(child.id, child.name, child, frameEntries, renderable)
+    } else if (renderable.has(child.type)) {
+      frameEntries.push({
+        frameId: child.id,
+        frameName: child.name,
+        sectionId,
+        sectionName,
+      })
+    }
+    // Don't recurse into renderable nodes — their children are layers, not trackable frames
+  }
 }
 
 function cloneNodeSnapshot(node: NodeSnapshot, overrides: Partial<NodeSnapshot>): NodeSnapshot {
@@ -246,7 +342,7 @@ function buildFrameChanges(
 ): { frames: FrameChange[]; summary: EntrySummary } {
   const simulate = baseline === null
   const baselineNodes = baseline?.nodes ?? {}
-  const rootIds = [...new Set([...current.rootIds, ...(baseline?.rootIds ?? [])])].slice(0, 3)
+  const rootIds = [...new Set([...current.rootIds, ...(baseline?.rootIds ?? [])])]
   const frames: FrameChange[] = []
   const summary = emptySummary()
 
@@ -286,7 +382,7 @@ function buildFrameChanges(
       current.nodes,
       baselineNodes,
       simulate,
-    ).slice(0, 5)
+    )
 
     const frameStatus =
       currentRoot && baselineRoot && currentRoot.fingerprint !== baselineRoot.fingerprint
@@ -330,7 +426,7 @@ function buildFrameChanges(
 
 async function buildSourceOutput(source: TrackedPage) {
   try {
-    // 1. Get shallow structure first (just pages/sections)
+    // 1. Shallow fetch (depth 2) — only need to discover Section IDs
     const fileStructure = await getFigmaFile(source.figmaFileKey, { depth: 2 })
     const versionId = fileStructure.version ?? `${source.figmaFileKey}-version`
     const versionCreatedAt = new Date().toISOString()
@@ -340,13 +436,17 @@ async function buildSourceOutput(source: TrackedPage) {
       : null
     const searchRoot = pageNode ?? fileStructure.document
 
-    // Only care about SECTION nodes in the structure
-    const sectionNodes = collectCandidateRoots(searchRoot)
-    
-    // 2. Collect IDs of frames we want to fetch full data for
-    const frameIdsToFetch: string[] = []
-    const sectionIdsToFetch: string[] = []
-    
+    // Collect Section stubs from shallow fetch (only id/name are reliable here)
+    const sectionStubs = collectCandidateRoots(searchRoot)
+    const sectionIds = sectionStubs.map(s => s.id)
+
+    console.log(`[Sync] Discovered ${sectionIds.length} sections via shallow fetch.`)
+
+    // 2. Fetch FULL node data for each Section via /nodes API
+    //    This endpoint returns ALL children without truncation — unlike the depth-limited file fetch
+    const sectionDataMap = (await getFigmaNodes(source.figmaFileKey, sectionIds)) as Record<string, { document?: FigmaNode }>
+
+    // 3. Build frameEntries and nodes map from FULL /nodes response
     type FrameEntry = {
       frameId: string
       frameName: string
@@ -354,36 +454,29 @@ async function buildSourceOutput(source: TrackedPage) {
       sectionName: string
     }
     const frameEntries: FrameEntry[] = []
+    const nodes: Record<string, NodeSnapshot> = {}
     const RENDERABLE = new Set(["FRAME", "GROUP", "COMPONENT", "COMPONENT_SET", "INSTANCE"])
 
-    for (const section of sectionNodes) {
-      sectionIdsToFetch.push(section.id)
-      for (const child of section.children ?? []) {
-        if (!RENDERABLE.has(child.type)) continue
-        frameIdsToFetch.push(child.id)
-        frameEntries.push({
-          frameId: child.id,
-          frameName: child.name,
-          sectionId: section.id,
-          sectionName: section.name,
-        })
-      }
+    for (const sectionId of sectionIds) {
+      const sectionDoc = sectionDataMap[sectionId]?.document
+      if (!sectionDoc) continue
+
+      // Flatten entire section tree into nodes map (for diff tracking)
+      flattenTree(sectionDoc, nodes)
+
+      // Recursively collect ALL frames — including those inside nested sections
+      collectFramesFromSection(sectionDoc.id, sectionDoc.name, sectionDoc, frameEntries, RENDERABLE)
     }
 
-    // 3. Fetch ONLY the data for the identified sections and frames
-    const allTargetIds = [...new Set([...sectionIdsToFetch, ...frameIdsToFetch])]
-    const nodeDataMap = await getFigmaNodes(source.figmaFileKey, allTargetIds)
+    console.log(`[Sync] Found ${frameEntries.length} frames across ${sectionIds.length} sections.`)
 
-    const nodes: Record<string, NodeSnapshot> = {}
-    for (const [id, nodeWrapper] of Object.entries(nodeDataMap)) {
-      if (nodeWrapper.document) {
-        flattenTree(nodeWrapper.document, nodes)
-      }
-    }
+    // Pre-warm image cache in the background — does NOT block sync.
+    // Images are fetched and saved to disk progressively while the user sees results immediately.
+    void prewarmImageCache(source.figmaFileKey, frameEntries.map(f => f.frameId))
 
     // Build snapshot
     const selectedNodes: Record<string, NodeSnapshot> = nodes
-    const rootIds = sectionNodes.map(n => n.id)
+    const rootIds = sectionIds
 
     const currentSnapshot: TreeSnapshot = {
       sourceId: source.id,
@@ -398,15 +491,7 @@ async function buildSourceOutput(source: TrackedPage) {
     const baseline = (await readBaseline(source.id)) as TreeSnapshot | null
     const baselineNodes = baseline?.nodes ?? {}
 
-    // Fetch per-frame thumbnails (PNG for maximum sharpness)
-    const frameIdsForThumbnail = frameEntries.map(f => f.frameId)
-    const thumbnailImages = (await getFigmaImageUrls(
-      source.figmaFileKey,
-      frameIdsForThumbnail,
-      { scale: 2, format: "png" },
-    ).catch(() => ({}))) as Record<string, string | null>
-
-    // Build FrameChange per frame with section info
+    // Build FrameChange per frame — thumbnails are loaded on-demand via /api/proxy-image
     const frames: FrameChange[] = frameEntries.map(({ frameId, frameName, sectionId, sectionName }) => {
       const current = selectedNodes[frameId]
       const base = baselineNodes[frameId]
@@ -427,7 +512,7 @@ async function buildSourceOutput(source: TrackedPage) {
         name: frameName,
         sectionId,
         sectionName,
-        thumbnail: thumbnailImages[frameId] ?? null,
+        thumbnail: null,
         status,
         figmaDeepLink: source.figmaUrl,
         boundingBox: (current ?? base)?.box ?? { x: 0, y: 0, w: 0, h: 0 },
@@ -445,7 +530,7 @@ async function buildSourceOutput(source: TrackedPage) {
 
     // Keep a file-level image for the diff viewer (use first section node)
     const firstSectionId = rootIds[0]
-    const afterImage = file.thumbnailUrl ?? ""
+    const afterImage = fileStructure.thumbnailUrl ?? ""
     const beforeImage = afterImage
 
     const date = getCurrentDateString()
@@ -461,7 +546,7 @@ async function buildSourceOutput(source: TrackedPage) {
       diffFile: `data/entries/${source.id}-${versionId}.json`,
       beforeImage,
       afterImage,
-      sectionThumbnail: thumbnailImages[firstSectionId ?? ""] ?? null,
+      sectionThumbnail: null,
       figmaDeepLink: source.figmaUrl,
       frames,
     }
@@ -474,7 +559,8 @@ async function buildSourceOutput(source: TrackedPage) {
       versionCreatedAt,
       archived: false,
     }
-  } catch {
+  } catch (err) {
+    console.error("[Sync Error]", err)
     return {
       source,
       snapshot: null,

@@ -118,6 +118,23 @@
       "addedAt": "2026-04-23T02:24:25.957Z",
       "addedBy": "system",
       "archived": true
+    },
+    {
+      "id": "page-7cqgqp7lstl1yp6nicbg7b-572-54558",
+      "folderSlug": "coach-onboarding-checklist",
+      "folderName": "Coach Onboarding Checklist",
+      "pageName": "Onboarding PC",
+      "figmaFileKey": "7CQGqP7LstL1YP6nICbg7B",
+      "figmaFileName": "Coach Onboarding Checklist",
+      "figmaPageId": "572:54558",
+      "figmaPageName": "Onboarding PC",
+      "figmaUrl": "https://www.figma.com/design/7CQGqP7LstL1YP6nICbg7B/Coach-Onboarding-Checklist?node-id=572-54558",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-23T10:38:34.504Z",
+      "addedBy": "system",
+      "archived": false
     }
   ]
 }

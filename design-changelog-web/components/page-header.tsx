@@ -46,10 +46,17 @@ export function PageHeader({ title, description, figmaUrl }: PageHeaderProps) {
                     btn.disabled = true;
                     btn.innerHTML = "Syncing...";
                     try {
-                      await fetch("/api/cron/poll-figma");
+                      const res = await fetch("/api/cron/poll-figma");
+                      const data = await res.json();
+                      if (!res.ok) {
+                        alert(`Sync failed: ${data.error || "Unknown error"}`);
+                        btn.innerHTML = originalContent;
+                        btn.disabled = false;
+                        return;
+                      }
                       window.location.reload();
-                    } catch (err) {
-                      console.error("Sync failed", err);
+                    } catch (err: any) {
+                      alert(`Sync failed: ${err.message}`);
                       btn.innerHTML = originalContent;
                       btn.disabled = false;
                     }

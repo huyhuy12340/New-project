@@ -18,6 +18,7 @@ type FrameCompareDialogProps = {
   frameId: string
   currentFrameName: string
   allEntries: ChangelogEntry[]
+  figmaFileKey: string
   children: React.ReactNode
 }
 
@@ -25,6 +26,7 @@ export function FrameCompareDialog({
   frameId,
   currentFrameName,
   allEntries,
+  figmaFileKey,
   children,
 }: FrameCompareDialogProps) {
   const [mounted, setMounted] = React.useState(false)
@@ -161,6 +163,7 @@ export function FrameCompareDialog({
                   frame={selectedVersion.frame}
                   baselineFrame={history[1]?.frame}
                   mode={mode}
+                  figmaFileKey={figmaFileKey}
                   selectedLayerId={selectedLayerId}
                   onLayerClick={(l) => setSelectedLayerId(l.id)}
                 />
