@@ -1,0 +1,3901 @@
+{
+  "id": "page-pslbvs7kgnryzi3ou12f7h-274-2842-2344832319691432698",
+  "sourceId": "page-pslbvs7kgnryzi3ou12f7h-274-2842",
+  "versionId": "2344832319691432698",
+  "sectionId": "page-pslbvs7kgnryzi3ou12f7h-274-2842",
+  "sectionName": "All current emails",
+  "date": "2026-04-24",
+  "lastDetectedAt": "2026-04-24T02:56:29.469Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-pslbvs7kgnryzi3ou12f7h-274-2842-2344832319691432698.json",
+  "beforeImage": "https://s3-alpha.figma.com/thumbnails/c50a528f-698b-4089-bb15-fd32d66752ab?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e0e45df83fb981a477b5d965491eb44168df07afba21177a63745cbe304f38e0",
+  "afterImage": "https://s3-alpha.figma.com/thumbnails/c50a528f-698b-4089-bb15-fd32d66752ab?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e0e45df83fb981a477b5d965491eb44168df07afba21177a63745cbe304f38e0",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+  "frames": [
+    {
+      "id": "274:2845",
+      "name": "email Daily Report",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -24026,
+        "y": 10217,
+        "w": 800,
+        "h": 2363
+      },
+      "layers": [
+        {
+          "id": "274:2846",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "email Daily Report / Frame 1597883926",
+          "boundingBox": {
+            "x": -23926,
+            "y": 10217,
+            "w": 600,
+            "h": 2363
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "274:2905",
+      "name": "New message",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -25706,
+        "y": 10217,
+        "w": 800,
+        "h": 940
+      },
+      "layers": [
+        {
+          "id": "274:2906",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "New message / Frame 1597883926",
+          "boundingBox": {
+            "x": -25606,
+            "y": 10217,
+            "w": 600,
+            "h": 940
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "274:2923",
+      "name": "Delete account request",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -24866,
+        "y": 10217,
+        "w": 800,
+        "h": 644
+      },
+      "layers": [
+        {
+          "id": "274:2924",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Delete account request / Frame 1597883926",
+          "boundingBox": {
+            "x": -24766,
+            "y": 10217,
+            "w": 600,
+            "h": 644
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "274:3312",
+      "name": "Your client import is complete!",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -23186,
+        "y": 10217,
+        "w": 800,
+        "h": 488
+      },
+      "layers": [
+        {
+          "id": "274:3313",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your client import is complete! / Frame 1597883926",
+          "boundingBox": {
+            "x": -23086,
+            "y": 10217,
+            "w": 600,
+            "h": 488
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "275:959",
+      "name": "Invite teammate",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -22346,
+        "y": 10217,
+        "w": 800,
+        "h": 920
+      },
+      "layers": [
+        {
+          "id": "275:960",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Invite teammate / Frame 1597883926",
+          "boundingBox": {
+            "x": -22246,
+            "y": 10217,
+            "w": 600,
+            "h": 920
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "275:2208",
+      "name": "Alert: Sequence assignment conflict for ???",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -21506,
+        "y": 10217,
+        "w": 800,
+        "h": 676
+      },
+      "layers": [
+        {
+          "id": "275:2209",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Alert: Sequence assignment conflict for ??? / Frame 1597883926",
+          "boundingBox": {
+            "x": -21406,
+            "y": 10217,
+            "w": 600,
+            "h": 676
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "280:5355",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -20666,
+        "y": 10217,
+        "w": 800,
+        "h": 1789
+      },
+      "layers": [
+        {
+          "id": "280:5356",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Download links for Everfit Client App / Frame 1597883926",
+          "boundingBox": {
+            "x": -20566,
+            "y": 10217,
+            "w": 600,
+            "h": 1789
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:4925",
+      "name": "Trainer’s \"Trainer Name\" invited you to join Everfit!",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -14786,
+        "y": 10217,
+        "w": 800,
+        "h": 1122
+      },
+      "layers": [
+        {
+          "id": "294:4926",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Trainer’s \"Trainer Name\" invited you to join Everfit! / Frame 1597883926",
+          "boundingBox": {
+            "x": -14686,
+            "y": 10217,
+            "w": 600,
+            "h": 1122
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "280:7087",
+      "name": "New Trial from \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -19826,
+        "y": 10217,
+        "w": 800,
+        "h": 1096
+      },
+      "layers": [
+        {
+          "id": "280:7088",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "New Trial from \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -19726,
+            "y": 10217,
+            "w": 600,
+            "h": 1096
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "288:1791",
+      "name": "Trial cancellation processed for \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -18986,
+        "y": 10217,
+        "w": 800,
+        "h": 682
+      },
+      "layers": [
+        {
+          "id": "288:1792",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Trial cancellation processed for \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -18886,
+            "y": 10217,
+            "w": 600,
+            "h": 682
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "289:4351",
+      "name": "ALERT: Failed Payment for \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -16466,
+        "y": 10217,
+        "w": 800,
+        "h": 872
+      },
+      "layers": [
+        {
+          "id": "289:4352",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "ALERT: Failed Payment for \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -16366,
+            "y": 10217,
+            "w": 600,
+            "h": 872
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "288:3529",
+      "name": "New payment from \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -18146,
+        "y": 10217,
+        "w": 800,
+        "h": 1116
+      },
+      "layers": [
+        {
+          "id": "288:3530",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "New payment from \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -18046,
+            "y": 10217,
+            "w": 600,
+            "h": 1116
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "289:4162",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -17306,
+        "y": 10217,
+        "w": 800,
+        "h": 628
+      },
+      "layers": [
+        {
+          "id": "289:4163",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "\"Client Name\" has activated a package  / Frame 1597883926",
+          "boundingBox": {
+            "x": -17206,
+            "y": 10217,
+            "w": 600,
+            "h": 628
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "304:3551",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -12266,
+        "y": 10217,
+        "w": 800,
+        "h": 604
+      },
+      "layers": [
+        {
+          "id": "304:3552",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "\"Client Name\" has activated a package  / Frame 1597883926",
+          "boundingBox": {
+            "x": -12166,
+            "y": 10217,
+            "w": 600,
+            "h": 604
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "304:3629",
+      "name": "Verify your new email",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -11426,
+        "y": 10217,
+        "w": 800,
+        "h": 550
+      },
+      "layers": [
+        {
+          "id": "304:3630",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Verify your new email / Frame 1597883926",
+          "boundingBox": {
+            "x": -11326,
+            "y": 10217,
+            "w": 600,
+            "h": 550
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "304:3907",
+      "name": "You've changed your password",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -10586,
+        "y": 10217,
+        "w": 800,
+        "h": 496
+      },
+      "layers": [
+        {
+          "id": "304:3776",
+          "name": "You've changed your password",
+          "type": "INSTANCE",
+          "status": "pending",
+          "path": "You've changed your password / You've changed your password",
+          "boundingBox": {
+            "x": -10586,
+            "y": 10217,
+            "w": 800,
+            "h": 492
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:2474",
+      "name": "Refund of $\"amount money\" for \"Client Name\" has been processed",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -15626,
+        "y": 10217,
+        "w": 800,
+        "h": 1108
+      },
+      "layers": [
+        {
+          "id": "294:2475",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Refund of $\"amount money\" for \"Client Name\" has been processed / Frame 1597883926",
+          "boundingBox": {
+            "x": -15526,
+            "y": 10217,
+            "w": 600,
+            "h": 1108
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "302:4749",
+      "name": "Forgot password request",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -13946,
+        "y": 10217,
+        "w": 800,
+        "h": 626
+      },
+      "layers": [
+        {
+          "id": "302:4681",
+          "name": "Forgot password request",
+          "type": "INSTANCE",
+          "status": "pending",
+          "path": "Forgot password request / Forgot password request",
+          "boundingBox": {
+            "x": -13946,
+            "y": 10217,
+            "w": 800,
+            "h": 614
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "304:3486",
+      "name": "Temporary password assigned",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -13106,
+        "y": 10217,
+        "w": 800,
+        "h": 594
+      },
+      "layers": [
+        {
+          "id": "304:3421",
+          "name": "Temporary password assigned",
+          "type": "INSTANCE",
+          "status": "pending",
+          "path": "Temporary password assigned / Temporary password assigned",
+          "boundingBox": {
+            "x": -13106,
+            "y": 10217,
+            "w": 800,
+            "h": 590
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "279:999",
+      "name": "Trial Confirmation (Payment trial started)",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -24866,
+        "y": 12941,
+        "w": 800,
+        "h": 1000
+      },
+      "layers": [
+        {
+          "id": "279:1000",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Trial Confirmation (Payment trial started) / Frame 1597883926",
+          "boundingBox": {
+            "x": -24766,
+            "y": 12941,
+            "w": 600,
+            "h": 1000
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "282:7184",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -25706,
+        "y": 12941,
+        "w": 800,
+        "h": 1092
+      },
+      "layers": [
+        {
+          "id": "282:7185",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Download links for Everfit Client App / Frame 1597883926",
+          "boundingBox": {
+            "x": -25606,
+            "y": 12941,
+            "w": 600,
+            "h": 1092
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "288:1930",
+      "name": "Cancellation for Trial",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -24026,
+        "y": 12941,
+        "w": 800,
+        "h": 682
+      },
+      "layers": [
+        {
+          "id": "288:1931",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Cancellation for Trial / Frame 1597883926",
+          "boundingBox": {
+            "x": -23926,
+            "y": 12941,
+            "w": 600,
+            "h": 682
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "290:2111",
+      "name": "Cancellation of recurring subscription",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -20666,
+        "y": 12941,
+        "w": 800,
+        "h": 706
+      },
+      "layers": [
+        {
+          "id": "290:2112",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Cancellation of recurring subscription / Frame 1597883926",
+          "boundingBox": {
+            "x": -20566,
+            "y": 12941,
+            "w": 600,
+            "h": 706
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "288:3726",
+      "name": "Payment Confirmation",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -23186,
+        "y": 12941,
+        "w": 800,
+        "h": 944
+      },
+      "layers": [
+        {
+          "id": "288:3727",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Payment Confirmation / Frame 1597883926",
+          "boundingBox": {
+            "x": -23086,
+            "y": 12941,
+            "w": 600,
+            "h": 944
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "290:4513",
+      "name": "You received a Refund!",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -16466,
+        "y": 12941,
+        "w": 800,
+        "h": 874
+      },
+      "layers": [
+        {
+          "id": "290:4514",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You received a Refund! / Frame 1597883926",
+          "boundingBox": {
+            "x": -16366,
+            "y": 12941,
+            "w": 600,
+            "h": 874
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "304:3775",
+      "name": "You've changed your password",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -13106,
+        "y": 12941,
+        "w": 800,
+        "h": 492
+      },
+      "layers": [
+        {
+          "id": "304:3701",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You've changed your password / Frame 1597883926",
+          "boundingBox": {
+            "x": -13006,
+            "y": 12941,
+            "w": 600,
+            "h": 492
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "304:3420",
+      "name": "Temporary password assigned",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -13946,
+        "y": 12941,
+        "w": 800,
+        "h": 590
+      },
+      "layers": [
+        {
+          "id": "304:3342",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Temporary password assigned / Frame 1597883926",
+          "boundingBox": {
+            "x": -13846,
+            "y": 12941,
+            "w": 600,
+            "h": 590
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "302:4680",
+      "name": "Forgot password request",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -14786,
+        "y": 12941,
+        "w": 800,
+        "h": 614
+      },
+      "layers": [
+        {
+          "id": "302:4517",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Forgot password request / Frame 1597883926",
+          "boundingBox": {
+            "x": -14686,
+            "y": 12941,
+            "w": 600,
+            "h": 614
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "302:3249",
+      "name": "You’re invited to train with \"Client Name\"'s Workspace",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -15626,
+        "y": 12941,
+        "w": 800,
+        "h": 966
+      },
+      "layers": [
+        {
+          "id": "302:3250",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You’re invited to train with \"Client Name\"'s Workspace / Frame 1597883926",
+          "boundingBox": {
+            "x": -15526,
+            "y": 12941,
+            "w": 600,
+            "h": 966
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "289:1879",
+      "name": "Activate your new purchase",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -22346,
+        "y": 12941,
+        "w": 800,
+        "h": 1028
+      },
+      "layers": [
+        {
+          "id": "289:1880",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Activate your new purchase / Frame 1597883926",
+          "boundingBox": {
+            "x": -22246,
+            "y": 12941,
+            "w": 600,
+            "h": 1028
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "290:4359",
+      "name": "Your trial is ending in 1 day for \"Package Name\"",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -17306,
+        "y": 12941,
+        "w": 800,
+        "h": 982
+      },
+      "layers": [
+        {
+          "id": "290:4360",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your trial is ending in 1 day for \"Package Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -17206,
+            "y": 12941,
+            "w": 600,
+            "h": 982
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "289:3232",
+      "name": "Confirmation: Order has been added to your account",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -21506,
+        "y": 12941,
+        "w": 800,
+        "h": 762
+      },
+      "layers": [
+        {
+          "id": "289:3233",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Confirmation: Order has been added to your account / Frame 1597883926",
+          "boundingBox": {
+            "x": -21406,
+            "y": 12941,
+            "w": 600,
+            "h": 762
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "290:3690",
+      "name": "[Trainer workspace] Failed payment alert",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -19826,
+        "y": 12949,
+        "w": 800,
+        "h": 896
+      },
+      "layers": [
+        {
+          "id": "290:3691",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "[Trainer workspace] Failed payment alert / Frame 1597883926",
+          "boundingBox": {
+            "x": -19726,
+            "y": 12949,
+            "w": 600,
+            "h": 896
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "290:4091",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -18986,
+        "y": 12949,
+        "w": 800,
+        "h": 936
+      },
+      "layers": [
+        {
+          "id": "290:4092",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "[Trainer Workspace] Late Payment: DUE 3 days ago / Frame 1597883926",
+          "boundingBox": {
+            "x": -18886,
+            "y": 12949,
+            "w": 600,
+            "h": 936
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "290:4163",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -18146,
+        "y": 12949,
+        "w": 800,
+        "h": 936
+      },
+      "layers": [
+        {
+          "id": "290:4164",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "[Trainer Workspace] Late Payment: DUE 3 days ago / Frame 1597883926",
+          "boundingBox": {
+            "x": -18046,
+            "y": 12949,
+            "w": 600,
+            "h": 936
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "277:3179",
+      "name": "Downgrade to Pro (from Studio)",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -24026,
+        "y": 15096,
+        "w": 800,
+        "h": 1526
+      },
+      "layers": [
+        {
+          "id": "277:3180",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Downgrade to Pro (from Studio) / Frame 1597883926",
+          "boundingBox": {
+            "x": -23926,
+            "y": 15096,
+            "w": 600,
+            "h": 1526
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "277:4106",
+      "name": "Remove Automation",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -23186,
+        "y": 15096,
+        "w": 800,
+        "h": 1104
+      },
+      "layers": [
+        {
+          "id": "277:4107",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Remove Automation / Frame 1597883926",
+          "boundingBox": {
+            "x": -23086,
+            "y": 15096,
+            "w": 600,
+            "h": 1104
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "277:3533",
+      "name": "Downgrade Studio to Starter",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -25706,
+        "y": 15096,
+        "w": 800,
+        "h": 2036
+      },
+      "layers": [
+        {
+          "id": "277:3534",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Downgrade Studio to Starter / Frame 1597883926",
+          "boundingBox": {
+            "x": -25606,
+            "y": 15096,
+            "w": 600,
+            "h": 2036
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "277:3929",
+      "name": "Downgrade Pro to Starter",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -24866,
+        "y": 15096,
+        "w": 800,
+        "h": 1936
+      },
+      "layers": [
+        {
+          "id": "277:3930",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Downgrade Pro to Starter / Frame 1597883926",
+          "boundingBox": {
+            "x": -24766,
+            "y": 15096,
+            "w": 600,
+            "h": 1936
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:2697",
+      "name": "Payment Success!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -22346,
+        "y": 15098,
+        "w": 800,
+        "h": 892
+      },
+      "layers": [
+        {
+          "id": "294:2698",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Payment Success! / Frame 1597883926",
+          "boundingBox": {
+            "x": -22246,
+            "y": 15098,
+            "w": 600,
+            "h": 892
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:2927",
+      "name": "Keep Training Your Clients",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -21506,
+        "y": 15098,
+        "w": 800,
+        "h": 736
+      },
+      "layers": [
+        {
+          "id": "294:2928",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Keep Training Your Clients / Frame 1597883926",
+          "boundingBox": {
+            "x": -21406,
+            "y": 15098,
+            "w": 600,
+            "h": 736
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:3074",
+      "name": "Your trial has ended!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -20666,
+        "y": 15098,
+        "w": 800,
+        "h": 952
+      },
+      "layers": [
+        {
+          "id": "294:3075",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your trial has ended! / Frame 1597883926",
+          "boundingBox": {
+            "x": -20566,
+            "y": 15098,
+            "w": 600,
+            "h": 952
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:4427",
+      "name": "Email - 5 days before trial expires",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -19826,
+        "y": 15098,
+        "w": 800,
+        "h": 838
+      },
+      "layers": [
+        {
+          "id": "294:4428",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Email - 5 days before trial expires / Frame 1597883926",
+          "boundingBox": {
+            "x": -19726,
+            "y": 15098,
+            "w": 600,
+            "h": 838
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:4557",
+      "name": "Your upgrade is confirmed",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -18986,
+        "y": 15098,
+        "w": 800,
+        "h": 770
+      },
+      "layers": [
+        {
+          "id": "294:4558",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your upgrade is confirmed / Frame 1597883926",
+          "boundingBox": {
+            "x": -18886,
+            "y": 15098,
+            "w": 600,
+            "h": 770
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:4705",
+      "name": "Alert: Payment OVERDUE. Downgrade in 2 days.",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -18146,
+        "y": 15098,
+        "w": 800,
+        "h": 776
+      },
+      "layers": [
+        {
+          "id": "294:4706",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Alert: Payment OVERDUE. Downgrade in 2 days. / Frame 1597883926",
+          "boundingBox": {
+            "x": -18046,
+            "y": 15098,
+            "w": 600,
+            "h": 776
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:4785",
+      "name": "App Icon Submission: Needs Revision",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -17306,
+        "y": 15098,
+        "w": 800,
+        "h": 590
+      },
+      "layers": [
+        {
+          "id": "294:4786",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "App Icon Submission: Needs Revision / Frame 1597883926",
+          "boundingBox": {
+            "x": -17206,
+            "y": 15098,
+            "w": 600,
+            "h": 590
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:5835",
+      "name": "Your business is growing!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -16466,
+        "y": 15098,
+        "w": 800,
+        "h": 1061
+      },
+      "layers": [
+        {
+          "id": "294:5836",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your business is growing! / Frame 1597883926",
+          "boundingBox": {
+            "x": -16366,
+            "y": 15098,
+            "w": 600,
+            "h": 1061
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "294:5942",
+      "name": "Your business is growing!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -15626,
+        "y": 15098,
+        "w": 800,
+        "h": 1061
+      },
+      "layers": [
+        {
+          "id": "294:5943",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your business is growing! / Frame 1597883926",
+          "boundingBox": {
+            "x": -15526,
+            "y": 15098,
+            "w": 600,
+            "h": 1061
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "323:3603",
+      "name": " ",
+      "sectionId": "326:3638",
+      "sectionName": "Email Award 2025",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -25706,
+        "y": -348,
+        "w": 9602,
+        "h": 6936
+      },
+      "layers": [
+        {
+          "id": "323:3581",
+          "name": "image 2088",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2088",
+          "boundingBox": {
+            "x": -25706,
+            "y": -348,
+            "w": 1798,
+            "h": 1006
+          },
+          "changes": []
+        },
+        {
+          "id": "323:3604",
+          "name": "Frame 1597884999",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Frame 1597884999",
+          "boundingBox": {
+            "x": -25706,
+            "y": 838,
+            "w": 9602,
+            "h": 1006
+          },
+          "changes": []
+        },
+        {
+          "id": "323:3590",
+          "name": "Frame 1597884997",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Frame 1597884997",
+          "boundingBox": {
+            "x": -25706,
+            "y": 2024,
+            "w": 9602,
+            "h": 1006
+          },
+          "changes": []
+        },
+        {
+          "id": "323:3622",
+          "name": "Frame 1597885001",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Frame 1597885001",
+          "boundingBox": {
+            "x": -25706,
+            "y": 3210,
+            "w": 5700,
+            "h": 1006
+          },
+          "changes": []
+        },
+        {
+          "id": "323:3617",
+          "name": "Frame 1597885000",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Frame 1597885000",
+          "boundingBox": {
+            "x": -25706,
+            "y": 4396,
+            "w": 5700,
+            "h": 1006
+          },
+          "changes": []
+        },
+        {
+          "id": "323:3598",
+          "name": "Frame 1597884998",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "  / Frame 1597884998",
+          "boundingBox": {
+            "x": -25706,
+            "y": 5582,
+            "w": 5700,
+            "h": 1006
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3800",
+      "name": " ",
+      "sectionId": "326:3639",
+      "sectionName": "Airbnb",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -15844,
+        "y": -348,
+        "w": 2903,
+        "h": 4096
+      },
+      "layers": [
+        {
+          "id": "326:3627",
+          "name": "image 2095",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2095",
+          "boundingBox": {
+            "x": -15844,
+            "y": -348,
+            "w": 741,
+            "h": 2857
+          },
+          "changes": []
+        },
+        {
+          "id": "326:3636",
+          "name": "image 2097",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2097",
+          "boundingBox": {
+            "x": -15073,
+            "y": -348,
+            "w": 607,
+            "h": 2506
+          },
+          "changes": []
+        },
+        {
+          "id": "326:3630",
+          "name": "image 2096",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2096",
+          "boundingBox": {
+            "x": -14436,
+            "y": -348,
+            "w": 1002,
+            "h": 1114
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3802",
+          "name": "image 2130",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2130",
+          "boundingBox": {
+            "x": -13404,
+            "y": -348,
+            "w": 463,
+            "h": 4096
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3681",
+      "name": " ",
+      "sectionId": "335:3673",
+      "sectionName": "Claude",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6236,
+        "y": -348,
+        "w": 2877,
+        "h": 2740
+      },
+      "layers": [
+        {
+          "id": "335:3683",
+          "name": "image 2106",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2106",
+          "boundingBox": {
+            "x": -6236,
+            "y": -348,
+            "w": 680,
+            "h": 2247
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3686",
+          "name": "image 2107",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2107",
+          "boundingBox": {
+            "x": -5509,
+            "y": -348,
+            "w": 696,
+            "h": 1253
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3689",
+          "name": "image 2108",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2108",
+          "boundingBox": {
+            "x": -4766,
+            "y": -348,
+            "w": 680,
+            "h": 1462
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3696",
+          "name": "image 2109",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2109",
+          "boundingBox": {
+            "x": -4039,
+            "y": -348,
+            "w": 680,
+            "h": 2740
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3715",
+      "name": " ",
+      "sectionId": "335:3714",
+      "sectionName": "Shopify",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3099,
+        "y": -348,
+        "w": 2861,
+        "h": 3729
+      },
+      "layers": [
+        {
+          "id": "335:3699",
+          "name": "image 2110",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2110",
+          "boundingBox": {
+            "x": -3099,
+            "y": -348,
+            "w": 680,
+            "h": 2334
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3702",
+          "name": "image 2111",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2111",
+          "boundingBox": {
+            "x": -2372,
+            "y": -348,
+            "w": 680,
+            "h": 3106
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3705",
+          "name": "image 2112",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2112",
+          "boundingBox": {
+            "x": -1645,
+            "y": -348,
+            "w": 680,
+            "h": 1677
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3708",
+          "name": "image 2113",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2113",
+          "boundingBox": {
+            "x": -918,
+            "y": -348,
+            "w": 680,
+            "h": 3729
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3721",
+      "name": " ",
+      "sectionId": "335:3720",
+      "sectionName": "Apple",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 22,
+        "y": -348,
+        "w": 3277,
+        "h": 3594
+      },
+      "layers": [
+        {
+          "id": "335:3727",
+          "name": "image 2114",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2114",
+          "boundingBox": {
+            "x": 22,
+            "y": -348,
+            "w": 784,
+            "h": 1789
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3730",
+          "name": "image 2115",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2115",
+          "boundingBox": {
+            "x": 853,
+            "y": -348,
+            "w": 784,
+            "h": 2393
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3733",
+          "name": "image 2116",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2116",
+          "boundingBox": {
+            "x": 1684,
+            "y": -348,
+            "w": 784,
+            "h": 1792
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3736",
+          "name": "image 2117",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2117",
+          "boundingBox": {
+            "x": 2515,
+            "y": -348,
+            "w": 784,
+            "h": 3594
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3739",
+      "name": " ",
+      "sectionId": "335:3738",
+      "sectionName": "Intercom",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 3559,
+        "y": -348,
+        "w": 2809,
+        "h": 4096
+      },
+      "layers": [
+        {
+          "id": "335:3745",
+          "name": "image 2118",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2118",
+          "boundingBox": {
+            "x": 3559,
+            "y": -348,
+            "w": 628,
+            "h": 4096
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3754",
+          "name": "image 2121",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2121",
+          "boundingBox": {
+            "x": 4234,
+            "y": -348,
+            "w": 680,
+            "h": 1208
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3748",
+          "name": "image 2119",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2119",
+          "boundingBox": {
+            "x": 4961,
+            "y": -348,
+            "w": 680,
+            "h": 1101
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3751",
+          "name": "image 2120",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2120",
+          "boundingBox": {
+            "x": 5688,
+            "y": -348,
+            "w": 680,
+            "h": 2226
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3757",
+      "name": " ",
+      "sectionId": "335:3756",
+      "sectionName": "Uber",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 6628,
+        "y": -348,
+        "w": 2881,
+        "h": 1896
+      },
+      "layers": [
+        {
+          "id": "335:3763",
+          "name": "image 2122",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2122",
+          "boundingBox": {
+            "x": 6628,
+            "y": -348,
+            "w": 680,
+            "h": 1494
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3766",
+          "name": "image 2123",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2123",
+          "boundingBox": {
+            "x": 7355,
+            "y": -348,
+            "w": 700,
+            "h": 1896
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3769",
+          "name": "image 2124",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2124",
+          "boundingBox": {
+            "x": 8102,
+            "y": -348,
+            "w": 680,
+            "h": 1059
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3772",
+          "name": "image 2125",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2125",
+          "boundingBox": {
+            "x": 8829,
+            "y": -348,
+            "w": 680,
+            "h": 1561
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3795",
+      "name": " ",
+      "sectionId": "335:3794",
+      "sectionName": "Superpower",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 9769,
+        "y": -348,
+        "w": 2732,
+        "h": 3850
+      },
+      "layers": [
+        {
+          "id": "335:3775",
+          "name": "image 2126",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2126",
+          "boundingBox": {
+            "x": 9769,
+            "y": -348,
+            "w": 471,
+            "h": 3850
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3778",
+          "name": "image 2127",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2127",
+          "boundingBox": {
+            "x": 10287,
+            "y": -348,
+            "w": 713,
+            "h": 3340
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3784",
+          "name": "image 2128",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2128",
+          "boundingBox": {
+            "x": 11047,
+            "y": -348,
+            "w": 697,
+            "h": 2066
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3787",
+          "name": "image 2129",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2129",
+          "boundingBox": {
+            "x": 11791,
+            "y": -348,
+            "w": 710,
+            "h": 2587
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "335:3806",
+      "name": " ",
+      "sectionId": "335:3805",
+      "sectionName": "Him",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 12712,
+        "y": -348,
+        "w": 2941,
+        "h": 3527
+      },
+      "layers": [
+        {
+          "id": "335:3813",
+          "name": "image 2131",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2131",
+          "boundingBox": {
+            "x": 12712,
+            "y": -348,
+            "w": 700,
+            "h": 1890
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3816",
+          "name": "image 2132",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2132",
+          "boundingBox": {
+            "x": 13459,
+            "y": -348,
+            "w": 700,
+            "h": 2103
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3819",
+          "name": "image 2133",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2133",
+          "boundingBox": {
+            "x": 14206,
+            "y": -348,
+            "w": 700,
+            "h": 3527
+          },
+          "changes": []
+        },
+        {
+          "id": "335:3822",
+          "name": "image 2134",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2134",
+          "boundingBox": {
+            "x": 14953,
+            "y": -348,
+            "w": 700,
+            "h": 1366
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "340:3875",
+      "name": " ",
+      "sectionId": "340:3874",
+      "sectionName": "Slack",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 15853,
+        "y": -348,
+        "w": 2861,
+        "h": 1917
+      },
+      "layers": [
+        {
+          "id": "340:3881",
+          "name": "image 2135",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2135",
+          "boundingBox": {
+            "x": 15853,
+            "y": -348,
+            "w": 680,
+            "h": 822
+          },
+          "changes": []
+        },
+        {
+          "id": "340:3884",
+          "name": "image 2136",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2136",
+          "boundingBox": {
+            "x": 16580,
+            "y": -348,
+            "w": 680,
+            "h": 1747
+          },
+          "changes": []
+        },
+        {
+          "id": "340:3887",
+          "name": "image 2137",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2137",
+          "boundingBox": {
+            "x": 17307,
+            "y": -348,
+            "w": 680,
+            "h": 1917
+          },
+          "changes": []
+        },
+        {
+          "id": "340:3893",
+          "name": "image 2139",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2139",
+          "boundingBox": {
+            "x": 18034,
+            "y": -348,
+            "w": 680,
+            "h": 1787
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "340:3896",
+      "name": " ",
+      "sectionId": "340:3895",
+      "sectionName": "Nike",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 18914,
+        "y": -348,
+        "w": 2274,
+        "h": 4096
+      },
+      "layers": [
+        {
+          "id": "340:3902",
+          "name": "image 2140",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2140",
+          "boundingBox": {
+            "x": 18914,
+            "y": -348,
+            "w": 680,
+            "h": 2161
+          },
+          "changes": []
+        },
+        {
+          "id": "340:3905",
+          "name": "image 2141",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2141",
+          "boundingBox": {
+            "x": 19641,
+            "y": -348,
+            "w": 398,
+            "h": 4096
+          },
+          "changes": []
+        },
+        {
+          "id": "340:3908",
+          "name": "image 2142",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2142",
+          "boundingBox": {
+            "x": 20086,
+            "y": -348,
+            "w": 375,
+            "h": 4096
+          },
+          "changes": []
+        },
+        {
+          "id": "340:3911",
+          "name": "image 2143",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2143",
+          "boundingBox": {
+            "x": 20508,
+            "y": -348,
+            "w": 680,
+            "h": 2260
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "341:3914",
+      "name": " ",
+      "sectionId": "341:3913",
+      "sectionName": "Cowboy",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 21388,
+        "y": -348,
+        "w": 2861,
+        "h": 3146
+      },
+      "layers": [
+        {
+          "id": "341:3920",
+          "name": "image 2144",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2144",
+          "boundingBox": {
+            "x": 21388,
+            "y": -348,
+            "w": 680,
+            "h": 1580
+          },
+          "changes": []
+        },
+        {
+          "id": "341:3923",
+          "name": "image 2145",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2145",
+          "boundingBox": {
+            "x": 22115,
+            "y": -348,
+            "w": 680,
+            "h": 1847
+          },
+          "changes": []
+        },
+        {
+          "id": "341:3929",
+          "name": "image 2147",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2147",
+          "boundingBox": {
+            "x": 22842,
+            "y": -348,
+            "w": 680,
+            "h": 2943
+          },
+          "changes": []
+        },
+        {
+          "id": "341:3926",
+          "name": "image 2146",
+          "type": "RECTANGLE",
+          "status": "pending",
+          "path": "  / image 2146",
+          "boundingBox": {
+            "x": 23569,
+            "y": -348,
+            "w": 680,
+            "h": 3146
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6353",
+      "name": "New message",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -7199,
+        "y": 10217,
+        "w": 375,
+        "h": 895.4552001953125
+      },
+      "layers": [
+        {
+          "id": "344:6354",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "New message / Frame 1597883926",
+          "boundingBox": {
+            "x": -7179,
+            "y": 10217,
+            "w": 335,
+            "h": 895.4552001953125
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6371",
+      "name": "Delete account request",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6784,
+        "y": 10217,
+        "w": 375,
+        "h": 700
+      },
+      "layers": [
+        {
+          "id": "344:6372",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Delete account request / Frame 1597883926",
+          "boundingBox": {
+            "x": -6764,
+            "y": 10217,
+            "w": 335,
+            "h": 700
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6389",
+      "name": "email Daily Report",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6369,
+        "y": 10217,
+        "w": 375,
+        "h": 1913
+      },
+      "layers": [
+        {
+          "id": "344:6390",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "email Daily Report / Frame 1597883926",
+          "boundingBox": {
+            "x": -6369,
+            "y": 10217,
+            "w": 375,
+            "h": 1913
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6450",
+      "name": "Your client import is complete!",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5954,
+        "y": 10217,
+        "w": 375,
+        "h": 464
+      },
+      "layers": [
+        {
+          "id": "344:6451",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your client import is complete! / Frame 1597883926",
+          "boundingBox": {
+            "x": -5934,
+            "y": 10217,
+            "w": 335,
+            "h": 464
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6461",
+      "name": "Invite teammate",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5539,
+        "y": 10217,
+        "w": 375,
+        "h": 928
+      },
+      "layers": [
+        {
+          "id": "344:6462",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Invite teammate / Frame 1597883926",
+          "boundingBox": {
+            "x": -5519,
+            "y": 10217,
+            "w": 335,
+            "h": 928
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6481",
+      "name": "Alert: Sequence assignment conflict for ???",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5124,
+        "y": 10217,
+        "w": 375,
+        "h": 692
+      },
+      "layers": [
+        {
+          "id": "344:6482",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Alert: Sequence assignment conflict for ??? / Frame 1597883926",
+          "boundingBox": {
+            "x": -5104,
+            "y": 10217,
+            "w": 335,
+            "h": 692
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:6494",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -4709,
+        "y": 10217,
+        "w": 375,
+        "h": 1696.5714111328125
+      },
+      "layers": [
+        {
+          "id": "344:6495",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Download links for Everfit Client App / Frame 1597883926",
+          "boundingBox": {
+            "x": -4689,
+            "y": 10217,
+            "w": 335,
+            "h": 1696.5714111328125
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7001",
+      "name": "New Trial from \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -4294,
+        "y": 10217,
+        "w": 375,
+        "h": 1276
+      },
+      "layers": [
+        {
+          "id": "344:7002",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "New Trial from \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -4274,
+            "y": 10217,
+            "w": 335,
+            "h": 1276
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7025",
+      "name": "Trial cancellation processed for \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3879,
+        "y": 10217,
+        "w": 375,
+        "h": 688
+      },
+      "layers": [
+        {
+          "id": "344:7026",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Trial cancellation processed for \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -3859,
+            "y": 10217,
+            "w": 335,
+            "h": 688
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7042",
+      "name": "New payment from \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3464,
+        "y": 10217,
+        "w": 375,
+        "h": 1248
+      },
+      "layers": [
+        {
+          "id": "344:7043",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "New payment from \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -3444,
+            "y": 10217,
+            "w": 335,
+            "h": 1248
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7069",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3049,
+        "y": 10217,
+        "w": 375,
+        "h": 668
+      },
+      "layers": [
+        {
+          "id": "344:7070",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "\"Client Name\" has activated a package  / Frame 1597883926",
+          "boundingBox": {
+            "x": -3029,
+            "y": 10217,
+            "w": 335,
+            "h": 668
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7086",
+      "name": "ALERT: Failed Payment for \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -2634,
+        "y": 10217,
+        "w": 375,
+        "h": 928
+      },
+      "layers": [
+        {
+          "id": "344:7087",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "ALERT: Failed Payment for \"Client Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -2614,
+            "y": 10217,
+            "w": 335,
+            "h": 928
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7103",
+      "name": "Refund of $\"amount money\" for \"Client Name\" has been processed",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -2219,
+        "y": 10217,
+        "w": 375,
+        "h": 1220
+      },
+      "layers": [
+        {
+          "id": "344:7104",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Refund of $\"amount money\" for \"Client Name\" has been processed / Frame 1597883926",
+          "boundingBox": {
+            "x": -2199,
+            "y": 10217,
+            "w": 335,
+            "h": 1220
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7126",
+      "name": "Trainer’s \"Trainer Name\" invited you to join Everfit!",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -1804,
+        "y": 10217,
+        "w": 375,
+        "h": 1154
+      },
+      "layers": [
+        {
+          "id": "344:7127",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Trainer’s \"Trainer Name\" invited you to join Everfit! / Frame 1597883926",
+          "boundingBox": {
+            "x": -1784,
+            "y": 10217,
+            "w": 335,
+            "h": 1154
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7147",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -1389,
+        "y": 10217,
+        "w": 375,
+        "h": 676
+      },
+      "layers": [
+        {
+          "id": "344:7148",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "\"Client Name\" has activated a package  / Frame 1597883926",
+          "boundingBox": {
+            "x": -1369,
+            "y": 10217,
+            "w": 335,
+            "h": 676
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:7157",
+      "name": "Verify your new email",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -974,
+        "y": 10217,
+        "w": 375,
+        "h": 566
+      },
+      "layers": [
+        {
+          "id": "344:7158",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Verify your new email / Frame 1597883926",
+          "boundingBox": {
+            "x": -954,
+            "y": 10217,
+            "w": 335,
+            "h": 566
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "366:8417",
+      "name": "You've changed your password - Mobile",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": 271,
+        "y": 10217,
+        "w": 375,
+        "h": 492
+      },
+      "layers": [
+        {
+          "id": "I366:8417;366:8215",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You've changed your password - Mobile / Frame 1597883926",
+          "boundingBox": {
+            "x": 291,
+            "y": 10217,
+            "w": 335,
+            "h": 492
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "366:8418",
+      "name": "Temporary password assigned - Mobile",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -144,
+        "y": 10217,
+        "w": 375,
+        "h": 590
+      },
+      "layers": [
+        {
+          "id": "I366:8418;366:8278",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Temporary password assigned - Mobile / Frame 1597883926",
+          "boundingBox": {
+            "x": -124,
+            "y": 10217,
+            "w": 335,
+            "h": 590
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "366:8419",
+      "name": "Forgot password request - Mobile",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -559,
+        "y": 10217,
+        "w": 375,
+        "h": 654
+      },
+      "layers": [
+        {
+          "id": "I366:8419;366:8345",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Forgot password request - Mobile / Frame 1597883926",
+          "boundingBox": {
+            "x": -539,
+            "y": 10217,
+            "w": 335,
+            "h": 654
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:10451",
+      "name": "Trial Confirmation (Payment trial started)",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6784,
+        "y": 12941,
+        "w": 375,
+        "h": 1136
+      },
+      "layers": [
+        {
+          "id": "344:10452",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Trial Confirmation (Payment trial started) / Frame 1597883926",
+          "boundingBox": {
+            "x": -6764,
+            "y": 12941,
+            "w": 335,
+            "h": 1136
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:10473",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -7199,
+        "y": 12941,
+        "w": 375,
+        "h": 970.4050903320312
+      },
+      "layers": [
+        {
+          "id": "344:10474",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Download links for Everfit Client App / Frame 1597883926",
+          "boundingBox": {
+            "x": -7179,
+            "y": 12941,
+            "w": 335,
+            "h": 970.4050903320312
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:10961",
+      "name": "Cancellation for Trial",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6369,
+        "y": 12941,
+        "w": 375,
+        "h": 668
+      },
+      "layers": [
+        {
+          "id": "344:10962",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Cancellation for Trial / Frame 1597883926",
+          "boundingBox": {
+            "x": -6349,
+            "y": 12941,
+            "w": 335,
+            "h": 668
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:10978",
+      "name": "Cancellation of recurring subscription",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -4709,
+        "y": 12941,
+        "w": 375,
+        "h": 732
+      },
+      "layers": [
+        {
+          "id": "344:10979",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Cancellation of recurring subscription / Frame 1597883926",
+          "boundingBox": {
+            "x": -4689,
+            "y": 12941,
+            "w": 335,
+            "h": 732
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:10995",
+      "name": "Payment Confirmation",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5954,
+        "y": 12941,
+        "w": 375,
+        "h": 1046
+      },
+      "layers": [
+        {
+          "id": "344:10996",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Payment Confirmation / Frame 1597883926",
+          "boundingBox": {
+            "x": -5934,
+            "y": 12941,
+            "w": 335,
+            "h": 1046
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11016",
+      "name": "You received a Refund!",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -2634,
+        "y": 12941,
+        "w": 375,
+        "h": 888
+      },
+      "layers": [
+        {
+          "id": "344:11017",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You received a Refund! / Frame 1597883926",
+          "boundingBox": {
+            "x": -2614,
+            "y": 12941,
+            "w": 335,
+            "h": 888
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "366:8416",
+      "name": "You've changed your password - Mobile",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -974,
+        "y": 12941,
+        "w": 375,
+        "h": 492
+      },
+      "layers": [
+        {
+          "id": "366:8215",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You've changed your password - Mobile / Frame 1597883926",
+          "boundingBox": {
+            "x": -954,
+            "y": 12941,
+            "w": 335,
+            "h": 492
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "366:8415",
+      "name": "Temporary password assigned - Mobile",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -1389,
+        "y": 12941,
+        "w": 375,
+        "h": 590
+      },
+      "layers": [
+        {
+          "id": "366:8278",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Temporary password assigned - Mobile / Frame 1597883926",
+          "boundingBox": {
+            "x": -1369,
+            "y": 12941,
+            "w": 335,
+            "h": 590
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "366:8414",
+      "name": "Forgot password request - Mobile",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -1804,
+        "y": 12941,
+        "w": 375,
+        "h": 654
+      },
+      "layers": [
+        {
+          "id": "366:8345",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Forgot password request - Mobile / Frame 1597883926",
+          "boundingBox": {
+            "x": -1784,
+            "y": 12941,
+            "w": 335,
+            "h": 654
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11037",
+      "name": "You’re invited to train with \"Client Name\"'s Workspace",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -2219,
+        "y": 12941,
+        "w": 375,
+        "h": 902
+      },
+      "layers": [
+        {
+          "id": "344:11038",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "You’re invited to train with \"Client Name\"'s Workspace / Frame 1597883926",
+          "boundingBox": {
+            "x": -2199,
+            "y": 12941,
+            "w": 335,
+            "h": 902
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11056",
+      "name": "Activate your new purchase",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5539,
+        "y": 12941,
+        "w": 375,
+        "h": 985
+      },
+      "layers": [
+        {
+          "id": "344:11057",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Activate your new purchase / Frame 1597883926",
+          "boundingBox": {
+            "x": -5519,
+            "y": 12941,
+            "w": 335,
+            "h": 985
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11076",
+      "name": "Your trial is ending in 1 day for \"Package Name\"",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3049,
+        "y": 12941,
+        "w": 375,
+        "h": 939
+      },
+      "layers": [
+        {
+          "id": "344:11077",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your trial is ending in 1 day for \"Package Name\" / Frame 1597883926",
+          "boundingBox": {
+            "x": -3029,
+            "y": 12941,
+            "w": 335,
+            "h": 939
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11095",
+      "name": "Confirmation: Order has been added to your account",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5124,
+        "y": 12941,
+        "w": 375,
+        "h": 754
+      },
+      "layers": [
+        {
+          "id": "344:11096",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Confirmation: Order has been added to your account / Frame 1597883926",
+          "boundingBox": {
+            "x": -5104,
+            "y": 12941,
+            "w": 335,
+            "h": 754
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11115",
+      "name": "[Trainer workspace] Failed payment alert",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -4294,
+        "y": 12949,
+        "w": 375,
+        "h": 952
+      },
+      "layers": [
+        {
+          "id": "344:11116",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "[Trainer workspace] Failed payment alert / Frame 1597883926",
+          "boundingBox": {
+            "x": -4274,
+            "y": 12949,
+            "w": 335,
+            "h": 952
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11132",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3879,
+        "y": 12949,
+        "w": 375,
+        "h": 984
+      },
+      "layers": [
+        {
+          "id": "344:11133",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "[Trainer Workspace] Late Payment: DUE 3 days ago / Frame 1597883926",
+          "boundingBox": {
+            "x": -3859,
+            "y": 12949,
+            "w": 335,
+            "h": 984
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11149",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3464,
+        "y": 12949,
+        "w": 375,
+        "h": 984
+      },
+      "layers": [
+        {
+          "id": "344:11150",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "[Trainer Workspace] Late Payment: DUE 3 days ago / Frame 1597883926",
+          "boundingBox": {
+            "x": -3444,
+            "y": 12949,
+            "w": 335,
+            "h": 984
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11167",
+      "name": "Downgrade to Pro (from Studio)",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6369,
+        "y": 14437,
+        "w": 375,
+        "h": 1764
+      },
+      "layers": [
+        {
+          "id": "344:11168",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Downgrade to Pro (from Studio) / Frame 1597883926",
+          "boundingBox": {
+            "x": -6349,
+            "y": 14437,
+            "w": 335,
+            "h": 1764
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11194",
+      "name": "Remove Automation",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5954,
+        "y": 14437,
+        "w": 375,
+        "h": 1250
+      },
+      "layers": [
+        {
+          "id": "344:11195",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Remove Automation / Frame 1597883926",
+          "boundingBox": {
+            "x": -5934,
+            "y": 14437,
+            "w": 335,
+            "h": 1250
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11213",
+      "name": "Downgrade Studio to Starter",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -7199,
+        "y": 14437,
+        "w": 375,
+        "h": 2448
+      },
+      "layers": [
+        {
+          "id": "344:11214",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Downgrade Studio to Starter / Frame 1597883926",
+          "boundingBox": {
+            "x": -7179,
+            "y": 14437,
+            "w": 335,
+            "h": 2448
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11244",
+      "name": "Downgrade Pro to Starter",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -6784,
+        "y": 14437,
+        "w": 375,
+        "h": 2304
+      },
+      "layers": [
+        {
+          "id": "344:11245",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Downgrade Pro to Starter / Frame 1597883926",
+          "boundingBox": {
+            "x": -6764,
+            "y": 14437,
+            "w": 335,
+            "h": 2304
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11274",
+      "name": "Payment Success!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5539,
+        "y": 14439,
+        "w": 375,
+        "h": 1026
+      },
+      "layers": [
+        {
+          "id": "344:11275",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Payment Success! / Frame 1597883926",
+          "boundingBox": {
+            "x": -5519,
+            "y": 14439,
+            "w": 335,
+            "h": 1026
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11293",
+      "name": "Keep Training Your Clients",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -5124,
+        "y": 14439,
+        "w": 375,
+        "h": 748
+      },
+      "layers": [
+        {
+          "id": "344:11294",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Keep Training Your Clients / Frame 1597883926",
+          "boundingBox": {
+            "x": -5104,
+            "y": 14439,
+            "w": 335,
+            "h": 748
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11305",
+      "name": "Your trial has ended!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -4709,
+        "y": 14439,
+        "w": 375,
+        "h": 1044
+      },
+      "layers": [
+        {
+          "id": "344:11306",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your trial has ended! / Frame 1597883926",
+          "boundingBox": {
+            "x": -4689,
+            "y": 14439,
+            "w": 335,
+            "h": 1044
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11319",
+      "name": "Email - 5 days before trial expires",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -4294,
+        "y": 14439,
+        "w": 375,
+        "h": 842
+      },
+      "layers": [
+        {
+          "id": "344:11320",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Email - 5 days before trial expires / Frame 1597883926",
+          "boundingBox": {
+            "x": -4274,
+            "y": 14439,
+            "w": 335,
+            "h": 842
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11333",
+      "name": "Your upgrade is confirmed",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3879,
+        "y": 14439,
+        "w": 375,
+        "h": 730
+      },
+      "layers": [
+        {
+          "id": "344:11334",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your upgrade is confirmed / Frame 1597883926",
+          "boundingBox": {
+            "x": -3859,
+            "y": 14439,
+            "w": 335,
+            "h": 730
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11347",
+      "name": "Alert: Payment OVERDUE. Downgrade in 2 days.",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3464,
+        "y": 14439,
+        "w": 375,
+        "h": 904
+      },
+      "layers": [
+        {
+          "id": "344:11348",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Alert: Payment OVERDUE. Downgrade in 2 days. / Frame 1597883926",
+          "boundingBox": {
+            "x": -3444,
+            "y": 14439,
+            "w": 335,
+            "h": 904
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11359",
+      "name": "App Icon Submission: Needs Revision",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -3049,
+        "y": 14439,
+        "w": 375,
+        "h": 608
+      },
+      "layers": [
+        {
+          "id": "344:11360",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "App Icon Submission: Needs Revision / Frame 1597883926",
+          "boundingBox": {
+            "x": -3029,
+            "y": 14439,
+            "w": 335,
+            "h": 608
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11370",
+      "name": "Your business is growing!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -2634,
+        "y": 14439,
+        "w": 375,
+        "h": 1196
+      },
+      "layers": [
+        {
+          "id": "344:11371",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your business is growing! / Frame 1597883926",
+          "boundingBox": {
+            "x": -2614,
+            "y": 14439,
+            "w": 335,
+            "h": 1196
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "344:11410",
+      "name": "Your business is growing!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "boundingBox": {
+        "x": -2219,
+        "y": 14439,
+        "w": 375,
+        "h": 1196
+      },
+      "layers": [
+        {
+          "id": "344:11411",
+          "name": "Frame 1597883926",
+          "type": "FRAME",
+          "status": "pending",
+          "path": "Your business is growing! / Frame 1597883926",
+          "boundingBox": {
+            "x": -2199,
+            "y": 14439,
+            "w": 335,
+            "h": 1196
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

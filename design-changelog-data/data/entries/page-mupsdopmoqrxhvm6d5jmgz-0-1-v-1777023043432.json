@@ -1,0 +1,153 @@
+{
+  "id": "page-mupsdopmoqrxhvm6d5jmgz-0-1-v-1777023043432",
+  "sourceId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "versionId": "v-1777023043432",
+  "sectionId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "sectionName": "Page 1",
+  "date": "2026-04-24",
+  "lastDetectedAt": "2026-04-24T09:30:43.432Z",
+  "summary": {
+    "edited": 2,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-mupsdopmoqrxhvm6d5jmgz-0-1-v-1777023043432.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+  "frames": [
+    {
+      "id": "1:10828",
+      "name": "7",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "status": "edited",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ?node-id=1:10828",
+      "boundingBox": {
+        "x": -573,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "1:21268",
+          "name": "test",
+          "type": "INSTANCE",
+          "status": "removed",
+          "path": "test",
+          "boundingBox": {
+            "x": -553,
+            "y": 5082,
+            "w": 335,
+            "h": 138
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": "test",
+              "after": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1:10836",
+      "name": "8",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "status": "edited",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ?node-id=1:10836",
+      "boundingBox": {
+        "x": -158,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "12:3930",
+          "name": "test",
+          "type": "INSTANCE",
+          "status": "removed",
+          "path": "test",
+          "boundingBox": {
+            "x": -138,
+            "y": 5082,
+            "w": 335,
+            "h": 138
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": "test",
+              "after": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1:10844",
+      "name": "9",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ?node-id=1:10844",
+      "boundingBox": {
+        "x": 257,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": []
+    },
+    {
+      "id": "1:10852",
+      "name": "6",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ?node-id=1:10852",
+      "boundingBox": {
+        "x": 672,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": []
+    },
+    {
+      "id": "3:2641",
+      "name": "14",
+      "sectionId": "3:2542",
+      "sectionName": "Section 2",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ?node-id=3:2641",
+      "boundingBox": {
+        "x": 1318,
+        "y": 4745,
+        "w": 1440,
+        "h": 874
+      },
+      "layers": []
+    },
+    {
+      "id": "12:3313",
+      "name": "15",
+      "sectionId": "3:2542",
+      "sectionName": "Section 2",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ?node-id=12:3313",
+      "boundingBox": {
+        "x": 2798,
+        "y": 4745,
+        "w": 1440,
+        "h": 874
+      },
+      "layers": []
+    }
+  ]
+}

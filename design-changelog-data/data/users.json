@@ -1,0 +1,23 @@
+[
+  {
+    "id": "u-1777020326476",
+    "email": "huy@gmail.com",
+    "passwordHash": "$2b$10$HnsWBOMZuiYciY7MwSar..l0yKyQwuFDB7Co1/2Z7uKJEAwKUiG0G",
+    "name": "huy",
+    "createdAt": "2026-04-24T08:45:26.476Z"
+  },
+  {
+    "id": "u-1777022050776",
+    "email": "huy2@gmail.com",
+    "passwordHash": "$2b$10$AqGtP0IL/DHcqXEUahNdLO5a7D7h2yZcEOJrxWoe/2jQx1/u82912",
+    "name": "huy2",
+    "createdAt": "2026-04-24T09:14:10.776Z"
+  },
+  {
+    "id": "u-1777022099716",
+    "email": "huy1@gmail.com",
+    "passwordHash": "$2b$10$xZUMZvM7P3Ki6c8OS0CYRurLLRkTHCrWZ0KWz9SjirJDo35UG9l5e",
+    "name": "huy1",
+    "createdAt": "2026-04-24T09:14:59.716Z"
+  }
+]

@@ -33,6 +33,7 @@ export default async function DiffDetailPage({ params }: PageProps) {
           { label: "Diff detail" },
         ]}
         title={page.pageName}
+        pageId={page.id}
         description={formatDateLabel(date)}
         action={<FigmaLink href={entry.figmaDeepLink} label="Open in Figma" />}
       />

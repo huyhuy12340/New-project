@@ -29,6 +29,14 @@ export function getBaselinePath(sourceId: string) {
   return path.join(getLocalRepoRoot(), "data", "baselines", `${sourceId}.json`);
 }
 
+export function getSnapshotPath(sourceId: string, versionId: string) {
+  return path.join(getLocalRepoRoot(), "data", "snapshots", sourceId, `${versionId}.json`);
+}
+
+export function getUserStatePath(userId: string) {
+  return path.join(getLocalRepoRoot(), "data", "user-states", `${userId}.json`);
+}
+
 async function ensureParent(filePath: string) {
   await mkdir(path.dirname(filePath), { recursive: true });
 }
@@ -82,6 +90,44 @@ export async function writeBaseline(sourceId: string, baseline: unknown) {
   const filePath = getBaselinePath(sourceId);
   await ensureParent(filePath);
   await writeFile(filePath, `${JSON.stringify(baseline, null, 2)}\n`, "utf8");
+}
+
+export async function readSnapshot(sourceId: string, versionId: string): Promise<any | null> {
+  try {
+    const raw = await readFile(getSnapshotPath(sourceId, versionId), "utf8");
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+export async function writeSnapshot(sourceId: string, versionId: string, snapshot: any) {
+  const filePath = getSnapshotPath(sourceId, versionId);
+  await ensureParent(filePath);
+  await writeFile(filePath, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
+}
+
+export interface UserState {
+  userId: string;
+  pageStates: Record<string, {
+    lastSeenVersionId: string | null;
+    currentVersionId: string | null;
+  }>;
+}
+
+export async function readUserState(userId: string): Promise<UserState | null> {
+  try {
+    const raw = await readFile(getUserStatePath(userId), "utf8");
+    return JSON.parse(raw) as UserState;
+  } catch {
+    return null;
+  }
+}
+
+export async function writeUserState(userId: string, state: UserState) {
+  const filePath = getUserStatePath(userId);
+  await ensureParent(filePath);
+  await writeFile(filePath, `${JSON.stringify(state, null, 2)}\n`, "utf8");
 }
 
 export async function clearBaselines() {

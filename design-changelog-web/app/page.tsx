@@ -4,6 +4,10 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { loadPageCatalog, loadRecentPages } from "@/lib/catalog"
 import type { PageCategory } from "@/lib/types"
+import { getServerSession } from "next-auth"
+import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { readUserState } from "@/lib/data-store"
+import { Layout } from "lucide-react"
 
 const CATEGORY_LABELS: Record<PageCategory, string> = {
   "coach-app": "Coach app",
@@ -13,6 +17,8 @@ const CATEGORY_LABELS: Record<PageCategory, string> = {
 
 export default async function HomePage() {
   const catalog = await loadPageCatalog()
+  const session = await getServerSession(authOptions)
+  const userState = session?.user?.email ? await readUserState(session.user.email) : null
 
   if (catalog.pages.length === 0) {
     return (
@@ -57,18 +63,30 @@ export default async function HomePage() {
         </div>
         
         <div className="grid gap-4 sm:grid-cols-2">
-          {recentPages.map((page) => (
-            <Link
-              key={page.id}
-              href={`/${page.folderSlug}/${page.id}`}
-              className="flex flex-col gap-3 rounded-xl border border-border bg-background p-5 transition-all hover:border-foreground/20 hover:bg-muted/5"
-            >
-              <div className="flex items-start justify-between gap-2">
-                <div className="min-w-0">
-                  <div className="truncate font-semibold text-foreground">{page.pageName}</div>
-                  <div className="truncate text-xs text-muted-foreground">{page.folderName}</div>
-                </div>
-                <div className="flex flex-wrap justify-end gap-1.5">
+          {recentPages.map((page) => {
+            const lastSeenVersionId = userState?.pageStates[page.id]?.lastSeenVersionId || null
+            const hasLocalChanges = page.lastVersionId && page.lastVersionId !== lastSeenVersionId
+
+            return (
+              <Link
+                key={page.id}
+                href={`/${page.folderSlug}/${page.id}`}
+                className="flex flex-col gap-3 rounded-xl border border-border bg-background p-5 transition-all hover:border-foreground/20 hover:bg-muted/5 group"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <div className="min-w-0 flex items-center gap-3">
+                    <div className="relative">
+                      <Layout className="size-5 text-muted-foreground" />
+                      {hasLocalChanges && (
+                        <div className="absolute -top-1 -right-1 size-2 rounded-full bg-blue-500 shadow-[0_0_6px_rgba(59,130,246,0.5)]" />
+                      )}
+                    </div>
+                    <div className="min-w-0">
+                      <div className="truncate font-semibold text-foreground">{page.pageName}</div>
+                      <div className="truncate text-xs text-muted-foreground">{page.folderName}</div>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap justify-end gap-1.5">
                   {page.categories.map((cat) => (
                     <Badge key={cat} variant="secondary" className="px-1.5 py-0 text-[10px] uppercase">
                       {CATEGORY_LABELS[cat] ?? cat}
@@ -85,8 +103,9 @@ export default async function HomePage() {
                 </span>
               </div>
             </Link>
-          ))}
-        </div>
+          )
+        })}
+      </div>
       </section>
     </main>
   )

@@ -91,6 +91,8 @@ export interface TrackedPage {
   categories: PageCategory[];
   addedAt: string;
   addedBy: string;
+  lastActivityAt: string;
+  lastVersionId?: string;
   archived?: boolean;
 }
 

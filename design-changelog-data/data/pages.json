@@ -86,23 +86,6 @@
       "archived": true
     },
     {
-      "id": "page-7cqgqp7lstl1yp6nicbg7b-18937-86041",
-      "folderSlug": "coach-onboarding-checklist",
-      "folderName": "Coach Onboarding Checklist",
-      "pageName": "Sign up/Onboarding on Coach App & Mobile browser",
-      "figmaFileKey": "7CQGqP7LstL1YP6nICbg7B",
-      "figmaFileName": "Coach Onboarding Checklist",
-      "figmaPageId": "18937:86041",
-      "figmaPageName": "Sign up/Onboarding on Coach App & Mobile browser",
-      "figmaUrl": "https://www.figma.com/design/7CQGqP7LstL1YP6nICbg7B/Coach-Onboarding-Checklist?node-id=18937-86041",
-      "categories": [
-        "coach-app"
-      ],
-      "addedAt": "2026-04-22T04:48:12.196Z",
-      "addedBy": "system",
-      "archived": true
-    },
-    {
       "id": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
       "folderSlug": "untitled",
       "folderName": "Untitled",
@@ -133,6 +116,42 @@
         "web"
       ],
       "addedAt": "2026-04-23T10:38:34.504Z",
+      "addedBy": "system",
+      "archived": false
+    },
+    {
+      "id": "page-pslbvs7kgnryzi3ou12f7h-274-2842",
+      "folderSlug": "all-emails-redesign",
+      "folderName": "All Emails Redesign",
+      "pageName": "All current emails",
+      "figmaFileKey": "pslbvs7KGNRyzi3ou12f7h",
+      "figmaFileName": "All Emails Redesign",
+      "figmaPageId": "274:2842",
+      "figmaPageName": "All current emails",
+      "figmaUrl": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-24T02:49:42.366Z",
+      "addedBy": "system",
+      "archived": false,
+      "lastVersionId": "v-1777023477169",
+      "lastActivityAt": "2026-04-24T09:37:57.169Z"
+    },
+    {
+      "id": "page-3bafxgh3fssalagwvdj5td-15698-321907",
+      "folderSlug": "mpd-trainer-match-tool-client",
+      "folderName": "MPD Trainer Match Tool Client",
+      "pageName": "Proposed user flow",
+      "figmaFileKey": "3bAfXgH3fssalaGWVdJ5TD",
+      "figmaFileName": "MPD Trainer Match Tool Client",
+      "figmaPageId": "15698:321907",
+      "figmaPageName": "Proposed user flow",
+      "figmaUrl": "https://www.figma.com/design/3bAfXgH3fssalaGWVdJ5TD/-MPD--Trainer-Match-Tool--Client-?node-id=15698-321907",
+      "categories": [
+        "web"
+      ],
+      "addedAt": "2026-04-24T04:38:54.373Z",
       "addedBy": "system",
       "archived": false
     }

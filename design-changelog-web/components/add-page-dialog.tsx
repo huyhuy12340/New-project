@@ -20,12 +20,13 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
 import type { PageCategory, ResolvedFigmaPage } from "@/lib/types"
+import { Progress } from "@/components/ui/progress"
 import { cn } from "@/lib/utils"
 
-const CATEGORY_OPTIONS: Array<{ value: PageCategory; label: string; description: string }> = [
-  { value: "coach-app", label: "Coach app", description: "Internal coaching experiences." },
-  { value: "client-app", label: "Client app", description: "Client-facing flows and screens." },
-  { value: "web", label: "Web", description: "Web surfaces and admin tools." },
+const CATEGORY_OPTIONS: Array<{ value: PageCategory; label: string }> = [
+  { value: "coach-app", label: "Coach app" },
+  { value: "client-app", label: "Client app" },
+  { value: "web", label: "Web" },
 ]
 
 function isProbablyFigmaUrl(value: string) {
@@ -64,7 +65,6 @@ export function AddPageDialog() {
   const [open, setOpen] = React.useState(false)
   const [url, setUrl] = React.useState("")
   const [pageName, setPageName] = React.useState("")
-  const pageNameTouchedRef = React.useRef(false)
   const [resolved, setResolved] = React.useState<ResolvedFigmaPage | null>(null)
   const [categories, setCategories] = React.useState<PageCategory[]>(["web"])
   const [isResolving, setIsResolving] = React.useState(false)
@@ -81,7 +81,6 @@ export function AddPageDialog() {
 
     setUrl("")
     setPageName("")
-    pageNameTouchedRef.current = false
     setResolved(null)
     setCategories(["web"])
     setIsResolving(false)
@@ -116,17 +115,16 @@ export function AddPageDialog() {
           return
         }
         setResolved(value)
-        if (!pageNameTouchedRef.current) {
-          setPageName(value.pageName)
-        }
+        setPageName(value.pageName)
       } catch (error) {
         if (!active) {
           return
         }
         setResolved(null)
+        setPageName("Untitled") // Fallback only on error/timeout
         const message = error instanceof Error ? error.message : "Unable to resolve the Figma link."
         if (/timeout|aborted/i.test(message)) {
-          setResolveWarning("Metadata could not be loaded yet. Enter the page name manually to continue.")
+          setResolveWarning("Metadata is taking longer than usual. Page will be added as 'Untitled' and updated during sync.")
         } else {
           setResolveError(message)
         }
@@ -178,7 +176,6 @@ export function AddPageDialog() {
       setOpen(false)
       setUrl("")
       setPageName("")
-      pageNameTouchedRef.current = false
       setResolved(null)
       setCategories(["web"])
       router.refresh()
@@ -201,27 +198,42 @@ export function AddPageDialog() {
         <form className="space-y-6" onSubmit={handleSubmit}>
           <DialogHeader>
             <DialogTitle>Add tracked page</DialogTitle>
-            <DialogDescription>
-              Paste a Figma page URL with a `node-id`. The file name becomes the folder. The
-              page name will auto-fill when metadata resolves quickly, otherwise enter it manually.
-            </DialogDescription>
           </DialogHeader>
 
           <div className="space-y-2">
             <Label htmlFor="figma-url">Figma URL</Label>
-            <Input
-              id="figma-url"
-              placeholder="https://www.figma.com/design/..."
-              value={url}
-              onChange={(event) => {
-                setUrl(event.target.value)
-                setResolved(null)
-                setResolveError(null)
-                setResolveWarning(null)
-                setPageName("")
-                pageNameTouchedRef.current = false
-              }}
-            />
+            <div className="relative">
+              <Input
+                id="figma-url"
+                placeholder="https://www.figma.com/design/..."
+                value={url}
+                onChange={(event) => {
+                  setUrl(event.target.value)
+                  setResolved(null)
+                  setResolveError(null)
+                  setResolveWarning(null)
+                  setPageName("")
+                }}
+                className={cn(isResolving && "pb-2")}
+              />
+              {isResolving && (
+                <div className="absolute bottom-0 left-0 right-0 h-[2px] overflow-hidden rounded-b-md">
+                  <div className="h-full w-full bg-primary/30">
+                    <div className="h-full w-full bg-primary animate-indeterminate-progress origin-left" />
+                  </div>
+                </div>
+              )}
+            </div>
+            <style jsx global>{`
+              @keyframes indeterminate-progress {
+                0% { transform: translateX(-100%) scaleX(0.2); }
+                50% { transform: translateX(-20%) scaleX(0.5); }
+                100% { transform: translateX(100%) scaleX(0.2); }
+              }
+              .animate-indeterminate-progress {
+                animation: indeterminate-progress 1.5s infinite linear;
+              }
+            `}</style>
             <div className={cn(
               "text-xs",
               resolveError ? "text-destructive" : "text-muted-foreground",
@@ -236,15 +248,13 @@ export function AddPageDialog() {
             <Label htmlFor="page-name">Page name</Label>
             <Input
               id="page-name"
-              placeholder="Enter or auto-fill page name"
+              placeholder="Auto-filling page name..."
               value={pageName}
-              onChange={(event) => {
-                setPageName(event.target.value)
-                pageNameTouchedRef.current = true
-              }}
+              readOnly
+              className="bg-muted/50 cursor-not-allowed focus-visible:ring-0"
             />
             <div className="text-xs text-muted-foreground">
-              This will auto-fill when Figma metadata resolves quickly. If not, enter it manually.
+              This will auto-fill from Figma. If resolution is slow, it will default to "Untitled".
             </div>
           </div>
 
@@ -309,12 +319,9 @@ export function AddPageDialog() {
                       }}
                       className="mt-0.5 shrink-0"
                     />
-                    <span className="space-y-1">
+                    <span className="flex-1">
                       <span className="block text-sm font-medium text-foreground">
                         {option.label}
-                      </span>
-                      <span className="block text-xs text-muted-foreground">
-                        {option.description}
                       </span>
                     </span>
                   </label>
@@ -339,7 +346,7 @@ export function AddPageDialog() {
             </Button>
             <Button
               type="submit"
-              disabled={!url.trim() || !pageName.trim() || isSaving}
+              disabled={!url.trim() || !pageName.trim() || isSaving || isResolving}
             >
               {isSaving ? "Saving..." : "Add page"}
             </Button>

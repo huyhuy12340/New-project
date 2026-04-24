@@ -2,11 +2,12 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import type { ReactNode } from "react"
 
-import { AppHeader } from "@/components/app-header"
-import { AppSidebar } from "@/components/app-sidebar"
-import { SearchPalette } from "@/components/search-palette"
-import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
+import { LayoutWrapper } from "@/components/layout-wrapper"
+import { Providers } from "@/components/providers"
 import { loadPageCatalog } from "@/lib/catalog"
+import { getServerSession } from "next-auth"
+import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { readUserState } from "@/lib/data-store"
 import "./globals.css"
 
 const geistSans = Geist({
@@ -30,6 +31,8 @@ export default async function RootLayout({
   children: ReactNode
 }>) {
   const catalog = await loadPageCatalog()
+  const session = await getServerSession(authOptions)
+  const userState = session?.user?.email ? await readUserState(session.user.email) : null
 
   return (
     <html
@@ -37,16 +40,11 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background text-foreground">
-        <SidebarProvider>
-          <AppSidebar pages={catalog.pages} />
-          <SidebarInset>
-            <div className="flex min-h-screen flex-col">
-              <AppHeader pages={catalog.pages} />
-              <main className="flex-1 pt-10">{children}</main>
-            </div>
-          </SidebarInset>
-        </SidebarProvider>
-        <SearchPalette pages={catalog.pages} />
+        <Providers>
+          <LayoutWrapper pages={catalog.pages} userState={userState}>
+            {children}
+          </LayoutWrapper>
+        </Providers>
       </body>
     </html>
   )

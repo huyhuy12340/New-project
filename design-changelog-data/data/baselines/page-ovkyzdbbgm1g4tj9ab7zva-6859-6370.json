@@ -1,9 +1,9 @@
 {
   "sourceId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
-  "versionId": "2345505477431757123",
-  "versionCreatedAt": "2026-04-23T07:26:28.373Z",
-  "fileName": "Sign-in/up page",
-  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/2002141b-c142-4d0e-bde9-02eaf579dc16?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCX3MXBVFK%2F20260423%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260423T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0f9c37b6bf6cc6e8e8f35c2f477669f5a89e44434ba5f4ebb67a145d73141ac2",
+  "versionId": "oVKYzdbBgm1G4tJ9ab7ZVA-1777016360645",
+  "versionCreatedAt": "2026-04-24T07:39:20.645Z",
+  "fileName": "Sign in/up page",
+  "thumbnailUrl": "",
   "nodes": {
     "6878:1055": {
       "id": "6878:1055",
@@ -45,6 +45,1183 @@
       ],
       "fingerprint": "{\"name\":\"Full screen\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":3570,\"w\":1440,\"h\":900,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.10000000149011612}"
     },
+    "6859:6595": {
+      "id": "6859:6595",
+      "name": "Logo",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3610,
+        "w": 103.29048156738281,
+        "h": 50
+      },
+      "children": [
+        "I6859:6595;33892:60230"
+      ],
+      "fingerprint": "{\"name\":\"Logo\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3610,\"w\":103.29048156738281,\"h\":50,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60230": {
+      "id": "I6859:6595;33892:60230",
+      "name": "Group 50",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3624,
+        "w": 103.29048156738281,
+        "h": 22.000118255615234
+      },
+      "children": [
+        "I6859:6595;33892:60231"
+      ],
+      "fingerprint": "{\"name\":\"Group 50\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3624,\"w\":103.29048156738281,\"h\":22.000118255615234,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60231": {
+      "id": "I6859:6595;33892:60231",
+      "name": "Group 48",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3624,
+        "w": 103.29048156738281,
+        "h": 22.000118255615234
+      },
+      "children": [
+        "I6859:6595;33892:60232"
+      ],
+      "fingerprint": "{\"name\":\"Group 48\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3624,\"w\":103.29048156738281,\"h\":22.000118255615234,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60232": {
+      "id": "I6859:6595;33892:60232",
+      "name": "Group 43",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3624,
+        "w": 103.29048156738281,
+        "h": 22.000118255615234
+      },
+      "children": [
+        "I6859:6595;33892:60233",
+        "I6859:6595;33892:60248",
+        "I6859:6595;35751:110481"
+      ],
+      "fingerprint": "{\"name\":\"Group 43\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3624,\"w\":103.29048156738281,\"h\":22.000118255615234,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60233": {
+      "id": "I6859:6595;33892:60233",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": false,
+      "text": null,
+      "box": {
+        "x": 3520.1513671875,
+        "y": 3626.44677734375,
+        "w": 82.67362976074219,
+        "h": 13.581381797790527
+      },
+      "children": [
+        "I6859:6595;33892:60234",
+        "I6859:6595;33892:60235",
+        "I6859:6595;33892:60236",
+        "I6859:6595;33892:60237",
+        "I6859:6595;33892:60238",
+        "I6859:6595;33892:60241",
+        "I6859:6595;33892:60244",
+        "I6859:6595;33892:60245",
+        "I6859:6595;33892:60246",
+        "I6859:6595;33892:60247"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":false,\"text\":null,\"x\":3520.1513671875,\"y\":3626.44677734375,\"w\":82.67362976074219,\"h\":13.581381797790527,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60234": {
+      "id": "I6859:6595;33892:60234",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3534.146484375,
+        "y": 3631.47119140625,
+        "w": 8.242948532104492,
+        "h": 8.35015869140625
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3534.146484375,\"y\":3631.47119140625,\"w\":8.242948532104492,\"h\":8.35015869140625,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60235": {
+      "id": "I6859:6595;33892:60235",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3586.879638671875,
+        "y": 3631.47509765625,
+        "w": 1.7652095556259155,
+        "h": 8.345837593078613
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3586.879638671875,\"y\":3631.47509765625,\"w\":1.7652095556259155,\"h\":8.345837593078613,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60236": {
+      "id": "I6859:6595;33892:60236",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3573.538330078125,
+        "y": 3631.47509765625,
+        "w": 5.59873628616333,
+        "h": 1.6020314693450928
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3573.538330078125,\"y\":3631.47509765625,\"w\":5.59873628616333,\"h\":1.6020314693450928,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60237": {
+      "id": "I6859:6595;33892:60237",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3595.992431640625,
+        "y": 3631.47509765625,
+        "w": 5.59873628616333,
+        "h": 1.6020314693450928
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3595.992431640625,\"y\":3631.47509765625,\"w\":5.59873628616333,\"h\":1.6020314693450928,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60238": {
+      "id": "I6859:6595;33892:60238",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3520.1513671875,
+        "y": 3631.27880859375,
+        "w": 8.684613227844238,
+        "h": 8.731794357299805
+      },
+      "children": [
+        "I6859:6595;33892:60239",
+        "I6859:6595;33892:60240"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3520.1513671875,\"y\":3631.27880859375,\"w\":8.684613227844238,\"h\":8.731794357299805,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60239": {
+      "id": "I6859:6595;33892:60239",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3520.1513671875,
+        "y": 3631.27880859375,
+        "w": 8.684613227844238,
+        "h": 4.764315605163574
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3520.1513671875,\"y\":3631.27880859375,\"w\":8.684613227844238,\"h\":4.764315605163574,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60240": {
+      "id": "I6859:6595;33892:60240",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3520.506591796875,
+        "y": 3636.883056640625,
+        "w": 7.949951648712158,
+        "h": 3.1277077198028564
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3520.506591796875,\"y\":3636.883056640625,\"w\":7.949951648712158,\"h\":3.1277077198028564,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60241": {
+      "id": "I6859:6595;33892:60241",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3547.721435546875,
+        "y": 3631.27880859375,
+        "w": 8.684616088867188,
+        "h": 8.731794357299805
+      },
+      "children": [
+        "I6859:6595;33892:60242",
+        "I6859:6595;33892:60243"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3547.721435546875,\"y\":3631.27880859375,\"w\":8.684616088867188,\"h\":8.731794357299805,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60242": {
+      "id": "I6859:6595;33892:60242",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3547.721435546875,
+        "y": 3631.27880859375,
+        "w": 8.684616088867188,
+        "h": 4.764315605163574
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3547.721435546875,\"y\":3631.27880859375,\"w\":8.684616088867188,\"h\":4.764315605163574,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60243": {
+      "id": "I6859:6595;33892:60243",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3548.07763671875,
+        "y": 3636.883056640625,
+        "w": 7.949954032897949,
+        "h": 3.1277077198028564
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3548.07763671875,\"y\":3636.883056640625,\"w\":7.949954032897949,\"h\":3.1277077198028564,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60244": {
+      "id": "I6859:6595;33892:60244",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3562.865966796875,
+        "y": 3631.26318359375,
+        "w": 5.281202793121338,
+        "h": 8.558408737182617
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3562.865966796875,\"y\":3631.26318359375,\"w\":5.281202793121338,\"h\":8.558408737182617,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60245": {
+      "id": "I6859:6595;33892:60245",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3575.08837890625,
+        "y": 3626.44677734375,
+        "w": 5.278318405151367,
+        "h": 13.373147964477539
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3575.08837890625,\"y\":3626.44677734375,\"w\":5.278318405151367,\"h\":13.373147964477539,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60246": {
+      "id": "I6859:6595;33892:60246",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3597.541015625,
+        "y": 3626.948974609375,
+        "w": 5.284088134765625,
+        "h": 13.079251289367676
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3597.541015625,\"y\":3626.948974609375,\"w\":5.284088134765625,\"h\":13.079251289367676,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60247": {
+      "id": "I6859:6595;33892:60247",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3586.57470703125,
+        "y": 3627.57275390625,
+        "w": 2.372861623764038,
+        "h": 2.368471145629883
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3586.57470703125,\"y\":3627.57275390625,\"w\":2.372861623764038,\"h\":2.368471145629883,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60248": {
+      "id": "I6859:6595;33892:60248",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3521.06982421875,
+        "y": 3626.52783203125,
+        "w": 81.57539367675781,
+        "h": 13.401692390441895
+      },
+      "children": [
+        "I6859:6595;33892:60249",
+        "I6859:6595;33892:60250",
+        "I6859:6595;33892:60251",
+        "I6859:6595;33892:60252",
+        "I6859:6595;33892:60253",
+        "I6859:6595;33892:60256",
+        "I6859:6595;33892:60259",
+        "I6859:6595;33892:60260",
+        "I6859:6595;33892:60261",
+        "I6859:6595;33892:60262"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3521.06982421875,\"y\":3626.52783203125,\"w\":81.57539367675781,\"h\":13.401692390441895,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60249": {
+      "id": "I6859:6595;33892:60249",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3534.879638671875,
+        "y": 3631.48583984375,
+        "w": 8.133538246154785,
+        "h": 8.239325523376465
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3534.879638671875,\"y\":3631.48583984375,\"w\":8.133538246154785,\"h\":8.239325523376465,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60250": {
+      "id": "I6859:6595;33892:60250",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3586.911865234375,
+        "y": 3631.490478515625,
+        "w": 1.7417795658111572,
+        "h": 8.235061645507812
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3586.911865234375,\"y\":3631.490478515625,\"w\":1.7417795658111572,\"h\":8.235061645507812,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60251": {
+      "id": "I6859:6595;33892:60251",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3573.74658203125,
+        "y": 3631.490478515625,
+        "w": 5.524423599243164,
+        "h": 1.5807675123214722
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3573.74658203125,\"y\":3631.490478515625,\"w\":5.524423599243164,\"h\":1.5807675123214722,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60252": {
+      "id": "I6859:6595;33892:60252",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3595.904296875,
+        "y": 3631.490478515625,
+        "w": 5.524423599243164,
+        "h": 1.5807675123214722
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3595.904296875,\"y\":3631.490478515625,\"w\":5.524423599243164,\"h\":1.5807675123214722,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60253": {
+      "id": "I6859:6595;33892:60253",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3521.06982421875,
+        "y": 3631.29736328125,
+        "w": 8.569340705871582,
+        "h": 8.616222381591797
+      },
+      "children": [
+        "I6859:6595;33892:60254",
+        "I6859:6595;33892:60255"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3521.06982421875,\"y\":3631.29736328125,\"w\":8.569340705871582,\"h\":8.616222381591797,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60254": {
+      "id": "I6859:6595;33892:60254",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3521.06982421875,
+        "y": 3631.29736328125,
+        "w": 8.569340705871582,
+        "h": 4.701077461242676
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3521.06982421875,\"y\":3631.29736328125,\"w\":8.569340705871582,\"h\":4.701077461242676,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60255": {
+      "id": "I6859:6595;33892:60255",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3521.420166015625,
+        "y": 3636.827392578125,
+        "w": 7.844429969787598,
+        "h": 3.086193084716797
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3521.420166015625,\"y\":3636.827392578125,\"w\":7.844429969787598,\"h\":3.086193084716797,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60256": {
+      "id": "I6859:6595;33892:60256",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3548.271484375,
+        "y": 3631.29736328125,
+        "w": 8.569343566894531,
+        "h": 8.616222381591797
+      },
+      "children": [
+        "I6859:6595;33892:60257",
+        "I6859:6595;33892:60258"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3548.271484375,\"y\":3631.29736328125,\"w\":8.569343566894531,\"h\":8.616222381591797,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60257": {
+      "id": "I6859:6595;33892:60257",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3548.271484375,
+        "y": 3631.29736328125,
+        "w": 8.569343566894531,
+        "h": 4.701077461242676
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3548.271484375,\"y\":3631.29736328125,\"w\":8.569343566894531,\"h\":4.701077461242676,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60258": {
+      "id": "I6859:6595;33892:60258",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3548.623046875,
+        "y": 3636.827392578125,
+        "w": 7.844433307647705,
+        "h": 3.086193084716797
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3548.623046875,\"y\":3636.827392578125,\"w\":7.844433307647705,\"h\":3.086193084716797,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60259": {
+      "id": "I6859:6595;33892:60259",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3563.21630859375,
+        "y": 3631.281005859375,
+        "w": 5.211104869842529,
+        "h": 8.444811820983887
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3563.21630859375,\"y\":3631.281005859375,\"w\":5.211104869842529,\"h\":8.444811820983887,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60260": {
+      "id": "I6859:6595;33892:60260",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3575.276123046875,
+        "y": 3626.52783203125,
+        "w": 5.208258628845215,
+        "h": 13.19564437866211
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3575.276123046875,\"y\":3626.52783203125,\"w\":5.208258628845215,\"h\":13.19564437866211,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60261": {
+      "id": "I6859:6595;33892:60261",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3597.43115234375,
+        "y": 3627.02392578125,
+        "w": 5.21395206451416,
+        "h": 12.905648231506348
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3597.43115234375,\"y\":3627.02392578125,\"w\":5.21395206451416,\"h\":12.905648231506348,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;33892:60262": {
+      "id": "I6859:6595;33892:60262",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3586.61083984375,
+        "y": 3627.638671875,
+        "w": 2.3413665294647217,
+        "h": 2.337034225463867
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3586.61083984375,\"y\":3627.638671875,\"w\":2.3413665294647217,\"h\":2.337034225463867,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;35751:110481": {
+      "id": "I6859:6595;35751:110481",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3624,
+        "w": 14.546448707580566,
+        "h": 22.000118255615234
+      },
+      "children": [
+        "I6859:6595;35751:110482",
+        "I6859:6595;35751:110483",
+        "I6859:6595;35751:110484",
+        "I6859:6595;35751:110485"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3624,\"w\":14.546448707580566,\"h\":22.000118255615234,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;35751:110482": {
+      "id": "I6859:6595;35751:110482",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3501.524658203125,
+        "y": 3633.45068359375,
+        "w": 9.156143188476562,
+        "h": 12.549434661865234
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3501.524658203125,\"y\":3633.45068359375,\"w\":9.156143188476562,\"h\":12.549434661865234,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;35751:110483": {
+      "id": "I6859:6595;35751:110483",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3624.00390625,
+        "w": 14.537071228027344,
+        "h": 17.67567253112793
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3624.00390625,\"w\":14.537071228027344,\"h\":17.67567253112793,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6859:6595;35751:110484": {
+      "id": "I6859:6595;35751:110484",
+      "name": "Subtract",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.354736328125,
+        "y": 3627.10205078125,
+        "w": 12.570740699768066,
+        "h": 11.246642112731934
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Subtract\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3499.354736328125,\"y\":3627.10205078125,\"w\":12.570740699768066,\"h\":11.246642112731934,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.25}"
+    },
+    "I6859:6595;35751:110485": {
+      "id": "I6859:6595;35751:110485",
+      "name": "Subtract",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3502.060791015625,
+        "y": 3624,
+        "w": 11.840394020080566,
+        "h": 10.06075382232666
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Subtract\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3502.060791015625,\"y\":3624,\"w\":11.840394020080566,\"h\":10.06075382232666,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.25}"
+    },
+    "6861:6742": {
+      "id": "6861:6742",
+      "name": "Login Sign up",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3321,
+        "y": 3684,
+        "w": 460,
+        "h": 584
+      },
+      "children": [
+        "6861:6969",
+        "6861:6968"
+      ],
+      "fingerprint": "{\"name\":\"Login Sign up\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3321,\"y\":3684,\"w\":460,\"h\":584,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6969": {
+      "id": "6861:6969",
+      "name": "Frame 1597884739",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3353,
+        "y": 3684,
+        "w": 396,
+        "h": 470
+      },
+      "children": [
+        "6861:6973",
+        "6861:6948"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884739\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3353,\"y\":3684,\"w\":396,\"h\":470,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6973": {
+      "id": "6861:6973",
+      "name": "Frame 1321315729",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3353,
+        "y": 3684,
+        "w": 396,
+        "h": 436
+      },
+      "children": [
+        "6861:6974",
+        "6861:6977"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315729\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3353,\"y\":3684,\"w\":396,\"h\":436,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6974": {
+      "id": "6861:6974",
+      "name": "Frame 1597884695",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3416.5,
+        "y": 3684,
+        "w": 269,
+        "h": 197
+      },
+      "children": [
+        "6861:6975",
+        "6861:6976"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884695\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3416.5,\"y\":3684,\"w\":269,\"h\":197,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6975": {
+      "id": "6861:6975",
+      "name": "image 13",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3492.5,
+        "y": 3684,
+        "w": 117,
+        "h": 150
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 13\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3492.5,\"y\":3684,\"w\":117,\"h\":150,\"fills\":2,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6861:6976": {
+      "id": "6861:6976",
+      "name": "Rectangle 338",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3476.499877991143,
+        "y": 3571,
+        "w": 241.94600685241585,
+        "h": 295.39056548028293
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 338\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3476.499877991143,\"y\":3571,\"w\":241.94600685241585,\"h\":295.39056548028293,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.4000000059604645}"
+    },
+    "6861:6977": {
+      "id": "6861:6977",
+      "name": "Frame 1321315719",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3353,
+        "y": 3881,
+        "w": 396,
+        "h": 239
+      },
+      "children": [
+        "6861:6978",
+        "6861:6979",
+        "6861:6980"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315719\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3353,\"y\":3881,\"w\":396,\"h\":239,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6978": {
+      "id": "6861:6978",
+      "name": "Title Copy 13",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Create a passkey",
+      "box": {
+        "x": 3353,
+        "y": 3881,
+        "w": 396,
+        "h": 36
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Title Copy 13\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Create a passkey\",\"x\":3353,\"y\":3881,\"w\":396,\"h\":36,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6979": {
+      "id": "6861:6979",
+      "name": "Passkeys are easier and more secure than passwords.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Passkeys are easier and more secure than passwords.",
+      "box": {
+        "x": 3353,
+        "y": 3933,
+        "w": 396,
+        "h": 24
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Passkeys are easier and more secure than passwords.\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Passkeys are easier and more secure than passwords.\",\"x\":3353,\"y\":3933,\"w\":396,\"h\":24,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6980": {
+      "id": "6861:6980",
+      "name": "Frame 1321315728",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3353,
+        "y": 3973,
+        "w": 396,
+        "h": 147
+      },
+      "children": [
+        "6861:6981",
+        "6861:6985",
+        "6861:6997"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315728\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3353,\"y\":3973,\"w\":396,\"h\":147,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6981": {
+      "id": "6861:6981",
+      "name": "Frame 1321315723",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3373,
+        "y": 3997,
+        "w": 356,
+        "h": 21
+      },
+      "children": [
+        "6861:6982",
+        "6861:6984"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315723\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3373,\"y\":3997,\"w\":356,\"h\":21,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6982": {
+      "id": "6861:6982",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3373,
+        "y": 3997.5,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6861:6983"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3373,\"y\":3997.5,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6983": {
+      "id": "6861:6983",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3375.5,
+        "y": 3999.76171875,
+        "w": 15.00000286102295,
+        "h": 15.548333168029785
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3375.5,\"y\":3999.76171875,\"w\":15.00000286102295,\"h\":15.548333168029785,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6984": {
+      "id": "6861:6984",
+      "name": "Strengthen account security",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Strengthen account security",
+      "box": {
+        "x": 3405,
+        "y": 3997,
+        "w": 183,
+        "h": 21
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Strengthen account security\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Strengthen account security\",\"x\":3405,\"y\":3997,\"w\":183,\"h\":21,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6985": {
+      "id": "6861:6985",
+      "name": "Frame 1321315726",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3373,
+        "y": 4036,
+        "w": 356,
+        "h": 21
+      },
+      "children": [
+        "6861:6986",
+        "6861:6996"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315726\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3373,\"y\":4036,\"w\":356,\"h\":21,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6986": {
+      "id": "6861:6986",
+      "name": "face-id_16362729 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3373,
+        "y": 4036.5,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6861:6987",
+        "6861:7016"
+      ],
+      "fingerprint": "{\"name\":\"face-id_16362729 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3373,\"y\":4036.5,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6987": {
+      "id": "6861:6987",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3374.666748046875,
+        "y": 4038.166748046875,
+        "w": 16.66666603088379,
+        "h": 16.66666603088379
+      },
+      "children": [
+        "6861:6988",
+        "6861:6989",
+        "6861:6990",
+        "6861:6991"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3374.666748046875,\"y\":4038.166748046875,\"w\":16.66666603088379,\"h\":16.66666603088379,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6988": {
+      "id": "6861:6988",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3374.666748046875,
+        "y": 4038.166748046875,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3374.666748046875,\"y\":4038.166748046875,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6989": {
+      "id": "6861:6989",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3386.333251953125,
+        "y": 4038.166748046875,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3386.333251953125,\"y\":4038.166748046875,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6990": {
+      "id": "6861:6990",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3374.666748046875,
+        "y": 4049.83349609375,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3374.666748046875,\"y\":4049.83349609375,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6991": {
+      "id": "6861:6991",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3386.333251953125,
+        "y": 4049.83349609375,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3386.333251953125,\"y\":4049.83349609375,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:7016": {
+      "id": "6861:7016",
+      "name": "Line 1",
+      "type": "LINE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3379,
+        "y": 4047,
+        "w": 8,
+        "h": 0
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Line 1\",\"type\":\"LINE\",\"visible\":true,\"text\":null,\"x\":3379,\"y\":4047,\"w\":8,\"h\":0,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6996": {
+      "id": "6861:6996",
+      "name": "Sign in faster without typing your password",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Sign in faster without typing your password",
+      "box": {
+        "x": 3405,
+        "y": 4036,
+        "w": 283,
+        "h": 21
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Sign in faster without typing your password\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Sign in faster without typing your password\",\"x\":3405,\"y\":4036,\"w\":283,\"h\":21,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6997": {
+      "id": "6861:6997",
+      "name": "Frame 1321315727",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3373,
+        "y": 4075,
+        "w": 356,
+        "h": 21
+      },
+      "children": [
+        "6861:6998",
+        "6861:7000"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315727\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3373,\"y\":4075,\"w\":356,\"h\":21,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6998": {
+      "id": "6861:6998",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3373,
+        "y": 4075.5,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6861:6999"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3373,\"y\":4075.5,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6999": {
+      "id": "6861:6999",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3375.5,
+        "y": 4078,
+        "w": 15,
+        "h": 15
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3375.5,\"y\":4078,\"w\":15,\"h\":15,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:7000": {
+      "id": "6861:7000",
+      "name": "Save time and peace of mind",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Save time and peace of mind",
+      "box": {
+        "x": 3405,
+        "y": 4075,
+        "w": 189,
+        "h": 21
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Save time and peace of mind\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Save time and peace of mind\",\"x\":3405,\"y\":4075,\"w\":189,\"h\":21,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6948": {
+      "id": "6861:6948",
+      "name": "You can manage your passkeys in settings.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "You can manage your passkeys in settings.",
+      "box": {
+        "x": 3353,
+        "y": 4136,
+        "w": 396,
+        "h": 18
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"You can manage your passkeys in settings.\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"You can manage your passkeys in settings.\",\"x\":3353,\"y\":4136,\"w\":396,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6968": {
+      "id": "6861:6968",
+      "name": "Frame 1597884738",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3353,
+        "y": 4186,
+        "w": 396,
+        "h": 82
+      },
+      "children": [
+        "6861:6947"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884738\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3353,\"y\":4186,\"w\":396,\"h\":82,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6947": {
+      "id": "6861:6947",
+      "name": "Frame 1321315721",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3454,
+        "y": 4186,
+        "w": 194,
+        "h": 82
+      },
+      "children": [
+        "6861:6964",
+        "6861:6966"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315721\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3454,\"y\":4186,\"w\":194,\"h\":82,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6964": {
+      "id": "6861:6964",
+      "name": "Button",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3454,
+        "y": 4186,
+        "w": 194,
+        "h": 40
+      },
+      "children": [
+        "6861:6965"
+      ],
+      "fingerprint": "{\"name\":\"Button\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3454,\"y\":4186,\"w\":194,\"h\":40,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6965": {
+      "id": "6861:6965",
+      "name": "Text",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Continue",
+      "box": {
+        "x": 3519,
+        "y": 4196.5,
+        "w": 64,
+        "h": 19
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Text\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Continue\",\"x\":3519,\"y\":4196.5,\"w\":64,\"h\":19,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6861:6966": {
+      "id": "6861:6966",
+      "name": "Title Copy 5",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Skip for now",
+      "box": {
+        "x": 3510.5,
+        "y": 4250,
+        "w": 81,
+        "h": 18
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Title Copy 5\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Skip for now\",\"x\":3510.5,\"y\":4250,\"w\":81,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
     "6869:6877": {
       "id": "6869:6877",
       "name": "Popup 2",
@@ -63,6 +1240,645 @@
         "6869:10903"
       ],
       "fingerprint": "{\"name\":\"Popup 2\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":2341,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":0.10000000149011612}"
+    },
+    "6869:6875": {
+      "id": "6869:6875",
+      "name": "image 16",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2831,
+        "y": 2341,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 16\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":2341,\"w\":1912,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:6878": {
+      "id": "6869:6878",
+      "name": "Frame 1597884742",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2831,
+        "y": 2341,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Frame 1597884742\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":2341,\"w\":1912,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10903": {
+      "id": "6869:10903",
+      "name": "Login Sign up",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3557,
+        "y": 2586.5,
+        "w": 460,
+        "h": 589
+      },
+      "children": [
+        "6869:10904",
+        "6869:10931",
+        "6869:10937"
+      ],
+      "fingerprint": "{\"name\":\"Login Sign up\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3557,\"y\":2586.5,\"w\":460,\"h\":589,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10904": {
+      "id": "6869:10904",
+      "name": "Frame 1597884739",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 2586.5,
+        "w": 396,
+        "h": 443
+      },
+      "children": [
+        "6869:10905",
+        "6869:10930"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884739\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":2586.5,\"w\":396,\"h\":443,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10905": {
+      "id": "6869:10905",
+      "name": "Frame 1321315729",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 2586.5,
+        "w": 396,
+        "h": 409
+      },
+      "children": [
+        "6869:10906",
+        "6869:10909"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315729\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":2586.5,\"w\":396,\"h\":409,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10906": {
+      "id": "6869:10906",
+      "name": "Frame 1597884695",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3680.651123046875,
+        "y": 2586.5,
+        "w": 212.6976776123047,
+        "h": 170
+      },
+      "children": [
+        "6869:10907",
+        "6869:10908"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884695\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3680.651123046875,\"y\":2586.5,\"w\":212.6976776123047,\"h\":170,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10907": {
+      "id": "6869:10907",
+      "name": "image 13",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3737,
+        "y": 2603.895263671875,
+        "w": 92.27783966064453,
+        "h": 118.90589141845703
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 13\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3737,\"y\":2603.895263671875,\"w\":92.27783966064453,\"h\":118.90589141845703,\"fills\":2,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6869:10908": {
+      "id": "6869:10908",
+      "name": "Rectangle 338",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3720.697707299686,
+        "y": 2514.54638671875,
+        "w": 191.30614347818482,
+        "h": 233.5646231300102
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 338\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3720.697707299686,\"y\":2514.54638671875,\"w\":191.30614347818482,\"h\":233.5646231300102,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.4000000059604645}"
+    },
+    "6869:10909": {
+      "id": "6869:10909",
+      "name": "Frame 1321315719",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 2756.5,
+        "w": 396,
+        "h": 239
+      },
+      "children": [
+        "6869:10910",
+        "6869:10911",
+        "6869:10912"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315719\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":2756.5,\"w\":396,\"h\":239,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10910": {
+      "id": "6869:10910",
+      "name": "Title Copy 13",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Create a passkey",
+      "box": {
+        "x": 3589,
+        "y": 2756.5,
+        "w": 396,
+        "h": 36
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Title Copy 13\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Create a passkey\",\"x\":3589,\"y\":2756.5,\"w\":396,\"h\":36,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10911": {
+      "id": "6869:10911",
+      "name": "Passkeys are easier and more secure than passwords.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Passkeys are easier and more secure than passwords.",
+      "box": {
+        "x": 3589,
+        "y": 2808.5,
+        "w": 396,
+        "h": 24
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Passkeys are easier and more secure than passwords.\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Passkeys are easier and more secure than passwords.\",\"x\":3589,\"y\":2808.5,\"w\":396,\"h\":24,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10912": {
+      "id": "6869:10912",
+      "name": "Frame 1321315728",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 2848.5,
+        "w": 396,
+        "h": 147
+      },
+      "children": [
+        "6869:10913",
+        "6869:10917",
+        "6869:10926"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315728\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":2848.5,\"w\":396,\"h\":147,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10913": {
+      "id": "6869:10913",
+      "name": "Frame 1321315723",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3609,
+        "y": 2872.5,
+        "w": 356,
+        "h": 21
+      },
+      "children": [
+        "6869:10914",
+        "6869:10916"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315723\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3609,\"y\":2872.5,\"w\":356,\"h\":21,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10914": {
+      "id": "6869:10914",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3609,
+        "y": 2873,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6869:10915"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3609,\"y\":2873,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10915": {
+      "id": "6869:10915",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3611.5,
+        "y": 2875.26171875,
+        "w": 15.00000286102295,
+        "h": 15.548333168029785
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3611.5,\"y\":2875.26171875,\"w\":15.00000286102295,\"h\":15.548333168029785,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10916": {
+      "id": "6869:10916",
+      "name": "Strengthen account security",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Strengthen account security",
+      "box": {
+        "x": 3641,
+        "y": 2872.5,
+        "w": 183,
+        "h": 21
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Strengthen account security\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Strengthen account security\",\"x\":3641,\"y\":2872.5,\"w\":183,\"h\":21,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10917": {
+      "id": "6869:10917",
+      "name": "Frame 1321315726",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3609,
+        "y": 2911.5,
+        "w": 356,
+        "h": 21
+      },
+      "children": [
+        "6869:10918",
+        "6869:10925"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315726\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3609,\"y\":2911.5,\"w\":356,\"h\":21,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10918": {
+      "id": "6869:10918",
+      "name": "face-id_16362729 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3609,
+        "y": 2912,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6869:10919",
+        "6869:10924"
+      ],
+      "fingerprint": "{\"name\":\"face-id_16362729 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3609,\"y\":2912,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10919": {
+      "id": "6869:10919",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3610.666748046875,
+        "y": 2913.666748046875,
+        "w": 16.66666603088379,
+        "h": 16.66666603088379
+      },
+      "children": [
+        "6869:10920",
+        "6869:10921",
+        "6869:10922",
+        "6869:10923"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3610.666748046875,\"y\":2913.666748046875,\"w\":16.66666603088379,\"h\":16.66666603088379,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10920": {
+      "id": "6869:10920",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3610.666748046875,
+        "y": 2913.666748046875,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3610.666748046875,\"y\":2913.666748046875,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10921": {
+      "id": "6869:10921",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3622.333251953125,
+        "y": 2913.666748046875,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3622.333251953125,\"y\":2913.666748046875,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10922": {
+      "id": "6869:10922",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3610.666748046875,
+        "y": 2925.33349609375,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3610.666748046875,\"y\":2925.33349609375,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10923": {
+      "id": "6869:10923",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3622.333251953125,
+        "y": 2925.33349609375,
+        "w": 5.000000476837158,
+        "h": 5.000000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3622.333251953125,\"y\":2925.33349609375,\"w\":5.000000476837158,\"h\":5.000000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10924": {
+      "id": "6869:10924",
+      "name": "Line 1",
+      "type": "LINE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3615,
+        "y": 2922.5,
+        "w": 8,
+        "h": 0
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Line 1\",\"type\":\"LINE\",\"visible\":true,\"text\":null,\"x\":3615,\"y\":2922.5,\"w\":8,\"h\":0,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10925": {
+      "id": "6869:10925",
+      "name": "Sign in faster without typing your password",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Sign in faster without typing your password",
+      "box": {
+        "x": 3641,
+        "y": 2911.5,
+        "w": 283,
+        "h": 21
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Sign in faster without typing your password\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Sign in faster without typing your password\",\"x\":3641,\"y\":2911.5,\"w\":283,\"h\":21,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10926": {
+      "id": "6869:10926",
+      "name": "Frame 1321315727",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3609,
+        "y": 2950.5,
+        "w": 356,
+        "h": 21
+      },
+      "children": [
+        "6869:10927",
+        "6869:10929"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315727\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3609,\"y\":2950.5,\"w\":356,\"h\":21,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10927": {
+      "id": "6869:10927",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3609,
+        "y": 2951,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6869:10928"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3609,\"y\":2951,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10928": {
+      "id": "6869:10928",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3611.5,
+        "y": 2953.5,
+        "w": 15,
+        "h": 15
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3611.5,\"y\":2953.5,\"w\":15,\"h\":15,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10929": {
+      "id": "6869:10929",
+      "name": "Save time and peace of mind",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Save time and peace of mind",
+      "box": {
+        "x": 3641,
+        "y": 2950.5,
+        "w": 189,
+        "h": 21
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Save time and peace of mind\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Save time and peace of mind\",\"x\":3641,\"y\":2950.5,\"w\":189,\"h\":21,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10930": {
+      "id": "6869:10930",
+      "name": "You can manage your passkeys in settings.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "You can manage your passkeys in settings.",
+      "box": {
+        "x": 3589,
+        "y": 3011.5,
+        "w": 396,
+        "h": 18
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"You can manage your passkeys in settings.\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"You can manage your passkeys in settings.\",\"x\":3589,\"y\":3011.5,\"w\":396,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10931": {
+      "id": "6869:10931",
+      "name": "Frame 1597884738",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 3061.5,
+        "w": 396,
+        "h": 82
+      },
+      "children": [
+        "6869:10932"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1597884738\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":3061.5,\"w\":396,\"h\":82,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10932": {
+      "id": "6869:10932",
+      "name": "Frame 1321315721",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 3061.5,
+        "w": 396,
+        "h": 82
+      },
+      "children": [
+        "6869:10933",
+        "6869:10935"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315721\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":3061.5,\"w\":396,\"h\":82,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10933": {
+      "id": "6869:10933",
+      "name": "Button",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3589,
+        "y": 3061.5,
+        "w": 396,
+        "h": 40
+      },
+      "children": [
+        "6869:10934"
+      ],
+      "fingerprint": "{\"name\":\"Button\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3589,\"y\":3061.5,\"w\":396,\"h\":40,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10934": {
+      "id": "6869:10934",
+      "name": "Text",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Continue",
+      "box": {
+        "x": 3755,
+        "y": 3072,
+        "w": 64,
+        "h": 19
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Text\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Continue\",\"x\":3755,\"y\":3072,\"w\":64,\"h\":19,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10935": {
+      "id": "6869:10935",
+      "name": "Title Copy 5",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Skip for now",
+      "box": {
+        "x": 3746.5,
+        "y": 3125.5,
+        "w": 81,
+        "h": 18
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Title Copy 5\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Skip for now\",\"x\":3746.5,\"y\":3125.5,\"w\":81,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10937": {
+      "id": "6869:10937",
+      "name": "c-remove",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4007,
+        "y": 2576.5,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6869:10938"
+      ],
+      "fingerprint": "{\"name\":\"c-remove\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":4007,\"y\":2576.5,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10938": {
+      "id": "6869:10938",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4007,
+        "y": 2576.5,
+        "w": 20.000003814697266,
+        "h": 20.000001907348633
+      },
+      "children": [
+        "6869:10939",
+        "6869:10940"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":4007,\"y\":2576.5,\"w\":20.000003814697266,\"h\":20.000001907348633,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10939": {
+      "id": "6869:10939",
+      "name": "Rectangle 75",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4012,
+        "y": 2582.333251953125,
+        "w": 10.833333969116211,
+        "h": 9.166666984558105
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 75\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":4012,\"y\":2582.333251953125,\"w\":10.833333969116211,\"h\":9.166666984558105,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6869:10940": {
+      "id": "6869:10940",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4007,
+        "y": 2576.5,
+        "w": 20.000003814697266,
+        "h": 20.000001907348633
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4007,\"y\":2576.5,\"w\":20.000003814697266,\"h\":20.000001907348633,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
     },
     "6878:13293": {
       "id": "6878:13293",
@@ -130,6 +1946,1426 @@
       ],
       "fingerprint": "{\"name\":\"Popup 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":1112,\"w\":1912,\"h\":1080,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
     },
+    "6870:815": {
+      "id": "6870:815",
+      "name": "image 16",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2831,
+        "y": 1112,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"image 16\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":1112,\"w\":1912,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:816": {
+      "id": "6870:816",
+      "name": "Frame 1597884742",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 2831,
+        "y": 1112,
+        "w": 1912,
+        "h": 1080
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Frame 1597884742\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":2831,\"y\":1112,\"w\":1912,\"h\":1080,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:854": {
+      "id": "6870:854",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3410.5,
+        "y": 1454,
+        "w": 754,
+        "h": 397
+      },
+      "children": [
+        "6870:855",
+        "6870:880",
+        "6875:1006"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3410.5,\"y\":1454,\"w\":754,\"h\":397,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:855": {
+      "id": "6870:855",
+      "name": "Frame 1948756563",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3414.5,
+        "y": 1458,
+        "w": 418,
+        "h": 389
+      },
+      "children": [
+        "6870:856",
+        "6870:877"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1948756563\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3414.5,\"y\":1458,\"w\":418,\"h\":389,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:856": {
+      "id": "6870:856",
+      "name": "Frame 1948756563",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3446.5,
+        "y": 1490,
+        "w": 354,
+        "h": 261
+      },
+      "children": [
+        "6870:857",
+        "6870:858",
+        "6870:859"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1948756563\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3446.5,\"y\":1490,\"w\":354,\"h\":261,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:857": {
+      "id": "6870:857",
+      "name": "Create a passkey",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Create a passkey",
+      "box": {
+        "x": 3446.5,
+        "y": 1490,
+        "w": 354,
+        "h": 36
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Create a passkey\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Create a passkey\",\"x\":3446.5,\"y\":1490,\"w\":354,\"h\":36,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:858": {
+      "id": "6870:858",
+      "name": "Passkeys are easier and more secure than passwords.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Passkeys are easier and more secure than passwords.",
+      "box": {
+        "x": 3446.5,
+        "y": 1542,
+        "w": 354,
+        "h": 22
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Passkeys are easier and more secure than passwords.\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Passkeys are easier and more secure than passwords.\",\"x\":3446.5,\"y\":1542,\"w\":354,\"h\":22,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.6000000238418579}"
+    },
+    "6870:859": {
+      "id": "6870:859",
+      "name": "Frame 1321315728",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3446.5,
+        "y": 1580,
+        "w": 354,
+        "h": 144
+      },
+      "children": [
+        "6870:860",
+        "6870:864",
+        "6870:873"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315728\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3446.5,\"y\":1580,\"w\":354,\"h\":144,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:860": {
+      "id": "6870:860",
+      "name": "Frame 1321315723",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3466.5,
+        "y": 1604,
+        "w": 314,
+        "h": 20
+      },
+      "children": [
+        "6870:861",
+        "6870:863"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315723\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3466.5,\"y\":1604,\"w\":314,\"h\":20,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:861": {
+      "id": "6870:861",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3466.5,
+        "y": 1605,
+        "w": 18,
+        "h": 18
+      },
+      "children": [
+        "6870:862"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3466.5,\"y\":1605,\"w\":18,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:862": {
+      "id": "6870:862",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3468.75,
+        "y": 1607.0355224609375,
+        "w": 13.50000286102295,
+        "h": 13.993499755859375
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3468.75,\"y\":1607.0355224609375,\"w\":13.50000286102295,\"h\":13.993499755859375,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:863": {
+      "id": "6870:863",
+      "name": "Strengthen account security",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Strengthen account security",
+      "box": {
+        "x": 3496.5,
+        "y": 1604,
+        "w": 170,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Strengthen account security\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Strengthen account security\",\"x\":3496.5,\"y\":1604,\"w\":170,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:864": {
+      "id": "6870:864",
+      "name": "Frame 1321315726",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3466.5,
+        "y": 1642,
+        "w": 314,
+        "h": 20
+      },
+      "children": [
+        "6870:865",
+        "6870:872"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315726\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3466.5,\"y\":1642,\"w\":314,\"h\":20,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:865": {
+      "id": "6870:865",
+      "name": "face-id_16362729 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3466.5,
+        "y": 1643,
+        "w": 18,
+        "h": 18
+      },
+      "children": [
+        "6870:866",
+        "6870:871"
+      ],
+      "fingerprint": "{\"name\":\"face-id_16362729 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3466.5,\"y\":1643,\"w\":18,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:866": {
+      "id": "6870:866",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3468,
+        "y": 1644.5001220703125,
+        "w": 15,
+        "h": 15
+      },
+      "children": [
+        "6870:867",
+        "6870:868",
+        "6870:869",
+        "6870:870"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3468,\"y\":1644.5001220703125,\"w\":15,\"h\":15,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:867": {
+      "id": "6870:867",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3468,
+        "y": 1644.5001220703125,
+        "w": 4.500000476837158,
+        "h": 4.500000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3468,\"y\":1644.5001220703125,\"w\":4.500000476837158,\"h\":4.500000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:868": {
+      "id": "6870:868",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3478.5,
+        "y": 1644.500244140625,
+        "w": 4.500000476837158,
+        "h": 4.500000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3478.5,\"y\":1644.500244140625,\"w\":4.500000476837158,\"h\":4.500000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:869": {
+      "id": "6870:869",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3468,
+        "y": 1655.000244140625,
+        "w": 4.500000476837158,
+        "h": 4.500000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3468,\"y\":1655.000244140625,\"w\":4.500000476837158,\"h\":4.500000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:870": {
+      "id": "6870:870",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3478.5,
+        "y": 1655.000244140625,
+        "w": 4.500000476837158,
+        "h": 4.500000476837158
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3478.5,\"y\":1655.000244140625,\"w\":4.500000476837158,\"h\":4.500000476837158,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:871": {
+      "id": "6870:871",
+      "name": "Line 1",
+      "type": "LINE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3471.89990234375,
+        "y": 1652.449951171875,
+        "w": 7.199999809265137,
+        "h": 0
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Line 1\",\"type\":\"LINE\",\"visible\":true,\"text\":null,\"x\":3471.89990234375,\"y\":1652.449951171875,\"w\":7.199999809265137,\"h\":0,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:872": {
+      "id": "6870:872",
+      "name": "Sign in faster without typing your password",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Sign in faster without typing your password",
+      "box": {
+        "x": 3496.5,
+        "y": 1642,
+        "w": 263,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Sign in faster without typing your password\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Sign in faster without typing your password\",\"x\":3496.5,\"y\":1642,\"w\":263,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:873": {
+      "id": "6870:873",
+      "name": "Frame 1321315727",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3466.5,
+        "y": 1680,
+        "w": 314,
+        "h": 20
+      },
+      "children": [
+        "6870:874",
+        "6870:876"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1321315727\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3466.5,\"y\":1680,\"w\":314,\"h\":20,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:874": {
+      "id": "6870:874",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3466.5,
+        "y": 1681,
+        "w": 18,
+        "h": 18
+      },
+      "children": [
+        "6870:875"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3466.5,\"y\":1681,\"w\":18,\"h\":18,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:875": {
+      "id": "6870:875",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3468.75,
+        "y": 1683.25,
+        "w": 13.5,
+        "h": 13.5
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3468.75,\"y\":1683.25,\"w\":13.5,\"h\":13.5,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:876": {
+      "id": "6870:876",
+      "name": "Save time and peace of mind",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Save time and peace of mind",
+      "box": {
+        "x": 3496.5,
+        "y": 1680,
+        "w": 175,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Save time and peace of mind\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Save time and peace of mind\",\"x\":3496.5,\"y\":1680,\"w\":175,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:877": {
+      "id": "6870:877",
+      "name": "Frame 1948756566",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3446.5,
+        "y": 1775,
+        "w": 354,
+        "h": 40
+      },
+      "children": [
+        "6870:878",
+        "6870:879"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1948756566\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3446.5,\"y\":1775,\"w\":354,\"h\":40,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:878": {
+      "id": "6870:878",
+      "name": "Button",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3446.5,
+        "y": 1775,
+        "w": 120,
+        "h": 40
+      },
+      "children": [
+        "I6870:878;4616:40603",
+        "I6870:878;4616:40604",
+        "I6870:878;4616:40605"
+      ],
+      "fingerprint": "{\"name\":\"Button\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":3446.5,\"y\":1775,\"w\":120,\"h\":40,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "I6870:878;4616:40603": {
+      "id": "I6870:878;4616:40603",
+      "name": "Left Icon",
+      "type": "INSTANCE",
+      "visible": false,
+      "text": null,
+      "box": {
+        "x": 3458.5,
+        "y": 1784,
+        "w": 16,
+        "h": 16
+      },
+      "children": [
+        "I6870:878;4616:40603;1:11781"
+      ],
+      "fingerprint": "{\"name\":\"Left Icon\",\"type\":\"INSTANCE\",\"visible\":false,\"text\":null,\"x\":3458.5,\"y\":1784,\"w\":16,\"h\":16,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6870:878;4616:40603;1:11781": {
+      "id": "I6870:878;4616:40603;1:11781",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3459.029052734375,
+        "y": 1786.5284423828125,
+        "w": 14.942500114440918,
+        "h": 10.80483341217041
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3459.029052734375,\"y\":1786.5284423828125,\"w\":14.942500114440918,\"h\":10.80483341217041,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6870:878;4616:40604": {
+      "id": "I6870:878;4616:40604",
+      "name": "Label",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Continue",
+      "box": {
+        "x": 3476.5,
+        "y": 1785,
+        "w": 60,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Label\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Continue\",\"x\":3476.5,\"y\":1785,\"w\":60,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6870:878;4616:40605": {
+      "id": "I6870:878;4616:40605",
+      "name": "Right Icon",
+      "type": "INSTANCE",
+      "visible": false,
+      "text": null,
+      "box": {
+        "x": 3498.5,
+        "y": 1784,
+        "w": 16,
+        "h": 16
+      },
+      "children": [
+        "I6870:878;4616:40605;890:77888"
+      ],
+      "fingerprint": "{\"name\":\"Right Icon\",\"type\":\"INSTANCE\",\"visible\":false,\"text\":null,\"x\":3498.5,\"y\":1784,\"w\":16,\"h\":16,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6870:878;4616:40605;890:77888": {
+      "id": "I6870:878;4616:40605;890:77888",
+      "name": "Vector (Stroke)",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3499.833415031433,
+        "y": 1786.6666259765625,
+        "w": 13.333333015441895,
+        "h": 10.666666984558105
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector (Stroke)\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3499.833415031433,\"y\":1786.6666259765625,\"w\":13.333333015441895,\"h\":10.666666984558105,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:879": {
+      "id": "6870:879",
+      "name": "Title Copy 5",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Skip for now",
+      "box": {
+        "x": 3590.5,
+        "y": 1785,
+        "w": 82,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Title Copy 5\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Skip for now\",\"x\":3590.5,\"y\":1785,\"w\":82,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6870:880": {
+      "id": "6870:880",
+      "name": "Frame 1948756565",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [
+        "6883:1438",
+        "6871:914",
+        "6871:920",
+        "6871:918",
+        "6921:7542",
+        "6910:7541",
+        "6882:1392",
+        "6872:991",
+        "6872:992",
+        "6882:1380",
+        "6882:1385",
+        "6882:1391"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1948756565\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":1,\"strokes\":0,\"effects\":3,\"opacity\":1}"
+    },
+    "6883:1438": {
+      "id": "6883:1438",
+      "name": "Dot bg",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [
+        "6883:1429",
+        "6883:1434",
+        "6883:1430"
+      ],
+      "fingerprint": "{\"name\":\"Dot bg\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1429": {
+      "id": "6883:1429",
+      "name": "Mask group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [
+        "6883:1428",
+        "6883:1420"
+      ],
+      "fingerprint": "{\"name\":\"Mask group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1428": {
+      "id": "6883:1428",
+      "name": "Rectangle 556",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 556\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1420": {
+      "id": "6883:1420",
+      "name": "pixels",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1459,
+        "w": 324,
+        "h": 392
+      },
+      "children": [
+        "I6883:1420;9701:28336"
+      ],
+      "fingerprint": "{\"name\":\"pixels\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1459,\"w\":324,\"h\":392,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.20000000298023224}"
+    },
+    "I6883:1420;9701:28336": {
+      "id": "I6883:1420;9701:28336",
+      "name": "texture",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1459,
+        "w": 324,
+        "h": 392
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"texture\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1459,\"w\":324,\"h\":392,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1434": {
+      "id": "6883:1434",
+      "name": "Mask group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [
+        "6883:1435",
+        "6883:1436"
+      ],
+      "fingerprint": "{\"name\":\"Mask group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1435": {
+      "id": "6883:1435",
+      "name": "Rectangle 556",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 556\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1436": {
+      "id": "6883:1436",
+      "name": "pixels",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1459,
+        "w": 324,
+        "h": 392
+      },
+      "children": [
+        "I6883:1436;9701:28336"
+      ],
+      "fingerprint": "{\"name\":\"pixels\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1459,\"w\":324,\"h\":392,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.20000000298023224}"
+    },
+    "I6883:1436;9701:28336": {
+      "id": "I6883:1436;9701:28336",
+      "name": "texture",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1459,
+        "w": 324,
+        "h": 392
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"texture\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1459,\"w\":324,\"h\":392,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1430": {
+      "id": "6883:1430",
+      "name": "Mask group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [
+        "6883:1431",
+        "6883:1432"
+      ],
+      "fingerprint": "{\"name\":\"Mask group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1431": {
+      "id": "6883:1431",
+      "name": "Rectangle 556",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1458,
+        "w": 324,
+        "h": 389
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 556\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1458,\"w\":324,\"h\":389,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1432": {
+      "id": "6883:1432",
+      "name": "pixels",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1459,
+        "w": 324,
+        "h": 392
+      },
+      "children": [
+        "I6883:1432;9701:28336"
+      ],
+      "fingerprint": "{\"name\":\"pixels\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1459,\"w\":324,\"h\":392,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.20000000298023224}"
+    },
+    "I6883:1432;9701:28336": {
+      "id": "I6883:1432;9701:28336",
+      "name": "texture",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3836.5,
+        "y": 1459,
+        "w": 324,
+        "h": 392
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"texture\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":3836.5,\"y\":1459,\"w\":324,\"h\":392,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6871:914": {
+      "id": "6871:914",
+      "name": "Frame 1948756565",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3956.745664070304,
+        "y": 1408.9807116688735,
+        "w": 285.876406242196,
+        "h": 294.5970091624531
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Frame 1948756565\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3956.745664070304,\"y\":1408.9807116688735,\"w\":285.876406242196,\"h\":294.5970091624531,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6871:920": {
+      "id": "6871:920",
+      "name": "Frame 1948756567",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3952.499938428402,
+        "y": 1803.0000126361847,
+        "w": 246.76373344659805,
+        "h": 254.29121053218842
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Frame 1948756567\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3952.499938428402,\"y\":1803.0000126361847,\"w\":246.76373344659805,\"h\":254.29121053218842,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6871:918": {
+      "id": "6871:918",
+      "name": "Frame 1948756566",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3722.499938428402,
+        "y": 1377.0000126361847,
+        "w": 246.76373344659805,
+        "h": 254.29121053218842
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Frame 1948756566\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3722.499938428402,\"y\":1377.0000126361847,\"w\":246.76373344659805,\"h\":254.29121053218842,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6921:7542": {
+      "id": "6921:7542",
+      "name": "Group 4684",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3809,
+        "y": 1444.5,
+        "w": 390,
+        "h": 416
+      },
+      "children": [
+        "6872:988",
+        "6872:947",
+        "6872:985",
+        "6872:946",
+        "6872:949",
+        "6872:948",
+        "6872:998",
+        "6872:986",
+        "6872:987"
+      ],
+      "fingerprint": "{\"name\":\"Group 4684\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3809,\"y\":1444.5,\"w\":390,\"h\":416,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6872:988": {
+      "id": "6872:988",
+      "name": "Vector 8",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3986.5,
+        "y": 1447.4999942082407,
+        "w": 132.50000727794668,
+        "h": 166.50000579175935
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 8\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3986.5,\"y\":1447.4999942082407,\"w\":132.50000727794668,\"h\":166.50000579175935,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.30000001192092896}"
+    },
+    "6872:947": {
+      "id": "6872:947",
+      "name": "Vector 2",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3859.999992612775,
+        "y": 1444.4999941863848,
+        "w": 133.0000073872252,
+        "h": 169.0000058136152
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 2\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3859.999992612775,\"y\":1444.4999941863848,\"w\":133.0000073872252,\"h\":169.0000058136152,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.5}"
+    },
+    "6872:985": {
+      "id": "6872:985",
+      "name": "Vector 5",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3822.999993093603,
+        "y": 1693.0000457763672,
+        "w": 160.50000690639718,
+        "h": 157.99996123931055
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 5\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3822.999993093603,\"y\":1693.0000457763672,\"w\":160.50000690639718,\"h\":157.99996123931055,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.699999988079071}"
+    },
+    "6872:946": {
+      "id": "6872:946",
+      "name": "Vector 1",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4038.5,
+        "y": 1578.5,
+        "w": 146,
+        "h": 73.5
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 1\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4038.5,\"y\":1578.5,\"w\":146,\"h\":73.5,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.6000000238418579}"
+    },
+    "6872:949": {
+      "id": "6872:949",
+      "name": "Vector 4",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3829.5,
+        "y": 1572.5,
+        "w": 136,
+        "h": 47
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 4\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3829.5,\"y\":1572.5,\"w\":136,\"h\":47,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.6000000238418579}"
+    },
+    "6872:948": {
+      "id": "6872:948",
+      "name": "Vector 3",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3809,
+        "y": 1636.5,
+        "w": 150,
+        "h": 24.5
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 3\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3809,\"y\":1636.5,\"w\":150,\"h\":24.5,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6872:998": {
+      "id": "6872:998",
+      "name": "Vector 12",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3813.5,
+        "y": 1617.0001220703125,
+        "w": 155.5000054420625,
+        "h": 124.49988472680843
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 12\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3813.5,\"y\":1617.0001220703125,\"w\":155.5000054420625,\"h\":124.49988472680843,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.5}"
+    },
+    "6872:986": {
+      "id": "6872:986",
+      "name": "Vector 6",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4005,
+        "y": 1693,
+        "w": 101.5000073216579,
+        "h": 167.50000443670592
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 6\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4005,\"y\":1693,\"w\":101.5000073216579,\"h\":167.50000443670592,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":0.4000000059604645}"
+    },
+    "6872:987": {
+      "id": "6872:987",
+      "name": "Vector 7",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4037.4999729828473,
+        "y": 1676.9999858812203,
+        "w": 161.50002701715266,
+        "h": 134.50001411877975
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 7\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4037.4999729828473,\"y\":1676.9999858812203,\"w\":161.50002701715266,\"h\":134.50001411877975,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6910:7541": {
+      "id": "6910:7541",
+      "name": "Group 4683",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3958.5,
+        "y": 1613,
+        "w": 80,
+        "h": 80
+      },
+      "children": [
+        "6871:924",
+        "6871:937"
+      ],
+      "fingerprint": "{\"name\":\"Group 4683\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3958.5,\"y\":1613,\"w\":80,\"h\":80,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6871:924": {
+      "id": "6871:924",
+      "name": "Frame 4248",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3958.5,
+        "y": 1613,
+        "w": 80,
+        "h": 80
+      },
+      "children": [
+        "6871:921",
+        "6883:1405"
+      ],
+      "fingerprint": "{\"name\":\"Frame 4248\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3958.5,\"y\":1613,\"w\":80,\"h\":80,\"fills\":1,\"strokes\":1,\"effects\":4,\"opacity\":1}"
+    },
+    "6871:921": {
+      "id": "6871:921",
+      "name": "Frame",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3981.357177734375,
+        "y": 1635.857177734375,
+        "w": 34.28571319580078,
+        "h": 34.28571319580078
+      },
+      "children": [
+        "6871:925",
+        "6871:922",
+        "6871:930"
+      ],
+      "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3981.357177734375,\"y\":1635.857177734375,\"w\":34.28571319580078,\"h\":34.28571319580078,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6871:925": {
+      "id": "6871:925",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3983.5,
+        "y": 1638.000244140625,
+        "w": 29.985702514648438,
+        "h": 30
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3983.5,\"y\":1638.000244140625,\"w\":29.985702514648438,\"h\":30,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6871:922": {
+      "id": "6871:922",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3983.5,
+        "y": 1638.000244140625,
+        "w": 29.985702514648438,
+        "h": 30
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3983.5,\"y\":1638.000244140625,\"w\":29.985702514648438,\"h\":30,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6871:930": {
+      "id": "6871:930",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3983.5,
+        "y": 1638.000244140625,
+        "w": 29.985702514648438,
+        "h": 30
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3983.5,\"y\":1638.000244140625,\"w\":29.985702514648438,\"h\":30,\"fills\":1,\"strokes\":1,\"effects\":0,\"opacity\":0.4000000059604645}"
+    },
+    "6883:1405": {
+      "id": "6883:1405",
+      "name": "Ellipse 4",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3994.5,
+        "y": 1638,
+        "w": 12.28111743927002,
+        "h": 12.00749397277832
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Ellipse 4\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3994.5,\"y\":1638,\"w\":12.28111743927002,\"h\":12.00749397277832,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.5}"
+    },
+    "6871:937": {
+      "id": "6871:937",
+      "name": "blur",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3958.5,
+        "y": 1613,
+        "w": 80,
+        "h": 80
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"blur\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":3958.5,\"y\":1613,\"w\":80,\"h\":80,\"fills\":0,\"strokes\":1,\"effects\":1,\"opacity\":1}"
+    },
+    "6882:1392": {
+      "id": "6882:1392",
+      "name": "Group 4680",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3960.499542236328,
+        "y": 1596.9998626708984,
+        "w": 75.66207885742188,
+        "h": 85.00001525878906
+      },
+      "children": [
+        "6882:1393",
+        "6882:1395"
+      ],
+      "fingerprint": "{\"name\":\"Group 4680\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3960.499542236328,\"y\":1596.9998626708984,\"w\":75.66207885742188,\"h\":85.00001525878906,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6882:1393": {
+      "id": "6882:1393",
+      "name": "Ellipse 1",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3993.184326171875,
+        "y": 1614.004077911377,
+        "w": 42.977467684158455,
+        "h": 45.12922623605391
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Ellipse 1\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3993.184326171875,\"y\":1614.004077911377,\"w\":42.977467684158455,\"h\":45.12922623605391,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.699999988079071}"
+    },
+    "6882:1395": {
+      "id": "6882:1395",
+      "name": "Ellipse 3",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3960.499713602141,
+        "y": 1596.9999858365163,
+        "w": 62.10248756366218,
+        "h": 85.00001416348368
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Ellipse 3\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3960.499713602141,\"y\":1596.9999858365163,\"w\":62.10248756366218,\"h\":85.00001416348368,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.4000000059604645}"
+    },
+    "6872:991": {
+      "id": "6872:991",
+      "name": "Vector 10",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3919.499999191339,
+        "y": 1504,
+        "w": 0.0000033338719731546007,
+        "h": 18.5
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 10\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3919.499999191339,\"y\":1504,\"w\":0.0000033338719731546007,\"h\":18.5,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6872:992": {
+      "id": "6872:992",
+      "name": "Vector 11",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3902.5,
+        "y": 1595.99999873237,
+        "w": 14.5,
+        "h": 0.000002535260364311398
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 11\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3902.5,\"y\":1595.99999873237,\"w\":14.5,\"h\":0.000002535260364311398,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6882:1380": {
+      "id": "6882:1380",
+      "name": "Star 1",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3951.5,
+        "y": 1604.9999975003266,
+        "w": 28.832655986615464,
+        "h": 28.961031215988214
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Star 1\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3951.5,\"y\":1604.9999975003266,\"w\":28.832655986615464,\"h\":28.961031215988214,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6882:1385": {
+      "id": "6882:1385",
+      "name": "Star 2",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3951.5,
+        "y": 1617.0000003647165,
+        "w": 18.43866192011319,
+        "h": 16.100323045537152
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Star 2\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3951.5,\"y\":1617.0000003647165,\"w\":18.43866192011319,\"h\":16.100323045537152,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.30000001192092896}"
+    },
+    "6882:1391": {
+      "id": "6882:1391",
+      "name": "Group 4679",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3956.453125,
+        "y": 1629,
+        "w": 84.59152221679688,
+        "h": 72.88072204589844
+      },
+      "children": [
+        "6883:1396"
+      ],
+      "fingerprint": "{\"name\":\"Group 4679\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3956.453125,\"y\":1629,\"w\":84.59152221679688,\"h\":72.88072204589844,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1396": {
+      "id": "6883:1396",
+      "name": "Group 4681",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3956.453125,
+        "y": 1629,
+        "w": 84.59152221679688,
+        "h": 72.88072204589844
+      },
+      "children": [
+        "6883:1442"
+      ],
+      "fingerprint": "{\"name\":\"Group 4681\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3956.453125,\"y\":1629,\"w\":84.59152221679688,\"h\":72.88072204589844,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6883:1442": {
+      "id": "6883:1442",
+      "name": "Group 4682",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3956.453125,
+        "y": 1629,
+        "w": 84.59152221679688,
+        "h": 72.88072204589844
+      },
+      "children": [
+        "6882:1387",
+        "6882:1389",
+        "6882:1390"
+      ],
+      "fingerprint": "{\"name\":\"Group 4682\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":3956.453125,\"y\":1629,\"w\":84.59152221679688,\"h\":72.88072204589844,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6882:1387": {
+      "id": "6882:1387",
+      "name": "Ellipse 1",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3956.453148453097,
+        "y": 1640.4109602322515,
+        "w": 51.10275975002787,
+        "h": 51.659522829866546
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Ellipse 1\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3956.453148453097,\"y\":1640.4109602322515,\"w\":51.10275975002787,\"h\":51.659522829866546,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":0.6000000238418579}"
+    },
+    "6882:1389": {
+      "id": "6882:1389",
+      "name": "Ellipse 2",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4002.553466796875,
+        "y": 1656.5417465446258,
+        "w": 34.367456013234914,
+        "h": 33.9597221138215
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Ellipse 2\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4002.553466796875,\"y\":1656.5417465446258,\"w\":34.367456013234914,\"h\":33.9597221138215,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6882:1390": {
+      "id": "6882:1390",
+      "name": "Ellipse 3",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 3971.4389046167216,
+        "y": 1629,
+        "w": 69.60576430260517,
+        "h": 72.88072162080698
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Ellipse 3\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":3971.4389046167216,\"y\":1629,\"w\":69.60576430260517,\"h\":72.88072162080698,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
+    },
+    "6875:1006": {
+      "id": "6875:1006",
+      "name": "c-remove",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4154.5,
+        "y": 1443.5,
+        "w": 20,
+        "h": 20
+      },
+      "children": [
+        "6875:1007"
+      ],
+      "fingerprint": "{\"name\":\"c-remove\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":4154.5,\"y\":1443.5,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6875:1007": {
+      "id": "6875:1007",
+      "name": "Group",
+      "type": "GROUP",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4154.5,
+        "y": 1443.5,
+        "w": 20.000003814697266,
+        "h": 20.000001907348633
+      },
+      "children": [
+        "6875:1008",
+        "6875:1009"
+      ],
+      "fingerprint": "{\"name\":\"Group\",\"type\":\"GROUP\",\"visible\":true,\"text\":null,\"x\":4154.5,\"y\":1443.5,\"w\":20.000003814697266,\"h\":20.000001907348633,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6875:1008": {
+      "id": "6875:1008",
+      "name": "Rectangle 75",
+      "type": "RECTANGLE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4159.5,
+        "y": 1449.3333740234375,
+        "w": 10.833333969116211,
+        "h": 9.166666984558105
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 75\",\"type\":\"RECTANGLE\",\"visible\":true,\"text\":null,\"x\":4159.5,\"y\":1449.3333740234375,\"w\":10.833333969116211,\"h\":9.166666984558105,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6875:1009": {
+      "id": "6875:1009",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4154.5,
+        "y": 1443.5,
+        "w": 20.000003814697266,
+        "h": 20.000001907348633
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4154.5,\"y\":1443.5,\"w\":20.000003814697266,\"h\":20.000001907348633,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6872:1001": {
+      "id": "6872:1001",
+      "name": "Vector 12",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4027,
+        "y": 1743.4999977581215,
+        "w": 14,
+        "h": 0.00000346579736287822
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 12\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4027,\"y\":1743.4999977581215,\"w\":14,\"h\":0.00000346579736287822,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "6872:1005": {
+      "id": "6872:1005",
+      "name": "Vector 13",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 4102.9999953321385,
+        "y": 1607.9999999999998,
+        "w": 0.00000466786150354892,
+        "h": 18.500000000000227
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector 13\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":4102.9999953321385,\"y\":1607.9999999999998,\"w\":0.00000466786150354892,\"h\":18.500000000000227,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
     "6878:13054": {
       "id": "6878:13054",
       "name": "Hover state",
@@ -171,6 +3407,21 @@
       ],
       "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10458,\"y\":2364,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.4000000059604645}"
     },
+    "6878:13021": {
+      "id": "6878:13021",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10460.5,
+        "y": 2365.874755859375,
+        "w": 15.62520694732666,
+        "h": 15.62520694732666
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10460.5,\"y\":2365.874755859375,\"w\":15.62520694732666,\"h\":15.62520694732666,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
     "6878:13024": {
       "id": "6878:13024",
       "name": "Frame",
@@ -187,6 +3438,21 @@
         "6878:13025"
       ],
       "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10458,\"y\":2475,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13025": {
+      "id": "6878:13025",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10460.5,
+        "y": 2476.874755859375,
+        "w": 15.62520694732666,
+        "h": 15.62520694732666
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10460.5,\"y\":2476.874755859375,\"w\":15.62520694732666,\"h\":15.62520694732666,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
     },
     "6878:13022": {
       "id": "6878:13022",
@@ -205,6 +3471,21 @@
       ],
       "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10550,\"y\":2364,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":0.4000000059604645}"
     },
+    "6878:13023": {
+      "id": "6878:13023",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10553.125,
+        "y": 2365.87451171875,
+        "w": 13.75,
+        "h": 16.25043487548828
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10553.125,\"y\":2365.87451171875,\"w\":13.75,\"h\":16.25043487548828,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
     "6878:13026": {
       "id": "6878:13026",
       "name": "Frame",
@@ -221,6 +3502,21 @@
         "6878:13027"
       ],
       "fingerprint": "{\"name\":\"Frame\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10550,\"y\":2475,\"w\":20,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "6878:13027": {
+      "id": "6878:13027",
+      "name": "Vector",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10553.125,
+        "y": 2476.87451171875,
+        "w": 13.75,
+        "h": 16.25043487548828
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Vector\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10553.125,\"y\":2476.87451171875,\"w\":13.75,\"h\":16.25043487548828,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
     },
     "6878:13013": {
       "id": "6878:13013",
@@ -243,6 +3539,81 @@
       ],
       "fingerprint": "{\"name\":\"pointinghand\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":10468,\"y\":2487,\"w\":14.308304786682129,\"h\":15.268136024475098,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
     },
+    "I6878:13013;56:359": {
+      "id": "I6878:13013;56:359",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10468,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10468,\"y\":2487,\"w\":14.308304786682129,\"h\":15.268136024475098,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13013;56:360": {
+      "id": "I6878:13013;56:360",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10468,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10468,\"y\":2487,\"w\":14.308304786682129,\"h\":15.268136024475098,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13013;56:361": {
+      "id": "I6878:13013;56:361",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10479.1279296875,
+        "y": 2495.798095703125,
+        "w": 1,
+        "h": 3.4590001106262207
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10479.1279296875,\"y\":2495.798095703125,\"w\":1,\"h\":3.4590001106262207,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13013;56:362": {
+      "id": "I6878:13013;56:362",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10477.0966796875,
+        "y": 2495.795654296875,
+        "w": 1,
+        "h": 3.4730000495910645
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10477.0966796875,\"y\":2495.795654296875,\"w\":1,\"h\":3.4730000495910645,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13013;56:363": {
+      "id": "I6878:13013;56:363",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10475.1162109375,
+        "y": 2495.827392578125,
+        "w": 1,
+        "h": 3.4260001182556152
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10475.1162109375,\"y\":2495.827392578125,\"w\":1,\"h\":3.4260001182556152,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
     "6878:13028": {
       "id": "6878:13028",
       "name": "pointinghand",
@@ -264,6 +3635,81 @@
       ],
       "fingerprint": "{\"name\":\"pointinghand\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":10556,\"y\":2487,\"w\":14.308304786682129,\"h\":15.268136024475098,\"fills\":1,\"strokes\":0,\"effects\":1,\"opacity\":1}"
     },
+    "I6878:13028;56:359": {
+      "id": "I6878:13028;56:359",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10556,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10556,\"y\":2487,\"w\":14.308304786682129,\"h\":15.268136024475098,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13028;56:360": {
+      "id": "I6878:13028;56:360",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10556,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10556,\"y\":2487,\"w\":14.308304786682129,\"h\":15.268136024475098,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13028;56:361": {
+      "id": "I6878:13028;56:361",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10567.1279296875,
+        "y": 2495.798095703125,
+        "w": 1,
+        "h": 3.4590001106262207
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10567.1279296875,\"y\":2495.798095703125,\"w\":1,\"h\":3.4590001106262207,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13028;56:362": {
+      "id": "I6878:13028;56:362",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10565.0966796875,
+        "y": 2495.795654296875,
+        "w": 1,
+        "h": 3.4730000495910645
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10565.0966796875,\"y\":2495.795654296875,\"w\":1,\"h\":3.4730000495910645,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13028;56:363": {
+      "id": "I6878:13028;56:363",
+      "name": "cursor",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10563.1162109375,
+        "y": 2495.827392578125,
+        "w": 1,
+        "h": 3.4260001182556152
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"cursor\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10563.1162109375,\"y\":2495.827392578125,\"w\":1,\"h\":3.4260001182556152,\"fills\":0,\"strokes\":1,\"effects\":0,\"opacity\":1}"
+    },
     "6878:13041": {
       "id": "6878:13041",
       "name": "Black Tooltip / Bot",
@@ -282,6 +3728,87 @@
       ],
       "fingerprint": "{\"name\":\"Black Tooltip / Bot\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":10428,\"y\":2415,\"w\":80,\"h\":55,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
     },
+    "I6878:13041;157:2823": {
+      "id": "I6878:13041;157:2823",
+      "name": "Frame 1501",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10428,
+        "y": 2415,
+        "w": 80,
+        "h": 50
+      },
+      "children": [
+        "I6878:13041;157:2823;157:2782"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1501\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":10428,\"y\":2415,\"w\":80,\"h\":50,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13041;157:2823;157:2782": {
+      "id": "I6878:13041;157:2823;157:2782",
+      "name": "consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Rename",
+      "box": {
+        "x": 10443,
+        "y": 2430,
+        "w": 50,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Rename\",\"x\":10443,\"y\":2430,\"w\":50,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13041;157:2786": {
+      "id": "I6878:13041;157:2786",
+      "name": "Frame 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10428,
+        "y": 2465,
+        "w": 80,
+        "h": 5
+      },
+      "children": [
+        "I6878:13041;157:2788"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10428,\"y\":2465,\"w\":80,\"h\":5,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13041;157:2788": {
+      "id": "I6878:13041;157:2788",
+      "name": "Frame 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10463,
+        "y": 2465,
+        "w": 10,
+        "h": 5
+      },
+      "children": [
+        "I6878:13041;157:2787"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10463,\"y\":2465,\"w\":10,\"h\":5,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13041;157:2787": {
+      "id": "I6878:13041;157:2787",
+      "name": "Rectangle 1",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10463.000447928905,
+        "y": 2460,
+        "w": 9.899494767189026,
+        "h": 9.899494767189026
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 1\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10463.000447928905,\"y\":2460,\"w\":9.899494767189026,\"h\":9.899494767189026,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
     "6878:13048": {
       "id": "6878:13048",
       "name": "Black Tooltip / Bot",
@@ -299,6 +3826,87 @@
         "I6878:13048;157:2786"
       ],
       "fingerprint": "{\"name\":\"Black Tooltip / Bot\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":10520,\"y\":2415,\"w\":79,\"h\":55,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13048;157:2823": {
+      "id": "I6878:13048;157:2823",
+      "name": "Frame 1501",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10520,
+        "y": 2415,
+        "w": 79,
+        "h": 50
+      },
+      "children": [
+        "I6878:13048;157:2823;157:2782"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1501\",\"type\":\"INSTANCE\",\"visible\":true,\"text\":null,\"x\":10520,\"y\":2415,\"w\":79,\"h\":50,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13048;157:2823;157:2782": {
+      "id": "I6878:13048;157:2823;157:2782",
+      "name": "consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Remove",
+      "box": {
+        "x": 10535,
+        "y": 2430,
+        "w": 49,
+        "h": 20
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla\",\"type\":\"TEXT\",\"visible\":true,\"text\":\"Remove\",\"x\":10535,\"y\":2430,\"w\":49,\"h\":20,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13048;157:2786": {
+      "id": "I6878:13048;157:2786",
+      "name": "Frame 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10520,
+        "y": 2465,
+        "w": 79,
+        "h": 5
+      },
+      "children": [
+        "I6878:13048;157:2788"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10520,\"y\":2465,\"w\":79,\"h\":5,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13048;157:2788": {
+      "id": "I6878:13048;157:2788",
+      "name": "Frame 1",
+      "type": "FRAME",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10554.5,
+        "y": 2465,
+        "w": 10,
+        "h": 5
+      },
+      "children": [
+        "I6878:13048;157:2787"
+      ],
+      "fingerprint": "{\"name\":\"Frame 1\",\"type\":\"FRAME\",\"visible\":true,\"text\":null,\"x\":10554.5,\"y\":2465,\"w\":10,\"h\":5,\"fills\":0,\"strokes\":0,\"effects\":0,\"opacity\":1}"
+    },
+    "I6878:13048;157:2787": {
+      "id": "I6878:13048;157:2787",
+      "name": "Rectangle 1",
+      "type": "VECTOR",
+      "visible": true,
+      "text": null,
+      "box": {
+        "x": 10554.500447928905,
+        "y": 2460,
+        "w": 9.899494767189026,
+        "h": 9.899494767189026
+      },
+      "children": [],
+      "fingerprint": "{\"name\":\"Rectangle 1\",\"type\":\"VECTOR\",\"visible\":true,\"text\":null,\"x\":10554.500447928905,\"y\":2460,\"w\":9.899494767189026,\"h\":9.899494767189026,\"fills\":1,\"strokes\":0,\"effects\":0,\"opacity\":1}"
     }
   },
   "rootIds": [

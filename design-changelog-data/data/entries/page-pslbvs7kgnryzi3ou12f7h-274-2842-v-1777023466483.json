@@ -1,0 +1,1641 @@
+{
+  "id": "page-pslbvs7kgnryzi3ou12f7h-274-2842-v-1777023466483",
+  "sourceId": "page-pslbvs7kgnryzi3ou12f7h-274-2842",
+  "versionId": "v-1777023466483",
+  "sectionId": "page-pslbvs7kgnryzi3ou12f7h-274-2842",
+  "sectionName": "All current emails",
+  "date": "2026-04-24",
+  "lastDetectedAt": "2026-04-24T09:37:46.483Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-pslbvs7kgnryzi3ou12f7h-274-2842-v-1777023466483.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h/All-Emails---Redesign?node-id=274-2842",
+  "frames": [
+    {
+      "id": "274:2845",
+      "name": "email Daily Report",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=274:2845",
+      "boundingBox": {
+        "x": -24026,
+        "y": 10217,
+        "w": 800,
+        "h": 2363
+      },
+      "layers": []
+    },
+    {
+      "id": "274:2905",
+      "name": "New message",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=274:2905",
+      "boundingBox": {
+        "x": -25706,
+        "y": 10217,
+        "w": 800,
+        "h": 940
+      },
+      "layers": []
+    },
+    {
+      "id": "274:2923",
+      "name": "Delete account request",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=274:2923",
+      "boundingBox": {
+        "x": -24866,
+        "y": 10217,
+        "w": 800,
+        "h": 644
+      },
+      "layers": []
+    },
+    {
+      "id": "274:3312",
+      "name": "Your client import is complete!",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=274:3312",
+      "boundingBox": {
+        "x": -23186,
+        "y": 10217,
+        "w": 800,
+        "h": 488
+      },
+      "layers": []
+    },
+    {
+      "id": "275:959",
+      "name": "Invite teammate",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=275:959",
+      "boundingBox": {
+        "x": -22346,
+        "y": 10217,
+        "w": 800,
+        "h": 920
+      },
+      "layers": []
+    },
+    {
+      "id": "275:2208",
+      "name": "Alert: Sequence assignment conflict for ???",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=275:2208",
+      "boundingBox": {
+        "x": -21506,
+        "y": 10217,
+        "w": 800,
+        "h": 676
+      },
+      "layers": []
+    },
+    {
+      "id": "280:5355",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=280:5355",
+      "boundingBox": {
+        "x": -20666,
+        "y": 10217,
+        "w": 800,
+        "h": 1789
+      },
+      "layers": []
+    },
+    {
+      "id": "294:4925",
+      "name": "Trainer’s \"Trainer Name\" invited you to join Everfit!",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:4925",
+      "boundingBox": {
+        "x": -14786,
+        "y": 10217,
+        "w": 800,
+        "h": 1122
+      },
+      "layers": []
+    },
+    {
+      "id": "280:7087",
+      "name": "New Trial from \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=280:7087",
+      "boundingBox": {
+        "x": -19826,
+        "y": 10217,
+        "w": 800,
+        "h": 1096
+      },
+      "layers": []
+    },
+    {
+      "id": "288:1791",
+      "name": "Trial cancellation processed for \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=288:1791",
+      "boundingBox": {
+        "x": -18986,
+        "y": 10217,
+        "w": 800,
+        "h": 682
+      },
+      "layers": []
+    },
+    {
+      "id": "289:4351",
+      "name": "ALERT: Failed Payment for \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=289:4351",
+      "boundingBox": {
+        "x": -16466,
+        "y": 10217,
+        "w": 800,
+        "h": 872
+      },
+      "layers": []
+    },
+    {
+      "id": "288:3529",
+      "name": "New payment from \"Client Name\"",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=288:3529",
+      "boundingBox": {
+        "x": -18146,
+        "y": 10217,
+        "w": 800,
+        "h": 1116
+      },
+      "layers": []
+    },
+    {
+      "id": "289:4162",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=289:4162",
+      "boundingBox": {
+        "x": -17306,
+        "y": 10217,
+        "w": 800,
+        "h": 628
+      },
+      "layers": []
+    },
+    {
+      "id": "304:3551",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=304:3551",
+      "boundingBox": {
+        "x": -12266,
+        "y": 10217,
+        "w": 800,
+        "h": 604
+      },
+      "layers": []
+    },
+    {
+      "id": "304:3629",
+      "name": "Verify your new email",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=304:3629",
+      "boundingBox": {
+        "x": -11426,
+        "y": 10217,
+        "w": 800,
+        "h": 550
+      },
+      "layers": []
+    },
+    {
+      "id": "304:3907",
+      "name": "You've changed your password",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=304:3907",
+      "boundingBox": {
+        "x": -10586,
+        "y": 10217,
+        "w": 800,
+        "h": 496
+      },
+      "layers": []
+    },
+    {
+      "id": "294:2474",
+      "name": "Refund of $\"amount money\" for \"Client Name\" has been processed",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:2474",
+      "boundingBox": {
+        "x": -15626,
+        "y": 10217,
+        "w": 800,
+        "h": 1108
+      },
+      "layers": []
+    },
+    {
+      "id": "302:4749",
+      "name": "Forgot password request",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=302:4749",
+      "boundingBox": {
+        "x": -13946,
+        "y": 10217,
+        "w": 800,
+        "h": 626
+      },
+      "layers": []
+    },
+    {
+      "id": "304:3486",
+      "name": "Temporary password assigned",
+      "sectionId": "275:445",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=304:3486",
+      "boundingBox": {
+        "x": -13106,
+        "y": 10217,
+        "w": 800,
+        "h": 594
+      },
+      "layers": []
+    },
+    {
+      "id": "279:999",
+      "name": "Trial Confirmation (Payment trial started)",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=279:999",
+      "boundingBox": {
+        "x": -24866,
+        "y": 12941,
+        "w": 800,
+        "h": 1000
+      },
+      "layers": []
+    },
+    {
+      "id": "282:7184",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=282:7184",
+      "boundingBox": {
+        "x": -25706,
+        "y": 12941,
+        "w": 800,
+        "h": 1092
+      },
+      "layers": []
+    },
+    {
+      "id": "288:1930",
+      "name": "Cancellation for Trial",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=288:1930",
+      "boundingBox": {
+        "x": -24026,
+        "y": 12941,
+        "w": 800,
+        "h": 682
+      },
+      "layers": []
+    },
+    {
+      "id": "290:2111",
+      "name": "Cancellation of recurring subscription",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=290:2111",
+      "boundingBox": {
+        "x": -20666,
+        "y": 12941,
+        "w": 800,
+        "h": 706
+      },
+      "layers": []
+    },
+    {
+      "id": "288:3726",
+      "name": "Payment Confirmation",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=288:3726",
+      "boundingBox": {
+        "x": -23186,
+        "y": 12941,
+        "w": 800,
+        "h": 944
+      },
+      "layers": []
+    },
+    {
+      "id": "290:4513",
+      "name": "You received a Refund!",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=290:4513",
+      "boundingBox": {
+        "x": -16466,
+        "y": 12941,
+        "w": 800,
+        "h": 874
+      },
+      "layers": []
+    },
+    {
+      "id": "304:3775",
+      "name": "You've changed your password",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=304:3775",
+      "boundingBox": {
+        "x": -13106,
+        "y": 12941,
+        "w": 800,
+        "h": 492
+      },
+      "layers": []
+    },
+    {
+      "id": "304:3420",
+      "name": "Temporary password assigned",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=304:3420",
+      "boundingBox": {
+        "x": -13946,
+        "y": 12941,
+        "w": 800,
+        "h": 590
+      },
+      "layers": []
+    },
+    {
+      "id": "302:4680",
+      "name": "Forgot password request",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=302:4680",
+      "boundingBox": {
+        "x": -14786,
+        "y": 12941,
+        "w": 800,
+        "h": 614
+      },
+      "layers": []
+    },
+    {
+      "id": "302:3249",
+      "name": "You’re invited to train with \"Client Name\"'s Workspace",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=302:3249",
+      "boundingBox": {
+        "x": -15626,
+        "y": 12941,
+        "w": 800,
+        "h": 966
+      },
+      "layers": []
+    },
+    {
+      "id": "289:1879",
+      "name": "Activate your new purchase",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=289:1879",
+      "boundingBox": {
+        "x": -22346,
+        "y": 12941,
+        "w": 800,
+        "h": 1028
+      },
+      "layers": []
+    },
+    {
+      "id": "290:4359",
+      "name": "Your trial is ending in 1 day for \"Package Name\"",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=290:4359",
+      "boundingBox": {
+        "x": -17306,
+        "y": 12941,
+        "w": 800,
+        "h": 982
+      },
+      "layers": []
+    },
+    {
+      "id": "289:3232",
+      "name": "Confirmation: Order has been added to your account",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=289:3232",
+      "boundingBox": {
+        "x": -21506,
+        "y": 12941,
+        "w": 800,
+        "h": 762
+      },
+      "layers": []
+    },
+    {
+      "id": "290:3690",
+      "name": "[Trainer workspace] Failed payment alert",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=290:3690",
+      "boundingBox": {
+        "x": -19826,
+        "y": 12949,
+        "w": 800,
+        "h": 896
+      },
+      "layers": []
+    },
+    {
+      "id": "290:4091",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=290:4091",
+      "boundingBox": {
+        "x": -18986,
+        "y": 12949,
+        "w": 800,
+        "h": 936
+      },
+      "layers": []
+    },
+    {
+      "id": "290:4163",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "275:446",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=290:4163",
+      "boundingBox": {
+        "x": -18146,
+        "y": 12949,
+        "w": 800,
+        "h": 936
+      },
+      "layers": []
+    },
+    {
+      "id": "277:3179",
+      "name": "Downgrade to Pro (from Studio)",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=277:3179",
+      "boundingBox": {
+        "x": -24026,
+        "y": 15096,
+        "w": 800,
+        "h": 1526
+      },
+      "layers": []
+    },
+    {
+      "id": "277:4106",
+      "name": "Remove Automation",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=277:4106",
+      "boundingBox": {
+        "x": -23186,
+        "y": 15096,
+        "w": 800,
+        "h": 1104
+      },
+      "layers": []
+    },
+    {
+      "id": "277:3533",
+      "name": "Downgrade Studio to Starter",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=277:3533",
+      "boundingBox": {
+        "x": -25706,
+        "y": 15096,
+        "w": 800,
+        "h": 2036
+      },
+      "layers": []
+    },
+    {
+      "id": "277:3929",
+      "name": "Downgrade Pro to Starter",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=277:3929",
+      "boundingBox": {
+        "x": -24866,
+        "y": 15096,
+        "w": 800,
+        "h": 1936
+      },
+      "layers": []
+    },
+    {
+      "id": "294:2697",
+      "name": "Payment Success!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:2697",
+      "boundingBox": {
+        "x": -22346,
+        "y": 15098,
+        "w": 800,
+        "h": 892
+      },
+      "layers": []
+    },
+    {
+      "id": "294:2927",
+      "name": "Keep Training Your Clients",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:2927",
+      "boundingBox": {
+        "x": -21506,
+        "y": 15098,
+        "w": 800,
+        "h": 736
+      },
+      "layers": []
+    },
+    {
+      "id": "294:3074",
+      "name": "Your trial has ended!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:3074",
+      "boundingBox": {
+        "x": -20666,
+        "y": 15098,
+        "w": 800,
+        "h": 952
+      },
+      "layers": []
+    },
+    {
+      "id": "294:4427",
+      "name": "Email - 5 days before trial expires",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:4427",
+      "boundingBox": {
+        "x": -19826,
+        "y": 15098,
+        "w": 800,
+        "h": 838
+      },
+      "layers": []
+    },
+    {
+      "id": "294:4557",
+      "name": "Your upgrade is confirmed",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:4557",
+      "boundingBox": {
+        "x": -18986,
+        "y": 15098,
+        "w": 800,
+        "h": 770
+      },
+      "layers": []
+    },
+    {
+      "id": "294:4705",
+      "name": "Alert: Payment OVERDUE. Downgrade in 2 days.",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:4705",
+      "boundingBox": {
+        "x": -18146,
+        "y": 15098,
+        "w": 800,
+        "h": 776
+      },
+      "layers": []
+    },
+    {
+      "id": "294:4785",
+      "name": "App Icon Submission: Needs Revision",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:4785",
+      "boundingBox": {
+        "x": -17306,
+        "y": 15098,
+        "w": 800,
+        "h": 590
+      },
+      "layers": []
+    },
+    {
+      "id": "294:5835",
+      "name": "Your business is growing!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:5835",
+      "boundingBox": {
+        "x": -16466,
+        "y": 15098,
+        "w": 800,
+        "h": 1061
+      },
+      "layers": []
+    },
+    {
+      "id": "294:5942",
+      "name": "Your business is growing!",
+      "sectionId": "277:4105",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=294:5942",
+      "boundingBox": {
+        "x": -15626,
+        "y": 15098,
+        "w": 800,
+        "h": 1061
+      },
+      "layers": []
+    },
+    {
+      "id": "323:3603",
+      "name": " ",
+      "sectionId": "326:3638",
+      "sectionName": "Email Award 2025",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=323:3603",
+      "boundingBox": {
+        "x": -25706,
+        "y": -348,
+        "w": 9602,
+        "h": 6936
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3800",
+      "name": " ",
+      "sectionId": "326:3639",
+      "sectionName": "Airbnb",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3800",
+      "boundingBox": {
+        "x": -15844,
+        "y": -348,
+        "w": 2903,
+        "h": 4096
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3681",
+      "name": " ",
+      "sectionId": "335:3673",
+      "sectionName": "Claude",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3681",
+      "boundingBox": {
+        "x": -6236,
+        "y": -348,
+        "w": 2877,
+        "h": 2740
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3715",
+      "name": " ",
+      "sectionId": "335:3714",
+      "sectionName": "Shopify",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3715",
+      "boundingBox": {
+        "x": -3099,
+        "y": -348,
+        "w": 2861,
+        "h": 3729
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3721",
+      "name": " ",
+      "sectionId": "335:3720",
+      "sectionName": "Apple",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3721",
+      "boundingBox": {
+        "x": 22,
+        "y": -348,
+        "w": 3277,
+        "h": 3594
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3739",
+      "name": " ",
+      "sectionId": "335:3738",
+      "sectionName": "Intercom",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3739",
+      "boundingBox": {
+        "x": 3559,
+        "y": -348,
+        "w": 2809,
+        "h": 4096
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3757",
+      "name": " ",
+      "sectionId": "335:3756",
+      "sectionName": "Uber",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3757",
+      "boundingBox": {
+        "x": 6628,
+        "y": -348,
+        "w": 2881,
+        "h": 1896
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3795",
+      "name": " ",
+      "sectionId": "335:3794",
+      "sectionName": "Superpower",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3795",
+      "boundingBox": {
+        "x": 9769,
+        "y": -348,
+        "w": 2732,
+        "h": 3850
+      },
+      "layers": []
+    },
+    {
+      "id": "335:3806",
+      "name": " ",
+      "sectionId": "335:3805",
+      "sectionName": "Him",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=335:3806",
+      "boundingBox": {
+        "x": 12712,
+        "y": -348,
+        "w": 2941,
+        "h": 3527
+      },
+      "layers": []
+    },
+    {
+      "id": "340:3875",
+      "name": " ",
+      "sectionId": "340:3874",
+      "sectionName": "Slack",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=340:3875",
+      "boundingBox": {
+        "x": 15853,
+        "y": -348,
+        "w": 2861,
+        "h": 1917
+      },
+      "layers": []
+    },
+    {
+      "id": "340:3896",
+      "name": " ",
+      "sectionId": "340:3895",
+      "sectionName": "Nike",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=340:3896",
+      "boundingBox": {
+        "x": 18914,
+        "y": -348,
+        "w": 2274,
+        "h": 4096
+      },
+      "layers": []
+    },
+    {
+      "id": "341:3914",
+      "name": " ",
+      "sectionId": "341:3913",
+      "sectionName": "Cowboy",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=341:3914",
+      "boundingBox": {
+        "x": 21388,
+        "y": -348,
+        "w": 2861,
+        "h": 3146
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6353",
+      "name": "New message",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6353",
+      "boundingBox": {
+        "x": -7199,
+        "y": 10217,
+        "w": 375,
+        "h": 895.4552001953125
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6371",
+      "name": "Delete account request",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6371",
+      "boundingBox": {
+        "x": -6784,
+        "y": 10217,
+        "w": 375,
+        "h": 700
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6389",
+      "name": "email Daily Report",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6389",
+      "boundingBox": {
+        "x": -6369,
+        "y": 10217,
+        "w": 375,
+        "h": 1913
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6450",
+      "name": "Your client import is complete!",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6450",
+      "boundingBox": {
+        "x": -5954,
+        "y": 10217,
+        "w": 375,
+        "h": 464
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6461",
+      "name": "Invite teammate",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6461",
+      "boundingBox": {
+        "x": -5539,
+        "y": 10217,
+        "w": 375,
+        "h": 928
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6481",
+      "name": "Alert: Sequence assignment conflict for ???",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6481",
+      "boundingBox": {
+        "x": -5124,
+        "y": 10217,
+        "w": 375,
+        "h": 692
+      },
+      "layers": []
+    },
+    {
+      "id": "344:6494",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:6494",
+      "boundingBox": {
+        "x": -4709,
+        "y": 10217,
+        "w": 375,
+        "h": 1696.5714111328125
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7001",
+      "name": "New Trial from \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7001",
+      "boundingBox": {
+        "x": -4294,
+        "y": 10217,
+        "w": 375,
+        "h": 1276
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7025",
+      "name": "Trial cancellation processed for \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7025",
+      "boundingBox": {
+        "x": -3879,
+        "y": 10217,
+        "w": 375,
+        "h": 688
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7042",
+      "name": "New payment from \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7042",
+      "boundingBox": {
+        "x": -3464,
+        "y": 10217,
+        "w": 375,
+        "h": 1248
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7069",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7069",
+      "boundingBox": {
+        "x": -3049,
+        "y": 10217,
+        "w": 375,
+        "h": 668
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7086",
+      "name": "ALERT: Failed Payment for \"Client Name\"",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7086",
+      "boundingBox": {
+        "x": -2634,
+        "y": 10217,
+        "w": 375,
+        "h": 928
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7103",
+      "name": "Refund of $\"amount money\" for \"Client Name\" has been processed",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7103",
+      "boundingBox": {
+        "x": -2219,
+        "y": 10217,
+        "w": 375,
+        "h": 1220
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7126",
+      "name": "Trainer’s \"Trainer Name\" invited you to join Everfit!",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7126",
+      "boundingBox": {
+        "x": -1804,
+        "y": 10217,
+        "w": 375,
+        "h": 1154
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7147",
+      "name": "\"Client Name\" has activated a package ",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7147",
+      "boundingBox": {
+        "x": -1389,
+        "y": 10217,
+        "w": 375,
+        "h": 676
+      },
+      "layers": []
+    },
+    {
+      "id": "344:7157",
+      "name": "Verify your new email",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:7157",
+      "boundingBox": {
+        "x": -974,
+        "y": 10217,
+        "w": 375,
+        "h": 566
+      },
+      "layers": []
+    },
+    {
+      "id": "366:8417",
+      "name": "You've changed your password - Mobile",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=366:8417",
+      "boundingBox": {
+        "x": 271,
+        "y": 10217,
+        "w": 375,
+        "h": 492
+      },
+      "layers": []
+    },
+    {
+      "id": "366:8418",
+      "name": "Temporary password assigned - Mobile",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=366:8418",
+      "boundingBox": {
+        "x": -144,
+        "y": 10217,
+        "w": 375,
+        "h": 590
+      },
+      "layers": []
+    },
+    {
+      "id": "366:8419",
+      "name": "Forgot password request - Mobile",
+      "sectionId": "344:6351",
+      "sectionName": "Trainer",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=366:8419",
+      "boundingBox": {
+        "x": -559,
+        "y": 10217,
+        "w": 375,
+        "h": 654
+      },
+      "layers": []
+    },
+    {
+      "id": "344:10451",
+      "name": "Trial Confirmation (Payment trial started)",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:10451",
+      "boundingBox": {
+        "x": -6784,
+        "y": 12941,
+        "w": 375,
+        "h": 1136
+      },
+      "layers": []
+    },
+    {
+      "id": "344:10473",
+      "name": "Download links for Everfit Client App",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:10473",
+      "boundingBox": {
+        "x": -7199,
+        "y": 12941,
+        "w": 375,
+        "h": 970.4050903320312
+      },
+      "layers": []
+    },
+    {
+      "id": "344:10961",
+      "name": "Cancellation for Trial",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:10961",
+      "boundingBox": {
+        "x": -6369,
+        "y": 12941,
+        "w": 375,
+        "h": 668
+      },
+      "layers": []
+    },
+    {
+      "id": "344:10978",
+      "name": "Cancellation of recurring subscription",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:10978",
+      "boundingBox": {
+        "x": -4709,
+        "y": 12941,
+        "w": 375,
+        "h": 732
+      },
+      "layers": []
+    },
+    {
+      "id": "344:10995",
+      "name": "Payment Confirmation",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:10995",
+      "boundingBox": {
+        "x": -5954,
+        "y": 12941,
+        "w": 375,
+        "h": 1046
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11016",
+      "name": "You received a Refund!",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11016",
+      "boundingBox": {
+        "x": -2634,
+        "y": 12941,
+        "w": 375,
+        "h": 888
+      },
+      "layers": []
+    },
+    {
+      "id": "366:8416",
+      "name": "You've changed your password - Mobile",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=366:8416",
+      "boundingBox": {
+        "x": -974,
+        "y": 12941,
+        "w": 375,
+        "h": 492
+      },
+      "layers": []
+    },
+    {
+      "id": "366:8415",
+      "name": "Temporary password assigned - Mobile",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=366:8415",
+      "boundingBox": {
+        "x": -1389,
+        "y": 12941,
+        "w": 375,
+        "h": 590
+      },
+      "layers": []
+    },
+    {
+      "id": "366:8414",
+      "name": "Forgot password request - Mobile",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=366:8414",
+      "boundingBox": {
+        "x": -1804,
+        "y": 12941,
+        "w": 375,
+        "h": 654
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11037",
+      "name": "You’re invited to train with \"Client Name\"'s Workspace",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11037",
+      "boundingBox": {
+        "x": -2219,
+        "y": 12941,
+        "w": 375,
+        "h": 902
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11056",
+      "name": "Activate your new purchase",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11056",
+      "boundingBox": {
+        "x": -5539,
+        "y": 12941,
+        "w": 375,
+        "h": 985
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11076",
+      "name": "Your trial is ending in 1 day for \"Package Name\"",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11076",
+      "boundingBox": {
+        "x": -3049,
+        "y": 12941,
+        "w": 375,
+        "h": 939
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11095",
+      "name": "Confirmation: Order has been added to your account",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11095",
+      "boundingBox": {
+        "x": -5124,
+        "y": 12941,
+        "w": 375,
+        "h": 754
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11115",
+      "name": "[Trainer workspace] Failed payment alert",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11115",
+      "boundingBox": {
+        "x": -4294,
+        "y": 12949,
+        "w": 375,
+        "h": 952
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11132",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11132",
+      "boundingBox": {
+        "x": -3879,
+        "y": 12949,
+        "w": 375,
+        "h": 984
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11149",
+      "name": "[Trainer Workspace] Late Payment: DUE 3 days ago",
+      "sectionId": "344:10450",
+      "sectionName": "Client",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11149",
+      "boundingBox": {
+        "x": -3464,
+        "y": 12949,
+        "w": 375,
+        "h": 984
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11167",
+      "name": "Downgrade to Pro (from Studio)",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11167",
+      "boundingBox": {
+        "x": -6369,
+        "y": 14437,
+        "w": 375,
+        "h": 1764
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11194",
+      "name": "Remove Automation",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11194",
+      "boundingBox": {
+        "x": -5954,
+        "y": 14437,
+        "w": 375,
+        "h": 1250
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11213",
+      "name": "Downgrade Studio to Starter",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11213",
+      "boundingBox": {
+        "x": -7199,
+        "y": 14437,
+        "w": 375,
+        "h": 2448
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11244",
+      "name": "Downgrade Pro to Starter",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11244",
+      "boundingBox": {
+        "x": -6784,
+        "y": 14437,
+        "w": 375,
+        "h": 2304
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11274",
+      "name": "Payment Success!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11274",
+      "boundingBox": {
+        "x": -5539,
+        "y": 14439,
+        "w": 375,
+        "h": 1026
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11293",
+      "name": "Keep Training Your Clients",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11293",
+      "boundingBox": {
+        "x": -5124,
+        "y": 14439,
+        "w": 375,
+        "h": 748
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11305",
+      "name": "Your trial has ended!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11305",
+      "boundingBox": {
+        "x": -4709,
+        "y": 14439,
+        "w": 375,
+        "h": 1044
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11319",
+      "name": "Email - 5 days before trial expires",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11319",
+      "boundingBox": {
+        "x": -4294,
+        "y": 14439,
+        "w": 375,
+        "h": 842
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11333",
+      "name": "Your upgrade is confirmed",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11333",
+      "boundingBox": {
+        "x": -3879,
+        "y": 14439,
+        "w": 375,
+        "h": 730
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11347",
+      "name": "Alert: Payment OVERDUE. Downgrade in 2 days.",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11347",
+      "boundingBox": {
+        "x": -3464,
+        "y": 14439,
+        "w": 375,
+        "h": 904
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11359",
+      "name": "App Icon Submission: Needs Revision",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11359",
+      "boundingBox": {
+        "x": -3049,
+        "y": 14439,
+        "w": 375,
+        "h": 608
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11370",
+      "name": "Your business is growing!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11370",
+      "boundingBox": {
+        "x": -2634,
+        "y": 14439,
+        "w": 375,
+        "h": 1196
+      },
+      "layers": []
+    },
+    {
+      "id": "344:11410",
+      "name": "Your business is growing!",
+      "sectionId": "344:11166",
+      "sectionName": "Owner",
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/pslbvs7KGNRyzi3ou12f7h?node-id=344:11410",
+      "boundingBox": {
+        "x": -2219,
+        "y": 14439,
+        "w": 375,
+        "h": 1196
+      },
+      "layers": []
+    }
+  ]
+}

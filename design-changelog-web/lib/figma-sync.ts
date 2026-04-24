@@ -9,6 +9,8 @@ import {
   clearBaselines,
   readBaseline,
   writeBaseline,
+  readSnapshot,
+  writeSnapshot,
   writeEntryFile,
   writeLocalIndex,
   writeLocalPages,
@@ -36,7 +38,8 @@ type NodeSnapshot = {
   text: string | null
   box: BoundingBox
   children: string[]
-  fingerprint: string
+  fingerprint: string      // recursive hash (self + children)
+  selfFingerprint: string  // local properties hash
 }
 
 type TreeSnapshot = {
@@ -75,6 +78,7 @@ function boundingBoxFromNode(node: FigmaNode): BoundingBox {
 }
 
 function buildFingerprint(node: FigmaNode) {
+  // node-only fingerprint (self)
   return JSON.stringify({
     name: node.name,
     type: node.type,
@@ -91,7 +95,17 @@ function buildFingerprint(node: FigmaNode) {
   })
 }
 
-function flattenTree(node: FigmaNode, nodes: Record<string, NodeSnapshot>) {
+function flattenTree(node: FigmaNode, nodes: Record<string, NodeSnapshot>): string {
+  const selfFp = buildFingerprint(node)
+  const childFps: string[] = []
+
+  for (const child of node.children ?? []) {
+    const childRecFp = flattenTree(child, nodes)
+    childFps.push(childRecFp)
+  }
+
+  const recFp = String(hashString(selfFp + childFps.join("")))
+
   nodes[node.id] = {
     id: node.id,
     name: node.name,
@@ -100,12 +114,11 @@ function flattenTree(node: FigmaNode, nodes: Record<string, NodeSnapshot>) {
     text: node.characters ?? null,
     box: boundingBoxFromNode(node),
     children: node.children?.map((child) => child.id) ?? [],
-    fingerprint: buildFingerprint(node),
+    fingerprint: recFp, // recursive
+    selfFingerprint: selfFp, // node-only
   }
 
-  for (const child of node.children ?? []) {
-    flattenTree(child, nodes)
-  }
+  return recFp
 }
 
 function collectCandidateRoots(node: FigmaNode, candidates: FigmaNode[] = []) {
@@ -184,6 +197,7 @@ function buildSyntheticBaseline(snapshot: TreeSnapshot): TreeSnapshot {
       box: { x: 0, y: 0, w: 320, h: 180 },
       children: [],
       fingerprint: `${snapshot.versionId}-removed`,
+      selfFingerprint: `${snapshot.versionId}-removed`,
     }
   }
 
@@ -240,33 +254,69 @@ function buildLayerChanges(
   baselineNodes: Record<string, NodeSnapshot>,
   simulate: boolean,
 ) {
-  const childIds = [...new Set([...(currentRoot.children ?? []), ...(baselineRoot?.children ?? [])])]
+  const results: LayerChange[] = []
 
-  return childIds.map((childId, index) => {
-    const current = currentNodes[childId]
-    const baseline = baselineNodes[childId]
+  // Recursive search for "Shallowest Modified Node"
+  function findChangeRoots(
+    curr: NodeSnapshot | undefined,
+    base: NodeSnapshot | undefined,
+    depth: number
+  ) {
+    // 1. If both are missing, do nothing
+    if (!curr && !base) return
 
-    let status: ChangeStatus
-    if (!current && baseline) {
-      status = "removed"
-    } else if (current && !baseline) {
-      status = simulate ? statusFromIndex(index) : "added"
-    } else if (current && baseline && current.fingerprint !== baseline.fingerprint) {
-      status = "edited"
-    } else {
-      status = simulate ? statusFromIndex(index) : "pending"
+    // 2. If one is missing (Added or Removed), it's a change root
+    if (!curr || !base) {
+      const target = curr || base!
+      results.push({
+        id: target.id,
+        name: target.name,
+        type: target.type,
+        status: !base ? "added" : "removed",
+        path: target.name,
+        boundingBox: target.box,
+        changes: parseChanges(curr, base),
+      })
+      return // STOP digging — parent change reported
     }
 
-    return {
-      id: childId,
-      name: current?.name ?? baseline?.name ?? "Unknown layer",
-      type: current?.type ?? baseline?.type ?? "FRAME",
-      status,
-      path: `${currentRoot.name} / ${current?.name ?? baseline?.name ?? "Unknown layer"}`,
-      boundingBox: current?.box ?? baseline?.box ?? { x: 0, y: 0, w: 0, h: 0 },
-      changes: parseChanges(current, baseline),
-    } satisfies LayerChange
-  })
+    // 3. Both exist. Check for SELF change (color, size, text, etc.)
+    const selfChanged = curr.selfFingerprint !== base.selfFingerprint
+
+    if (selfChanged) {
+      // This is a change root — record and STOP
+      results.push({
+        id: curr.id,
+        name: curr.name,
+        type: curr.type,
+        status: "edited",
+        path: curr.name,
+        boundingBox: curr.box,
+        changes: parseChanges(curr, base),
+      })
+      return // STOP digging — parent change reported
+    }
+
+    // 4. No self-change. Check if ANYTHING in the subtree changed
+    const subtreeChanged = curr.fingerprint !== base.fingerprint
+
+    if (subtreeChanged) {
+      // Something below changed — DIG DEEPER into children
+      const allChildIds = [...new Set([...(curr.children ?? []), ...(base.children ?? [])])]
+      for (const childId of allChildIds) {
+        findChangeRoots(currentNodes[childId], baselineNodes[childId], depth + 1)
+      }
+    }
+    // Else: total match, stop here
+  }
+
+  // Start searching from all level-1 children of the Frame
+  const startChildIds = [...new Set([...(currentRoot.children ?? []), ...(baselineRoot?.children ?? [])])]
+  for (const childId of startChildIds) {
+    findChangeRoots(currentNodes[childId], baselineNodes[childId], 0)
+  }
+
+  return results
 }
 
 function buildFrameChanges(
@@ -358,113 +408,108 @@ function buildFrameChanges(
   return { frames, summary }
 }
 
+function findNodeRecursive(node: FigmaNode, id: string): FigmaNode | null {
+  if (node.id === id) return node
+  for (const child of node.children ?? []) {
+    const found = findNodeRecursive(child, id)
+    if (found) return found
+  }
+  return null
+}
+
 async function buildSourceOutput(source: TrackedPage) {
   try {
-    // 1. Shallow fetch (depth 2) — only need to discover Section IDs
-    const fileStructure = await getFigmaFile(source.figmaFileKey, { depth: 2 })
-    const versionId = fileStructure.version ?? `${source.figmaFileKey}-version`
-    const versionCreatedAt = new Date().toISOString()
+    const RENDERABLE = new Set(["FRAME", "GROUP", "COMPONENT", "COMPONENT_SET", "INSTANCE"])
+    type FrameEntry = { frameId: string; frameName: string; sectionId: string; sectionName: string }
 
-    const pageNode = source.figmaPageId
-      ? fileStructure.document.children?.find(c => c.id === source.figmaPageId)
-      : null
-    const searchRoot = pageNode ?? fileStructure.document
+    let fileName = source.figmaFileName
+    let versionCreatedAt = new Date().toISOString()
+    let versionId = `v-${Date.now()}`
+    let searchRoot: FigmaNode | null = null
 
-    // Collect Section stubs from shallow fetch (only id/name are reliable here)
-    const sectionStubs = collectCandidateRoots(searchRoot)
-    const sectionIds = sectionStubs.map(s => s.id)
-
-    console.log(`[Sync] Discovered ${sectionIds.length} sections via shallow fetch.`)
-
-    // 2. Fetch FULL node data for each Section via /nodes API
-    //    This endpoint returns ALL children without truncation — unlike the depth-limited file fetch
-    const sectionDataMap = (await getFigmaNodes(source.figmaFileKey, sectionIds)) as Record<string, { document?: FigmaNode }>
-
-    // 3. Build frameEntries and nodes map from FULL /nodes response
-    type FrameEntry = {
-      frameId: string
-      frameName: string
-      sectionId: string
-      sectionName: string
+    if (source.figmaPageId) {
+      const nodesResponse = await getFigmaNodes(source.figmaFileKey, [source.figmaPageId]) as Record<string, { document?: FigmaNode }>
+      const nodeDoc = nodesResponse[source.figmaPageId]?.document
+      if (nodeDoc) {
+        searchRoot = nodeDoc
+        source.pageName = nodeDoc.name
+        source.figmaPageName = nodeDoc.name
+      }
     }
+
+    if (!searchRoot) {
+      const fileStructure = await getFigmaFile(source.figmaFileKey, { depth: 2 })
+      fileName = fileStructure.name
+      versionId = fileStructure.version ?? versionId
+      const targetNode = source.figmaPageId
+        ? findNodeRecursive(fileStructure.document, source.figmaPageId)
+        : null
+      if (targetNode) {
+        source.pageName = targetNode.name
+        source.figmaPageName = targetNode.name
+      }
+      searchRoot = targetNode ?? fileStructure.document
+    }
+
+    // 2. Parse sections + frames directly from the already-fetched tree
     const frameEntries: FrameEntry[] = []
     const nodes: Record<string, NodeSnapshot> = {}
-    const RENDERABLE = new Set(["FRAME", "GROUP", "COMPONENT", "COMPONENT_SET", "INSTANCE"])
 
-    for (const sectionId of sectionIds) {
-      const sectionDoc = sectionDataMap[sectionId]?.document
-      if (!sectionDoc) continue
-
-      // Flatten entire section tree into nodes map (for diff tracking)
-      flattenTree(sectionDoc, nodes)
-
-      // Recursively collect ALL frames — including those inside nested sections
-      collectFramesFromSection(sectionDoc.id, sectionDoc.name, sectionDoc, frameEntries, RENDERABLE)
+    if (searchRoot.type === "SECTION") {
+      flattenTree(searchRoot, nodes)
+      collectFramesFromSection(searchRoot.id, searchRoot.name, searchRoot, frameEntries, RENDERABLE)
+    } else {
+      const sections = collectCandidateRoots(searchRoot)
+      for (const section of sections) {
+        flattenTree(section, nodes)
+        collectFramesFromSection(section.id, section.name, section, frameEntries, RENDERABLE)
+      }
     }
 
-    console.log(`[Sync] Found ${frameEntries.length} frames across ${sectionIds.length} sections.`)
-
-    // Images are loaded on-demand via /api/proxy-image (in-memory cache, JPEG format)
-    // No pre-warming needed — proxy caches in memory on first request per session
-
-    // Build snapshot
-    const selectedNodes: Record<string, NodeSnapshot> = nodes
-    const rootIds = sectionIds
-
+    // 3. Build current snapshot
     const currentSnapshot: TreeSnapshot = {
       sourceId: source.id,
       versionId,
       versionCreatedAt,
-      fileName: fileStructure.name,
-      thumbnailUrl: fileStructure.thumbnailUrl ?? "",
-      nodes: selectedNodes,
-      rootIds,
+      fileName,
+      thumbnailUrl: "",
+      nodes,
+      rootIds: [...new Set(frameEntries.map(f => f.sectionId))],
     }
 
+    // 4. Persistence: Save the full snapshot for historical comparison
+    await writeSnapshot(source.id, versionId, currentSnapshot)
+
+    // 5. Compare against baseline (global fallback)
     const baseline = (await readBaseline(source.id)) as TreeSnapshot | null
     const baselineNodes = baseline?.nodes ?? {}
 
-    // Build FrameChange per frame — thumbnails are loaded on-demand via /api/proxy-image
     const frames: FrameChange[] = frameEntries.map(({ frameId, frameName, sectionId, sectionName }) => {
-      const current = selectedNodes[frameId]
+      const current = nodes[frameId]
       const base = baselineNodes[frameId]
-
-      let status: ChangeStatus
-      if (!current && base) status = "removed"
-      else if (current && !base) status = "added"   // always 'added' whether or not baseline exists
-      else if (current && base && current.fingerprint !== base.fingerprint) status = "edited"
-      else status = "pending"
-
+      
       const root = current ?? base
-      const layers = root
-        ? buildLayerChanges(root, base, selectedNodes, baselineNodes, false)
-        : []
-
+      const layers = root ? buildLayerChanges(root, base, nodes, baselineNodes, false) : []
+      
       return {
         id: frameId,
         name: frameName,
         sectionId,
         sectionName,
-        thumbnail: null,
-        status,
-        figmaDeepLink: source.figmaUrl,
-        boundingBox: (current ?? base)?.box ?? { x: 0, y: 0, w: 0, h: 0 },
+        status: !base ? "added" : (current.fingerprint !== base.fingerprint ? "edited" : "pending"),
+        figmaDeepLink: `https://www.figma.com/design/${source.figmaFileKey}?node-id=${frameId}`,
+        boundingBox: current?.box ?? base?.box ?? { x: 0, y: 0, w: 0, h: 0 },
         layers,
       }
     })
 
-    // Summarise across all frames
+    // 6. Calculate summary
     const summary = emptySummary()
     for (const f of frames) {
       if (f.status === "added") summary.added += 1
       else if (f.status === "edited") summary.edited += 1
       else if (f.status === "removed") summary.removed += 1
     }
-
-    // Keep a file-level image for the diff viewer (use first section node)
-    const firstSectionId = rootIds[0]
-    const afterImage = fileStructure.thumbnailUrl ?? ""
-    const beforeImage = afterImage
 
     const date = getCurrentDateString()
     const entry: ChangelogEntry = {
@@ -477,32 +522,86 @@ async function buildSourceOutput(source: TrackedPage) {
       lastDetectedAt: versionCreatedAt,
       summary,
       diffFile: `data/entries/${source.id}-${versionId}.json`,
-      beforeImage,
-      afterImage,
+      beforeImage: "",
+      afterImage: "",
       sectionThumbnail: null,
       figmaDeepLink: source.figmaUrl,
       frames,
     }
 
-    return {
-      source,
-      snapshot: currentSnapshot,
-      entry,
-      versionId,
-      versionCreatedAt,
-      archived: false,
-    }
+    return { source, snapshot: currentSnapshot, entry, versionId, versionCreatedAt, archived: false }
   } catch (err) {
     console.error("[Sync Error]", err)
-    return {
-      source,
-      snapshot: null,
-      versionId: null,
-      versionCreatedAt: new Date().toISOString(),
-      archived: true,
-      entry: null,
+    return { source, snapshot: null, versionId: null, versionCreatedAt: new Date().toISOString(), archived: true, entry: null }
+  }
+}
+
+/**
+ * Calculates a personalized diff between two specific snapshots.
+ */
+export async function getPersonalizedFrameChanges(
+  sourceId: string,
+  baselineVersionId: string | null,
+  currentVersionId: string
+): Promise<FrameChange[]> {
+  const [currentSnapshot, baselineSnapshot] = await Promise.all([
+    readSnapshot(sourceId, currentVersionId),
+    baselineVersionId ? readSnapshot(sourceId, baselineVersionId) : Promise.resolve(null)
+  ])
+
+  if (!currentSnapshot) return []
+
+  const nodes = currentSnapshot.nodes
+  const baselineNodes = baselineSnapshot?.nodes ?? {}
+
+  // Simplified recreation of the frame list from snapshot
+  // We can't use buildSourceOutput here because we don't want to hit Figma
+  // Instead, we identify nodes that look like root frames
+  const frameIds = Object.keys(nodes).filter(id => 
+    nodes[id].type === "FRAME" && currentSnapshot.rootIds.includes(nodes[id].id)
+  )
+
+  // Reconstruct parent mapping from rootIds (sections) to their children (frames)
+  const parentMap: Record<string, string> = {}
+  for (const rootId of currentSnapshot.rootIds) {
+    const section = nodes[rootId]
+    if (section && section.children) {
+      for (const childId of section.children) {
+        parentMap[childId] = rootId
+      }
     }
   }
+
+  const frames: FrameChange[] = []
+  for (const nodeId in nodes) {
+    const node = nodes[nodeId]
+    if (node.type === "FRAME") {
+      // Only process frames that were top-level within sections
+      if (!parentMap[nodeId]) continue
+
+      const current = node
+      const base = baselineNodes[nodeId]
+      
+      const layers = buildLayerChanges(current, base, nodes, baselineNodes, false)
+      if (layers.length === 0 && base && current.fingerprint === base.fingerprint) continue
+
+      const sectionId = parentMap[node.id]
+      const section = nodes[sectionId]
+
+      frames.push({
+        id: node.id,
+        name: node.name,
+        sectionId: sectionId,
+        sectionName: section?.name || "Other",
+        status: !base ? "added" : (current.fingerprint !== base.fingerprint ? "edited" : "pending"),
+        figmaDeepLink: "", // Can be reconstructed if needed
+        boundingBox: current.box,
+        layers,
+      })
+    }
+  }
+
+  return frames
 }
 
 export async function syncFigmaSources() {
@@ -513,22 +612,53 @@ export async function syncFigmaSources() {
   }
 
   const outputs = await Promise.all(activePages.map((page) => buildSourceOutput(page)))
-  const archivedIds = new Set(outputs.filter((output) => output.archived).map((output) => output.source.id))
+  return commitOutputs(catalog, outputs)
+}
 
-  if (archivedIds.size > 0) {
-    await writeLocalPages({
-      pages: catalog.pages.map((page) =>
-        archivedIds.has(page.id) ? { ...page, archived: true } : page,
-      ),
-    })
-  }
+/**
+ * Sync a single page by ID — used by the "Sync now" button.
+ * Much faster than syncing all pages.
+ */
+export async function syncSinglePage(pageId: string) {
+  const catalog = await loadPageCatalog()
+  // Find by ID regardless of archived status — allows re-syncing failed pages
+  const page = catalog.pages.find((p) => p.id === pageId)
+  if (!page) throw new Error(`Page ${pageId} not found in catalog`)
 
-  const activeOutputs = outputs.filter((output): output is (typeof outputs)[number] & { entry: ChangelogEntry } => Boolean(output.entry))
+  const output = await buildSourceOutput(page)
+  return commitOutputs(catalog, [output])
+}
+
+async function commitOutputs(
+  catalog: Awaited<ReturnType<typeof loadPageCatalog>>,
+  outputs: Awaited<ReturnType<typeof buildSourceOutput>>[]
+) {
+  // Update catalog — only update name on success, never overwrite archived=true on failure
+  const updatedPages = catalog.pages.map((p) => {
+    const output = outputs.find((o) => o.source.id === p.id)
+    if (!output) return p
+    // If sync failed (entry is null), preserve existing page data as-is
+    if (!output.entry) return p
+    return {
+      ...p,
+      pageName: output.source.pageName,
+      figmaPageName: output.source.figmaPageName,
+      lastVersionId: output.versionId || p.lastVersionId,
+      lastActivityAt: output.versionCreatedAt || p.lastActivityAt,
+      // Only mark archived if explicitly set AND it was already archived before
+      archived: p.archived ?? false,
+    }
+  })
+
+  await writeLocalPages({ pages: updatedPages })
+
+  const activeOutputs = outputs.filter(
+    (output): output is (typeof outputs)[number] & { entry: ChangelogEntry } => Boolean(output.entry)
+  )
 
   const existingIndex = await loadIndex()
   const newEntries = activeOutputs.map(({ entry }) => entry)
-  
-  // Combine new entries with existing ones, avoiding duplicates if any
+
   const combinedEntries = [...newEntries]
   for (const oldEntry of existingIndex.entries) {
     if (!combinedEntries.find(e => e.id === oldEntry.id)) {
@@ -536,11 +666,12 @@ export async function syncFigmaSources() {
     }
   }
 
-  const index: ChangelogIndex = {
-    lastUpdated: new Date().toISOString(),
-    figmaFileKey: catalog.pages[0]?.figmaFileKey ?? "",
-    figmaFileName: catalog.pages[0]?.figmaFileName ?? "",
-    sources: outputs.map(({ source, versionId, versionCreatedAt, entry, archived }) => ({
+  // Merge sources: keep existing sources for pages not in this sync batch
+  const existingSources = existingIndex.sources ?? []
+  const updatedSources = [...existingSources]
+  for (const { source, versionId, versionCreatedAt, entry, archived } of outputs) {
+    const idx = updatedSources.findIndex((s) => s.id === source.id)
+    const sourceEntry = {
       id: source.id,
       url: source.figmaUrl,
       fileKey: source.figmaFileKey,
@@ -552,8 +683,16 @@ export async function syncFigmaSources() {
       sectionName: entry?.sectionName ?? source.pageName,
       lastVersionId: versionId,
       lastVersionAt: versionCreatedAt,
-    })),
-    // Keep the most recent 100 entries total
+    }
+    if (idx >= 0) updatedSources[idx] = sourceEntry
+    else updatedSources.push(sourceEntry)
+  }
+
+  const index: ChangelogIndex = {
+    lastUpdated: new Date().toISOString(),
+    figmaFileKey: catalog.pages[0]?.figmaFileKey ?? "",
+    figmaFileName: catalog.pages[0]?.figmaFileName ?? "",
+    sources: updatedSources,
     entries: combinedEntries.slice(0, 100),
   }
 

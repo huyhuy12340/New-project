@@ -61,7 +61,7 @@ function sleep(ms: number) {
 async function figmaFetch<T>(path: string, attempt = 0): Promise<T> {
   const timeout =
     typeof AbortSignal !== "undefined" && "timeout" in AbortSignal
-      ? AbortSignal.timeout(25000)
+      ? AbortSignal.timeout(12000)
       : undefined
   const response = await fetch(`https://api.figma.com/v1${path}`, {
     headers: {
@@ -156,20 +156,19 @@ export async function getFigmaNodes(fileKey: string, ids: string[]) {
     batches.push(ids.slice(i, i + batchSize));
   }
 
-  const allNodes: Record<string, { document?: FigmaNode }> = {};
-
-  for (const batchIds of batches) {
-    try {
-      const response = await figmaFetch<FigmaNodesResponse>(
-        `/files/${fileKey}/nodes?ids=${encodeURIComponent(batchIds.join(","))}`,
-      );
-      if (response.nodes) {
-        Object.assign(allNodes, response.nodes);
+  const results = await Promise.all(
+    batches.map(async (batchIds) => {
+      try {
+        const response = await figmaFetch<FigmaNodesResponse>(
+          `/files/${fileKey}/nodes?ids=${encodeURIComponent(batchIds.join(","))}`,
+        );
+        return response.nodes ?? {};
+      } catch (error) {
+        console.error(`Batch (Nodes) failed:`, error);
+        return {};
       }
-    } catch (error) {
-      console.error(`Batch ${batches.indexOf(batchIds)} (Nodes) failed:`, error);
-    }
-  }
+    })
+  );
 
-  return allNodes;
+  return Object.assign({}, ...results);
 }

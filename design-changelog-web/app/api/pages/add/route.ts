@@ -72,6 +72,7 @@ export async function POST(request: Request) {
       categories: body.categories as PageCategory[],
       addedAt: new Date().toISOString(),
       addedBy: body.addedBy ?? "system",
+      lastActivityAt: new Date().toISOString(),
     }
 
     const catalog = await upsertTrackedPage(page)

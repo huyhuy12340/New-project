@@ -1,0 +1,552 @@
+{
+  "id": "page-mupsdopmoqrxhvm6d5jmgz-0-1-mUpsdOpMOqRXhVm6d5JMgZ-1777017912680",
+  "sourceId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "versionId": "mUpsdOpMOqRXhVm6d5JMgZ-1777017912680",
+  "sectionId": "page-mupsdopmoqrxhvm6d5jmgz-0-1",
+  "sectionName": "Page 1",
+  "date": "2026-04-24",
+  "lastDetectedAt": "2026-04-24T08:05:12.680Z",
+  "summary": {
+    "edited": 3,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-mupsdopmoqrxhvm6d5jmgz-0-1-mUpsdOpMOqRXhVm6d5JMgZ-1777017912680.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+  "frames": [
+    {
+      "id": "1:10828",
+      "name": "7",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": -573,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": []
+    },
+    {
+      "id": "1:10836",
+      "name": "8",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": null,
+      "status": "edited",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": -158,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": [
+        {
+          "id": "12:3982",
+          "name": "test",
+          "type": "INSTANCE",
+          "status": "removed",
+          "path": "test",
+          "boundingBox": {
+            "x": -138,
+            "y": 4780,
+            "w": 335,
+            "h": 138
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": "test",
+              "after": null
+            }
+          ]
+        },
+        {
+          "id": "12:4011",
+          "name": "test",
+          "type": "INSTANCE",
+          "status": "removed",
+          "path": "test",
+          "boundingBox": {
+            "x": -138,
+            "y": 5394,
+            "w": 335,
+            "h": 138
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": "test",
+              "after": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1:10844",
+      "name": "9",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 257,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": []
+    },
+    {
+      "id": "1:10852",
+      "name": "6",
+      "sectionId": "3:2541",
+      "sectionName": "Section 1",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 672,
+        "y": 4745,
+        "w": 375,
+        "h": 812
+      },
+      "layers": []
+    },
+    {
+      "id": "3:2641",
+      "name": "14",
+      "sectionId": "3:2542",
+      "sectionName": "Section 2",
+      "thumbnail": null,
+      "status": "edited",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 1318,
+        "y": 4745,
+        "w": 1440,
+        "h": 874
+      },
+      "layers": [
+        {
+          "id": "I3:2782;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 4937,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2782;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 4937,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2783;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 5030,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2783;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 5030,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2784;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 5123,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2784;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 5123,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2785;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 5216,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2785;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 5216,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2786;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 5309,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2786;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 5309,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2787;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 5402,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2787;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 5402,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2788;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 1655,
+            "y": 5495,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I3:2788;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 1904,
+            "y": 5495,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "12:3313",
+      "name": "15",
+      "sectionId": "3:2542",
+      "sectionName": "Section 2",
+      "thumbnail": null,
+      "status": "edited",
+      "figmaDeepLink": "https://www.figma.com/design/mUpsdOpMOqRXhVm6d5JMgZ/Untitled?node-id=0-1",
+      "boundingBox": {
+        "x": 2798,
+        "y": 4745,
+        "w": 1440,
+        "h": 874
+      },
+      "layers": [
+        {
+          "id": "I12:3454;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 4937,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3454;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 4937,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3455;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 5030,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3455;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 5030,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3456;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 5123,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3456;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 5123,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3457;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 5216,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3457;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 5216,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3458;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 5309,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3458;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 5309,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3459;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 5402,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3459;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 5402,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3460;1:18371",
+          "name": "Frame 1597884947",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884947",
+          "boundingBox": {
+            "x": 3135,
+            "y": 5495,
+            "w": 229,
+            "h": 61
+          },
+          "changes": []
+        },
+        {
+          "id": "I12:3460;1:18374",
+          "name": "Frame 1597884946",
+          "type": "FRAME",
+          "status": "edited",
+          "path": "Frame 1597884946",
+          "boundingBox": {
+            "x": 3384,
+            "y": 5495,
+            "w": 166,
+            "h": 61
+          },
+          "changes": []
+        }
+      ]
+    }
+  ]
+}

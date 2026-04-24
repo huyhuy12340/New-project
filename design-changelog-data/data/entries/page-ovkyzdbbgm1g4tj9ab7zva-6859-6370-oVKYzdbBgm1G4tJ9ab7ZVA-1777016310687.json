@@ -1,0 +1,768 @@
+{
+  "id": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-oVKYzdbBgm1G4tJ9ab7ZVA-1777016310687",
+  "sourceId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "versionId": "oVKYzdbBgm1G4tJ9ab7ZVA-1777016310687",
+  "sectionId": "page-ovkyzdbbgm1g4tj9ab7zva-6859-6370",
+  "sectionName": "Biometric login | Apr 13, 2026",
+  "date": "2026-04-24",
+  "lastDetectedAt": "2026-04-24T07:38:30.687Z",
+  "summary": {
+    "edited": 0,
+    "added": 0,
+    "removed": 0
+  },
+  "diffFile": "data/entries/page-ovkyzdbbgm1g4tj9ab7zva-6859-6370-oVKYzdbBgm1G4tJ9ab7ZVA-1777016310687.json",
+  "beforeImage": "",
+  "afterImage": "",
+  "sectionThumbnail": null,
+  "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+  "frames": [
+    {
+      "id": "6859:6569",
+      "name": "Full screen",
+      "sectionId": "6878:1055",
+      "sectionName": "UI options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 2831,
+        "y": 3570,
+        "w": 1440,
+        "h": 900
+      },
+      "layers": [
+        {
+          "id": "6859:6595",
+          "name": "Logo",
+          "type": "INSTANCE",
+          "status": "added",
+          "path": "Full screen / Logo",
+          "boundingBox": {
+            "x": 3499.354736328125,
+            "y": 3610,
+            "w": 103.29048156738281,
+            "h": 50
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Logo"
+            }
+          ]
+        },
+        {
+          "id": "6861:6742",
+          "name": "Login Sign up",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Full screen / Login Sign up",
+          "boundingBox": {
+            "x": 3321,
+            "y": 3684,
+            "w": 460,
+            "h": 584
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Login Sign up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6869:6877",
+      "name": "Popup 2",
+      "sectionId": "6878:1055",
+      "sectionName": "UI options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 2831,
+        "y": 2341,
+        "w": 1912,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "6869:6875",
+          "name": "image 16",
+          "type": "RECTANGLE",
+          "status": "added",
+          "path": "Popup 2 / image 16",
+          "boundingBox": {
+            "x": 2831,
+            "y": 2341,
+            "w": 1912,
+            "h": 1080
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "image 16"
+            }
+          ]
+        },
+        {
+          "id": "6869:6878",
+          "name": "Frame 1597884742",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Popup 2 / Frame 1597884742",
+          "boundingBox": {
+            "x": 2831,
+            "y": 2341,
+            "w": 1912,
+            "h": 1080
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame 1597884742"
+            }
+          ]
+        },
+        {
+          "id": "6869:10903",
+          "name": "Login Sign up",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Popup 2 / Login Sign up",
+          "boundingBox": {
+            "x": 3557,
+            "y": 2586.5,
+            "w": 460,
+            "h": 589
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Login Sign up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6870:814",
+      "name": "Popup 1",
+      "sectionId": "6878:1055",
+      "sectionName": "UI options",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 2831,
+        "y": 1112,
+        "w": 1912,
+        "h": 1080
+      },
+      "layers": [
+        {
+          "id": "6870:815",
+          "name": "image 16",
+          "type": "RECTANGLE",
+          "status": "added",
+          "path": "Popup 1 / image 16",
+          "boundingBox": {
+            "x": 2831,
+            "y": 1112,
+            "w": 1912,
+            "h": 1080
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "image 16"
+            }
+          ]
+        },
+        {
+          "id": "6870:816",
+          "name": "Frame 1597884742",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Popup 1 / Frame 1597884742",
+          "boundingBox": {
+            "x": 2831,
+            "y": 1112,
+            "w": 1912,
+            "h": 1080
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame 1597884742"
+            }
+          ]
+        },
+        {
+          "id": "6870:854",
+          "name": "Frame",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Popup 1 / Frame",
+          "boundingBox": {
+            "x": 3410.5,
+            "y": 1454,
+            "w": 754,
+            "h": 397
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame"
+            }
+          ]
+        },
+        {
+          "id": "6872:1001",
+          "name": "Vector 12",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "Popup 1 / Vector 12",
+          "boundingBox": {
+            "x": 4027,
+            "y": 1743.4999977581215,
+            "w": 14,
+            "h": 0.00000346579736287822
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Vector 12"
+            }
+          ]
+        },
+        {
+          "id": "6872:1005",
+          "name": "Vector 13",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "Popup 1 / Vector 13",
+          "boundingBox": {
+            "x": 4102.9999953321385,
+            "y": 1607.9999999999998,
+            "w": 0.00000466786150354892,
+            "h": 18.500000000000227
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Vector 13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13020",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10458,
+        "y": 2364,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13021",
+          "name": "Vector",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "Frame / Vector",
+          "boundingBox": {
+            "x": 10460.5,
+            "y": 2365.874755859375,
+            "w": 15.62520694732666,
+            "h": 15.62520694732666
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Vector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13024",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10458,
+        "y": 2475,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13025",
+          "name": "Vector",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "Frame / Vector",
+          "boundingBox": {
+            "x": 10460.5,
+            "y": 2476.874755859375,
+            "w": 15.62520694732666,
+            "h": 15.62520694732666
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Vector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13022",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10550,
+        "y": 2364,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13023",
+          "name": "Vector",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "Frame / Vector",
+          "boundingBox": {
+            "x": 10553.125,
+            "y": 2365.87451171875,
+            "w": 13.75,
+            "h": 16.25043487548828
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Vector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13026",
+      "name": "Frame",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10550,
+        "y": 2475,
+        "w": 20,
+        "h": 20
+      },
+      "layers": [
+        {
+          "id": "6878:13027",
+          "name": "Vector",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "Frame / Vector",
+          "boundingBox": {
+            "x": 10553.125,
+            "y": 2476.87451171875,
+            "w": 13.75,
+            "h": 16.25043487548828
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Vector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13013",
+      "name": "pointinghand",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10468,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "layers": [
+        {
+          "id": "I6878:13013;56:359",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10468,
+            "y": 2487,
+            "w": 14.308304786682129,
+            "h": 15.268136024475098
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13013;56:360",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10468,
+            "y": 2487,
+            "w": 14.308304786682129,
+            "h": 15.268136024475098
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13013;56:361",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10479.1279296875,
+            "y": 2495.798095703125,
+            "w": 1,
+            "h": 3.4590001106262207
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13013;56:362",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10477.0966796875,
+            "y": 2495.795654296875,
+            "w": 1,
+            "h": 3.4730000495910645
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13013;56:363",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10475.1162109375,
+            "y": 2495.827392578125,
+            "w": 1,
+            "h": 3.4260001182556152
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13028",
+      "name": "pointinghand",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10556,
+        "y": 2487,
+        "w": 14.308304786682129,
+        "h": 15.268136024475098
+      },
+      "layers": [
+        {
+          "id": "I6878:13028;56:359",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10556,
+            "y": 2487,
+            "w": 14.308304786682129,
+            "h": 15.268136024475098
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13028;56:360",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10556,
+            "y": 2487,
+            "w": 14.308304786682129,
+            "h": 15.268136024475098
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13028;56:361",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10567.1279296875,
+            "y": 2495.798095703125,
+            "w": 1,
+            "h": 3.4590001106262207
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13028;56:362",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10565.0966796875,
+            "y": 2495.795654296875,
+            "w": 1,
+            "h": 3.4730000495910645
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13028;56:363",
+          "name": "cursor",
+          "type": "VECTOR",
+          "status": "added",
+          "path": "pointinghand / cursor",
+          "boundingBox": {
+            "x": 10563.1162109375,
+            "y": 2495.827392578125,
+            "w": 1,
+            "h": 3.4260001182556152
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "cursor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13041",
+      "name": "Black Tooltip / Bot",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10428,
+        "y": 2415,
+        "w": 80,
+        "h": 55
+      },
+      "layers": [
+        {
+          "id": "I6878:13041;157:2823",
+          "name": "Frame 1501",
+          "type": "INSTANCE",
+          "status": "added",
+          "path": "Black Tooltip / Bot / Frame 1501",
+          "boundingBox": {
+            "x": 10428,
+            "y": 2415,
+            "w": 80,
+            "h": 50
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame 1501"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13041;157:2786",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Black Tooltip / Bot / Frame 1",
+          "boundingBox": {
+            "x": 10428,
+            "y": 2465,
+            "w": 80,
+            "h": 5
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6878:13048",
+      "name": "Black Tooltip / Bot",
+      "sectionId": "6878:13054",
+      "sectionName": "Hover state",
+      "thumbnail": null,
+      "status": "pending",
+      "figmaDeepLink": "https://www.figma.com/design/oVKYzdbBgm1G4tJ9ab7ZVA/Sign-in%2Fup%20page?node-id=6859-6370",
+      "boundingBox": {
+        "x": 10520,
+        "y": 2415,
+        "w": 79,
+        "h": 55
+      },
+      "layers": [
+        {
+          "id": "I6878:13048;157:2823",
+          "name": "Frame 1501",
+          "type": "INSTANCE",
+          "status": "added",
+          "path": "Black Tooltip / Bot / Frame 1501",
+          "boundingBox": {
+            "x": 10520,
+            "y": 2415,
+            "w": 79,
+            "h": 50
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame 1501"
+            }
+          ]
+        },
+        {
+          "id": "I6878:13048;157:2786",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "status": "added",
+          "path": "Black Tooltip / Bot / Frame 1",
+          "boundingBox": {
+            "x": 10520,
+            "y": 2465,
+            "w": 79,
+            "h": 5
+          },
+          "changes": [
+            {
+              "prop": "node",
+              "before": null,
+              "after": "Frame 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -34,17 +34,20 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const fileKey = searchParams.get("fileKey")
   const nodeId = searchParams.get("nodeId")
+  // 'v' is an optional cache-bust version (e.g. sync versionId or timestamp)
+  // When it changes, the old cached entry is automatically bypassed
+  const version = searchParams.get("v") ?? "default"
 
   if (!fileKey || !nodeId) {
     return new NextResponse("Missing fileKey or nodeId", { status: 400 })
   }
 
-  const cacheKey = `${fileKey}:${nodeId}`
+  const cacheKey = `${fileKey}:${nodeId}:${version}`
 
   // 1. Serve from memory cache
   const cached = getCached(cacheKey)
   if (cached) {
-    return new NextResponse(cached.buffer, {
+    return new NextResponse(new Uint8Array(cached.buffer), {
       headers: {
         "Content-Type": cached.contentType,
         "Cache-Control": "public, max-age=7200, stale-while-revalidate=86400",
