@@ -2,12 +2,9 @@ import { getCurrentDateString } from "@/lib/date"
 import { loadPageCatalog } from "@/lib/catalog"
 import {
   getFigmaFile,
-  getFigmaImageUrls,
   getFigmaNodes,
   type FigmaNode,
 } from "@/lib/figma-api"
-import { access, mkdir, writeFile } from "fs/promises"
-import path from "path"
 import {
   clearBaselines,
   readBaseline,
@@ -28,69 +25,6 @@ import type {
   LayerChange,
   TrackedPage,
 } from "@/lib/types"
-
-// ---------------------------------------------------------------------------
-// Image cache helpers
-// ---------------------------------------------------------------------------
-
-function getImageCacheDir() {
-  const root = process.env.DATA_REPO_PATH
-  if (!root) throw new Error("DATA_REPO_PATH is not set")
-  return path.join(path.resolve(root), "data", "images")
-}
-
-function getImageCachePath(nodeId: string) {
-  const safe = nodeId.replace(/[^a-zA-Z0-9_-]/g, "-")
-  return path.join(getImageCacheDir(), `${safe}.png`)
-}
-
-async function isCached(nodeId: string): Promise<boolean> {
-  try { await access(getImageCachePath(nodeId)); return true } catch { return false }
-}
-
-async function prewarmImageCache(fileKey: string, frameIds: string[]): Promise<void> {
-  const cacheDir = getImageCacheDir()
-  await mkdir(cacheDir, { recursive: true })
-
-  // Only fetch frames that are not yet on disk
-  const uncached: string[] = []
-  for (const id of frameIds) {
-    if (!(await isCached(id))) uncached.push(id)
-  }
-  if (uncached.length === 0) {
-    console.log("[ImageCache] All frames already cached — skipping fetch.")
-    return
-  }
-  console.log(`[ImageCache] Pre-warming ${uncached.length} / ${frameIds.length} frames...`)
-
-  // Batch-fetch URLs from Figma (scale:1 = 4× smaller & faster than scale:2)
-  const BATCH = 50
-  const allUrls: Record<string, string | null> = {}
-  for (let i = 0; i < uncached.length; i += BATCH) {
-    const batch = uncached.slice(i, i + BATCH)
-    const urls = await getFigmaImageUrls(fileKey, batch, { scale: 1, format: "png" })
-    Object.assign(allUrls, urls)
-  }
-
-  // Download all non-null URLs in parallel (50 at a time)
-  const CHUNK = 50
-  const ids = Object.keys(allUrls)
-  for (let i = 0; i < ids.length; i += CHUNK) {
-    await Promise.all(
-      ids.slice(i, i + CHUNK).map(async (id) => {
-        const url = allUrls[id]
-        if (!url) return
-        try {
-          const res = await fetch(url, { cache: "no-store" })
-          if (!res.ok) return
-          const buf = Buffer.from(await res.arrayBuffer())
-          await writeFile(getImageCachePath(id), buf)
-        } catch { /* non-critical */ }
-      })
-    )
-  }
-  console.log(`[ImageCache] Done pre-warming.`)
-}
 
 // ---------------------------------------------------------------------------
 
@@ -470,9 +404,8 @@ async function buildSourceOutput(source: TrackedPage) {
 
     console.log(`[Sync] Found ${frameEntries.length} frames across ${sectionIds.length} sections.`)
 
-    // Pre-warm image cache in the background — does NOT block sync.
-    // Images are fetched and saved to disk progressively while the user sees results immediately.
-    void prewarmImageCache(source.figmaFileKey, frameEntries.map(f => f.frameId))
+    // Images are loaded on-demand via /api/proxy-image (in-memory cache, JPEG format)
+    // No pre-warming needed — proxy caches in memory on first request per session
 
     // Build snapshot
     const selectedNodes: Record<string, NodeSnapshot> = nodes

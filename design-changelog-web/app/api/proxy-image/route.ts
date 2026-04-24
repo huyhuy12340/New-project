@@ -1,28 +1,34 @@
 import { NextResponse } from "next/server"
-import { readFile, writeFile, mkdir } from "fs/promises"
-import path from "path"
 import { getFigmaImageUrls } from "@/lib/figma-api"
 
 export const runtime = "nodejs"
 
-function getImageCacheDir() {
-  const root = process.env.DATA_REPO_PATH
-  if (!root) throw new Error("DATA_REPO_PATH is not set")
-  return path.join(path.resolve(root), "data", "images")
-}
+// ---------------------------------------------------------------------------
+// In-memory image cache (module-level, survives across requests in dev/prod)
+// Key: `${fileKey}:${nodeId}`  Value: { buffer, contentType, cachedAt }
+// ---------------------------------------------------------------------------
+const memCache = new Map<string, { buffer: Buffer; contentType: string; cachedAt: number }>()
+const CACHE_TTL_MS = 2 * 60 * 60 * 1000 // 2 hours
 
-function getImageCachePath(nodeId: string) {
-  // Sanitize nodeId for use as filename (e.g. "123:456" → "123-456")
-  const safe = nodeId.replace(/[^a-zA-Z0-9_-]/g, "-")
-  return path.join(getImageCacheDir(), `${safe}.png`)
+function getCached(key: string) {
+  const entry = memCache.get(key)
+  if (!entry) return null
+  if (Date.now() - entry.cachedAt > CACHE_TTL_MS) {
+    memCache.delete(key)
+    return null
+  }
+  return entry
 }
 
 /**
  * GET /api/proxy-image?fileKey=<key>&nodeId=<id>
  *
- * 1. Check disk cache → serve instantly if found (permanent, survives restarts)
- * 2. Fetch fresh URL from Figma (retry up to 3× for rate-limits)
- * 3. Download image binary, save to disk, return to browser
+ * 1. Memory cache HIT  → return instantly (~0ms, no network)
+ * 2. Memory cache MISS → fetch JPEG from Figma (scale:1, ~30-60 KB)
+ *                      → store in memory → return
+ *
+ * No disk I/O. No database. Cache lives as long as the server process.
+ * Images are ~70-80% smaller than PNG because we use JPEG format.
  */
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
@@ -33,34 +39,31 @@ export async function GET(request: Request) {
     return new NextResponse("Missing fileKey or nodeId", { status: 400 })
   }
 
-  // 1. Serve from disk cache if available
-  try {
-    const cachePath = getImageCachePath(nodeId)
-    const cached = await readFile(cachePath)
-    return new NextResponse(cached, {
+  const cacheKey = `${fileKey}:${nodeId}`
+
+  // 1. Serve from memory cache
+  const cached = getCached(cacheKey)
+  if (cached) {
+    return new NextResponse(cached.buffer, {
       headers: {
-        "Content-Type": "image/png",
-        "Cache-Control": "public, max-age=31536000, immutable", // 1 year
+        "Content-Type": cached.contentType,
+        "Cache-Control": "public, max-age=7200, stale-while-revalidate=86400",
         "X-Cache": "HIT",
       },
     })
-  } catch {
-    // Cache miss — fetch from Figma
   }
 
-  // 2. Fetch from Figma with retry (handles rate-limit null returns)
+  // 2. Fetch from Figma — JPEG at scale:1 ≈ 30-60 KB per frame
   let imageUrl: string | null = null
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const images = await getFigmaImageUrls(fileKey, [nodeId], {
-        scale: 2,
-        format: "png",
+        scale: 1,
+        format: "jpg", // JPEG: ~70-80% smaller than PNG
       })
       imageUrl = images[nodeId] ?? null
       if (imageUrl) break
-    } catch {
-      // continue
-    }
+    } catch { /* retry */ }
     if (attempt < 2) await new Promise(r => setTimeout(r, 1500 * (attempt + 1)))
   }
 
@@ -68,24 +71,21 @@ export async function GET(request: Request) {
     return new NextResponse("Figma returned no image for this node", { status: 404 })
   }
 
-  // 3. Download image binary
   const imageResponse = await fetch(imageUrl, { cache: "no-store" })
   if (!imageResponse.ok) {
-    return new NextResponse("Failed to fetch image from Figma CDN", { status: 502 })
+    return new NextResponse("Failed to fetch from Figma CDN", { status: 502 })
   }
 
+  const contentType = imageResponse.headers.get("content-type") ?? "image/jpeg"
   const buffer = Buffer.from(await imageResponse.arrayBuffer())
 
-  // 4. Persist to disk cache (fire and forget — don't block the response)
-  const cachePath = getImageCachePath(nodeId)
-  mkdir(getImageCacheDir(), { recursive: true })
-    .then(() => writeFile(cachePath, buffer))
-    .catch(err => console.error("[ImageCache] Failed to write cache:", err))
+  // Store in memory cache (fire-and-forget, non-blocking)
+  memCache.set(cacheKey, { buffer, contentType, cachedAt: Date.now() })
 
   return new NextResponse(buffer, {
     headers: {
-      "Content-Type": "image/png",
-      "Cache-Control": "public, max-age=31536000, immutable",
+      "Content-Type": contentType,
+      "Cache-Control": "public, max-age=7200, stale-while-revalidate=86400",
       "X-Cache": "MISS",
     },
   })
